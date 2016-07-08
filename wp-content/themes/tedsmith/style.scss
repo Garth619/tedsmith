@@ -6,11 +6,36 @@ Author URI: http://highrankwebsites.com
 
 
 
+/* Variables */
+
+$blue : #4274e1;
+
+
+
+
+
+/* Resets */
+
 * {
 	margin:0;
 	padding:0;
 }
 
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a {outline: none;}
+a img {border:none}
+
+
+/*--- Global---*/
+
+body {
+	font-family:"Utopia W01 Regular";
+}
 
 header,section,nav,footer {
 	display:block;
@@ -18,7 +43,24 @@ header,section,nav,footer {
 
 header {
 	width:100%;
+	padding:30px 12px 0px;
+	text-align: center;
 	img {
 		max-width:100%;
+		padding-bottom:15px;
+	}
+}
+
+.consultation_header {
+	span {
+		font-family:"Proxima N W01 Cd Light";
+		text-transform: uppercase;
+		font-size: 22px;
+	}
+	a.phone_header {
+		font-family:"Utopia W01 Bd";
+		font-size: 33px;
+		text-decoration: none;
+		color: $blue;
 	}
 }

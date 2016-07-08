@@ -25,6 +25,8 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/fonts/demo-async.css" />
+
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head();?>
 </head>
@@ -33,10 +35,15 @@
 	
 	<header>
 		
-		<a href="">
+		<a href="<?php bloginfo('url');?>">
 			<img src="<?php bloginfo('template_directory');?>/images/ted-smith-logo.png"/>
-			
 		</a>
+		<div class="consultation_header">
+			<span>Call for a Free Consultation</span>
+			<a class="phone_header" href="tel:2546905688">254.690.5688</a>
+		</div>
+		
+		  
 		
 	</header>
 				

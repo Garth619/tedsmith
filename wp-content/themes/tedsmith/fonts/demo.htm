@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Webfonts Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+	    body, textarea { font-family:Arial, Sans-Serif; line-height:1.6em; font-size:13px; }
+	    h1 { font-size:3em; }
+	    h2, h3 { color:#999; }
+	    .content { width:780px; margin: 20px auto 40px; }
+	    .demo { font-weight:bold; font-style:normal; color: #999 }
+	    .fontdisplay {font-size:2em;line-height:150%;margin: 10px 40px 0px 0px;}
+	    .guidelines { color:#333; }
+	    pre { padding:0 0 0 20px; }
+	    hr { border:0; border-bottom:1px solid #537094; margin:20px 0; }
+	    .link { color: #537094;text-decoration:none; font-weight:bold;}
+	    .uc {text-transform:uppercase}
+	    
+    </style>
+    <style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=81963d16-27a2-4dbb-8269-b9f1f31939af");
+@font-face{
+font-family:"Neusa W00 Medium";
+src:url("Fonts/2be0939c-a2c2-4696-a50d-e7c7cd549cf7.eot?#iefix");
+src:url("Fonts/2be0939c-a2c2-4696-a50d-e7c7cd549cf7.eot?#iefix") format("eot"),url("Fonts/6a3dfd0c-1bbb-4c94-8db7-3cf5abb168fd.woff2") format("woff2"),url("Fonts/3302ede2-f173-40de-aa4c-244ff7f8af83.woff") format("woff"),url("Fonts/f01ea3db-f5bc-49db-ae87-b99ed3be0ed4.ttf") format("truetype"),url("Fonts/84883c8e-6eec-4c68-a7b2-a28bf73c6928.svg#84883c8e-6eec-4c68-a7b2-a28bf73c6928") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Cd Light";
+src:url("Fonts/a626ba6a-dd6c-4ac1-b3be-22e92cf6f89a.eot?#iefix");
+src:url("Fonts/a626ba6a-dd6c-4ac1-b3be-22e92cf6f89a.eot?#iefix") format("eot"),url("Fonts/228212a3-35ca-4dca-b8a4-b5ce4f0a489b.woff2") format("woff2"),url("Fonts/b32c1fcd-5953-485f-97f6-db39b891e917.woff") format("woff"),url("Fonts/9f302ff2-5c3c-4096-a1b3-8f28920ce2b5.ttf") format("truetype"),url("Fonts/8091606f-f1b1-4332-b03e-958e7897b8b6.svg#8091606f-f1b1-4332-b03e-958e7897b8b6") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Cd Reg";
+src:url("Fonts/9078f77e-dddf-495b-a468-f03b3b7aa12c.eot?#iefix");
+src:url("Fonts/9078f77e-dddf-495b-a468-f03b3b7aa12c.eot?#iefix") format("eot"),url("Fonts/317fd159-159d-4870-a01f-ef9d5a71d5b3.woff2") format("woff2"),url("Fonts/8e5dbeb3-4068-4196-83a4-c86fe35c8b65.woff") format("woff"),url("Fonts/f6c936c3-3828-4625-babb-e900c2afe00d.ttf") format("truetype"),url("Fonts/87761033-3af1-450a-8cdd-2321b6a595f9.svg#87761033-3af1-450a-8cdd-2321b6a595f9") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Cd Smbd";
+src:url("Fonts/743deaac-7962-4f58-91e0-3af3d25e415f.eot?#iefix");
+src:url("Fonts/743deaac-7962-4f58-91e0-3af3d25e415f.eot?#iefix") format("eot"),url("Fonts/1c0840de-f0f0-478a-b326-93eab2f22001.woff2") format("woff2"),url("Fonts/aa783977-3fc3-4514-813c-698b4970a505.woff") format("woff"),url("Fonts/4170aa25-c065-47da-b44f-03e1f0f1b3c3.ttf") format("truetype"),url("Fonts/cc109ce0-d5dc-404f-a584-bf82c9212afc.svg#cc109ce0-d5dc-404f-a584-bf82c9212afc") format("svg");
+}
+@font-face{
+font-family:"Utopia W01 Regular";
+src:url("Fonts/2a0c47b9-7c72-4622-a2a6-753b1928c4f7.eot?#iefix");
+src:url("Fonts/2a0c47b9-7c72-4622-a2a6-753b1928c4f7.eot?#iefix") format("eot"),url("Fonts/d7079586-2da2-49e9-9ac2-9643ce1e6e9d.woff2") format("woff2"),url("Fonts/cf097660-b052-407e-8446-064d8b9e4efc.woff") format("woff"),url("Fonts/521c33af-0500-4311-ac9c-866d131d0dc5.ttf") format("truetype"),url("Fonts/de2ff455-5efa-4560-b525-48c8b68417be.svg#de2ff455-5efa-4560-b525-48c8b68417be") format("svg");
+}
+@font-face{
+font-family:"Utopia W01 Bd";
+src:url("Fonts/5a9f4a76-39ad-4893-a7c6-27840b6bc03c.eot?#iefix");
+src:url("Fonts/5a9f4a76-39ad-4893-a7c6-27840b6bc03c.eot?#iefix") format("eot"),url("Fonts/033c5d49-c85b-41e0-a737-a20db01765e2.woff2") format("woff2"),url("Fonts/b4afd2bd-5ded-45ce-930a-91bcbd795971.woff") format("woff"),url("Fonts/458089c5-dfe5-4af9-8c14-ca3b91d09fd1.ttf") format("truetype"),url("Fonts/555811b3-72e5-44bb-a8db-c89fa420cc84.svg#555811b3-72e5-44bb-a8db-c89fa420cc84") format("svg");
+}
+@font-face{
+font-family:"Utopia W01 Bd It";
+src:url("Fonts/73864753-f778-4197-8f29-20bf6b453109.eot?#iefix");
+src:url("Fonts/73864753-f778-4197-8f29-20bf6b453109.eot?#iefix") format("eot"),url("Fonts/300b38e5-cb62-4c94-a8f1-ffc8eccf5525.woff2") format("woff2"),url("Fonts/d3fda490-8060-48cd-a0fa-540e33cc7048.woff") format("woff"),url("Fonts/80090c4c-7b5e-434a-a8f5-12a8c15adf34.ttf") format("truetype"),url("Fonts/99e30d7f-001d-488e-8848-6f1ea4cceafd.svg#99e30d7f-001d-488e-8848-6f1ea4cceafd") format("svg");
+}
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 class="demo">Fonts.com Web fonts</h1>
+        <p style="margin-top:-10px; font-size:1.5em;color:#666"><b>@font-face implementation instructions</b></p>
+        <hr />
+        <p class="uc">The fonts contained in this kit are:</p>
+        <div class="fontdisplay">
+<div style="font-family:'Proxima N W01 Cd Light';"> Proxima Nova W01 Condensed Light </div>
+<div style="font-family:'Proxima N W01 Cd Reg';"> Proxima Nova W01 Condensed Regular </div>
+<div style="font-family:'Proxima N W01 Cd Smbd';"> Proxima Nova W01 Condensed Semibold </div>
+<div style="font-family:'Utopia W01 Bd';"> Utopia™ W01 Bold </div>
+<div style="font-family:'Utopia W01 Bd It';"> Utopia™ W01 Bold Italic </div>
+<div style="font-family:'Utopia W01 Regular';"> Utopia™ W01 Regular </div>
+<div style="font-family:'Neusa W00 Medium';"> Neusa W00 Medium </div>
+
+        </div>
+        <hr />
+        Click here for <a class="link uc" href="demo-async.htm">asynchronous</a> web fonts implementation
+        <hr />
+        <div class="guidelines">
+            <h2>CSS Implementation Guidelines</h2>
+            <p>You and any third party web font hosting service are responsible for ensuring that the font software in the self-hosting kit, in its original format, can only be used on the Web Sites for which the self-hosting kit was downloaded and cannot be used or referenced by any other web site. This includes, but is not limited to installing adequate technical protection measures that restrict the use and/or access to the font software, for instance by utilizing JavaScript or access control mechanism for cross-origin resource sharing and protecting against use on web sites other than the Web Sites for which the self-hosting kit was downloaded by restricting domain access only to such Web Sites. You must also retain the pageview tracking code on any Web Site that you self-host. In the event this Agreement terminates for any reason, the font software included with the self-hosting kit must be deleted from the server and all copies must be destroyed or returned to Monotype Imaging.</p>
+            <p>View <a class="link" href="http://www.fonts.com/info/legal/eula/web-fonts" target="_blank">"WEB FONT SOFTWARE" LICENSE AGREEMENT</a></p>
+            <p>Font file names have been obfuscated to protect the font software. You can identify font format based on file ending:</p>
+            <ul>
+                <li>1 - TrueType (ttf)</li>
+                <li>2 - Embedded OpenType (eot)</li>
+                <li>3 - Web Open Font Format (woff)</li>
+                <li>4 - Web Open Font Format version 2 (woff2)</li>
+                <li>5 - Scalable Vector Graphics (svg)</li>
+            </ul>
+            <p class="uc" style="margin: 20px 0px -20px;"><b>Copy and paste following code in head section of the page</b></p>
+            <hr />
+            <textarea style="width:830px; height:350px; border:1 #fff solid; background-color:#fcfcfc;"><style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=81963d16-27a2-4dbb-8269-b9f1f31939af");
+@font-face{
+font-family:"Neusa W00 Medium";
+src:url("Fonts/2be0939c-a2c2-4696-a50d-e7c7cd549cf7.eot?#iefix");
+src:url("Fonts/2be0939c-a2c2-4696-a50d-e7c7cd549cf7.eot?#iefix") format("eot"),url("Fonts/6a3dfd0c-1bbb-4c94-8db7-3cf5abb168fd.woff2") format("woff2"),url("Fonts/3302ede2-f173-40de-aa4c-244ff7f8af83.woff") format("woff"),url("Fonts/f01ea3db-f5bc-49db-ae87-b99ed3be0ed4.ttf") format("truetype"),url("Fonts/84883c8e-6eec-4c68-a7b2-a28bf73c6928.svg#84883c8e-6eec-4c68-a7b2-a28bf73c6928") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Cd Light";
+src:url("Fonts/a626ba6a-dd6c-4ac1-b3be-22e92cf6f89a.eot?#iefix");
+src:url("Fonts/a626ba6a-dd6c-4ac1-b3be-22e92cf6f89a.eot?#iefix") format("eot"),url("Fonts/228212a3-35ca-4dca-b8a4-b5ce4f0a489b.woff2") format("woff2"),url("Fonts/b32c1fcd-5953-485f-97f6-db39b891e917.woff") format("woff"),url("Fonts/9f302ff2-5c3c-4096-a1b3-8f28920ce2b5.ttf") format("truetype"),url("Fonts/8091606f-f1b1-4332-b03e-958e7897b8b6.svg#8091606f-f1b1-4332-b03e-958e7897b8b6") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Cd Reg";
+src:url("Fonts/9078f77e-dddf-495b-a468-f03b3b7aa12c.eot?#iefix");
+src:url("Fonts/9078f77e-dddf-495b-a468-f03b3b7aa12c.eot?#iefix") format("eot"),url("Fonts/317fd159-159d-4870-a01f-ef9d5a71d5b3.woff2") format("woff2"),url("Fonts/8e5dbeb3-4068-4196-83a4-c86fe35c8b65.woff") format("woff"),url("Fonts/f6c936c3-3828-4625-babb-e900c2afe00d.ttf") format("truetype"),url("Fonts/87761033-3af1-450a-8cdd-2321b6a595f9.svg#87761033-3af1-450a-8cdd-2321b6a595f9") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Cd Smbd";
+src:url("Fonts/743deaac-7962-4f58-91e0-3af3d25e415f.eot?#iefix");
+src:url("Fonts/743deaac-7962-4f58-91e0-3af3d25e415f.eot?#iefix") format("eot"),url("Fonts/1c0840de-f0f0-478a-b326-93eab2f22001.woff2") format("woff2"),url("Fonts/aa783977-3fc3-4514-813c-698b4970a505.woff") format("woff"),url("Fonts/4170aa25-c065-47da-b44f-03e1f0f1b3c3.ttf") format("truetype"),url("Fonts/cc109ce0-d5dc-404f-a584-bf82c9212afc.svg#cc109ce0-d5dc-404f-a584-bf82c9212afc") format("svg");
+}
+@font-face{
+font-family:"Utopia W01 Regular";
+src:url("Fonts/2a0c47b9-7c72-4622-a2a6-753b1928c4f7.eot?#iefix");
+src:url("Fonts/2a0c47b9-7c72-4622-a2a6-753b1928c4f7.eot?#iefix") format("eot"),url("Fonts/d7079586-2da2-49e9-9ac2-9643ce1e6e9d.woff2") format("woff2"),url("Fonts/cf097660-b052-407e-8446-064d8b9e4efc.woff") format("woff"),url("Fonts/521c33af-0500-4311-ac9c-866d131d0dc5.ttf") format("truetype"),url("Fonts/de2ff455-5efa-4560-b525-48c8b68417be.svg#de2ff455-5efa-4560-b525-48c8b68417be") format("svg");
+}
+@font-face{
+font-family:"Utopia W01 Bd";
+src:url("Fonts/5a9f4a76-39ad-4893-a7c6-27840b6bc03c.eot?#iefix");
+src:url("Fonts/5a9f4a76-39ad-4893-a7c6-27840b6bc03c.eot?#iefix") format("eot"),url("Fonts/033c5d49-c85b-41e0-a737-a20db01765e2.woff2") format("woff2"),url("Fonts/b4afd2bd-5ded-45ce-930a-91bcbd795971.woff") format("woff"),url("Fonts/458089c5-dfe5-4af9-8c14-ca3b91d09fd1.ttf") format("truetype"),url("Fonts/555811b3-72e5-44bb-a8db-c89fa420cc84.svg#555811b3-72e5-44bb-a8db-c89fa420cc84") format("svg");
+}
+@font-face{
+font-family:"Utopia W01 Bd It";
+src:url("Fonts/73864753-f778-4197-8f29-20bf6b453109.eot?#iefix");
+src:url("Fonts/73864753-f778-4197-8f29-20bf6b453109.eot?#iefix") format("eot"),url("Fonts/300b38e5-cb62-4c94-a8f1-ffc8eccf5525.woff2") format("woff2"),url("Fonts/d3fda490-8060-48cd-a0fa-540e33cc7048.woff") format("woff"),url("Fonts/80090c4c-7b5e-434a-a8f5-12a8c15adf34.ttf") format("truetype"),url("Fonts/99e30d7f-001d-488e-8848-6f1ea4cceafd.svg#99e30d7f-001d-488e-8848-6f1ea4cceafd") format("svg");
+}
+
+</style>
+
+</textarea>
+            <h3>Licensing information should be included within the CSS</h3>
+<pre>/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/</pre>
+        </div>
+    </div>
+</body>
+</html>
