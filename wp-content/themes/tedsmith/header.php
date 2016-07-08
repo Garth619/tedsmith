@@ -49,7 +49,7 @@
 			
 		</div><!-- header_inner -->
 		
-		<div class="menu_wrapper">
+		<nav class="menu_wrapper">
 				
 				<span class="mobile_menu_title">Menu</span>
 				
@@ -61,7 +61,7 @@
 					
 				</div><!-- menu_bars -->
 				
-		</div><!-- menu_wrapper -->
+		</nav><!-- menu_wrapper -->
 		
 	</header>
 				
