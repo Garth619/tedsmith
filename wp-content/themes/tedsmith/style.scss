@@ -57,9 +57,18 @@ span.button_consultation {
 	color:$purple;
 	background:#fff;
 	font-family: $utopiabold;
-	padding:15px 10px;
-	font-size:19px;
+	padding:19px 10px;
+	font-size:17px;
 	display: inline-block;
+	border: 10px solid rgba(255, 255, 255, .2);
+	-webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+	border-radius: 10px;
+	font-weight:300;
+	letter-spacing: 1.2px;
+	
 }
 
 
@@ -124,7 +133,7 @@ header {
 	background: url(images/main-image-mobile.jpg) no-repeat top center;
 	background-size: cover;
 	width:100%;
-	padding:65px 25px;
+	padding:65px 0;
 	text-align: center;
 	color:#fff;
 	font-family:$utopiabold;
@@ -137,6 +146,7 @@ header {
 		font-size:48px;
 		letter-spacing: 2.5px;
 		margin-bottom:20px;
+		padding:0px 25px;
 	}
 	h2 {
 		font-family: $proximalight;
@@ -146,5 +156,6 @@ header {
 		line-height:1.2;
 		letter-spacing: 1.9px;
 		margin-bottom:40px;
+		padding:0px 25px;
 	}
 }
