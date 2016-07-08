@@ -4,6 +4,8 @@ Author: High Rank Websites (Garrett Cullen)
 Author URI: http://highrankwebsites.com
 */
 /* Variables */
+/* Colors */
+/* Fonts */
 /* Resets */
 * {
   margin: 0;
@@ -20,10 +22,11 @@ a {
 a img {
   border: none; }
 
-/*--- Global---*/
+/* Global */
 body {
   font-family: "Utopia W01 Regular"; }
 
+/* Header */
 header, section, nav, footer {
   display: block; }
 
@@ -69,3 +72,19 @@ header {
       height: 6px;
       margin-bottom: 4px;
       background: #4274e1; }
+
+.home_banner {
+  background: url(images/main-image-mobile.jpg) no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  padding: 65px 20px;
+  text-align: center;
+  color: #fff;
+  font-family: "Utopia W01 Bd"; }
+  .home_banner .play_button {
+    margin-bottom: 40px; }
+  .home_banner h1 {
+    font-family: "Utopia W01 Bd It";
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: 2.5px; }

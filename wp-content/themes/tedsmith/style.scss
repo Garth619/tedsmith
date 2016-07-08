@@ -8,10 +8,19 @@ Author URI: http://highrankwebsites.com
 
 /* Variables */
 
+
+/* Colors */
+
 $blue: #4274e1;
 $greylight: #f5f5f5;
 
+/* Fonts */
 
+$utopiareg: "Utopia W01 Regular";
+$utopiabold: "Utopia W01 Bd";
+$utopiabolditalic:"Utopia W01 Bd It";
+$proximalight: "Proxima N W01 Cd Light";
+$proximareg: "Proxima N W01 Cd Reg";
 
 
 /* Resets */
@@ -31,11 +40,13 @@ a {outline: none;}
 a img {border:none}
 
 
-/*--- Global---*/
+/* Global */
 
 body {
-	font-family:"Utopia W01 Regular";
+	font-family:$utopiareg;
 }
+
+/* Header */
 
 header,section,nav,footer {
 	display:block;
@@ -56,12 +67,12 @@ header {
 .consultation_header {
 	margin-bottom:25px;
 	span {
-		font-family:"Proxima N W01 Cd Light";
+		font-family:$proximalight;
 		text-transform: uppercase;
 		font-size: 22px;
 	}
 	a.phone_header {
-		font-family:"Utopia W01 Bd";
+		font-family:$utopiabold;
 		font-size: 33px;
 		text-decoration: none;
 		color: $blue;
@@ -71,7 +82,7 @@ header {
 .menu_wrapper {
 	background: $greylight;
 	width:100%;
-	font-family:"Proxima N W01 Cd Reg";
+	font-family:$proximareg;
 	text-transform: uppercase;
 	overflow: hidden;
 	text-align: center;
@@ -91,5 +102,25 @@ header {
 			margin-bottom:4px;
 			background:$blue;
 		}
+	}
+}
+
+
+.home_banner {
+	background: url(images/main-image-mobile.jpg) no-repeat top center;
+	background-size: cover;
+	width:100%;
+	padding:65px 20px;
+	text-align: center;
+	color:#fff;
+	font-family:$utopiabold;
+	.play_button {
+		margin-bottom: 40px;
+	}
+	h1 {
+		font-family: $utopiabolditalic;
+		font-weight:300;
+		font-size:48px;
+		letter-spacing: 2.5px;
 	}
 }
