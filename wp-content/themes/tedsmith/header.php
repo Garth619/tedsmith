@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -35,15 +36,32 @@
 	
 	<header>
 		
-		<a href="<?php bloginfo('url');?>">
-			<img src="<?php bloginfo('template_directory');?>/images/ted-smith-logo.png"/>
-		</a>
-		<div class="consultation_header">
-			<span>Call for a Free Consultation</span>
-			<a class="phone_header" href="tel:2546905688">254.690.5688</a>
-		</div>
+		<div class="header_inner">
+			
+			<a href="<?php bloginfo('url');?>">
+				<img src="<?php bloginfo('template_directory');?>/images/ted-smith-logo.png"/>
+			</a>
+			
+			<div class="consultation_header">
+				<span>Call for a Free Consultation</span>
+				<a class="phone_header" href="tel:2546905688">254.690.5688</a>
+			</div><!-- consultation_header -->
+			
+		</div><!-- header_inner -->
 		
-		  
+		<div class="menu_wrapper">
+				
+				<span class="mobile_menu_title">Menu</span>
+				
+				<div class="menu_bars">
+					
+					<div class="menu_single_bar"></div>
+					<div class="menu_single_bar"></div>
+					<div class="menu_single_bar"></div>
+					
+				</div><!-- menu_bars -->
+				
+		</div><!-- menu_wrapper -->
 		
 	</header>
 				
