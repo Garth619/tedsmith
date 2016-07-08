@@ -1,0 +1,24 @@
+/*
+Theme Name: Ted Smith
+Author: High Rank Websites (Garrett Cullen)
+Author URI: http://highrankwebsites.com
+*/
+
+
+
+* {
+	margin:0;
+	padding:0;
+}
+
+
+header,section,nav,footer {
+	display:block;
+}
+
+header {
+	width:100%;
+	img {
+		max-width:100%;
+	}
+}
