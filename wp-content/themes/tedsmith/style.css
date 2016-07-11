@@ -142,11 +142,6 @@ header {
       font-weight: 300;
       font-style: italic;
       font-size: 30px;
-      /*
-      			position:absolute;
-      			top:0;
-      			left:0;
-      */
       z-index: 0; }
       .process .process_single_box_wrapper .process_single_box img.process_icons {
         margin-bottom: 25px; }
@@ -155,7 +150,8 @@ header {
     .process .process_single_box_wrapper .process_hover_wrapper {
       position: absolute;
       z-index: 1;
-      display: none;
+      opacity: 0;
+      visibility: hidden;
       top: 0;
       left: 0;
       width: 100%;
@@ -167,6 +163,7 @@ header {
       letter-spacing: 2px;
       line-height: 1.5;
       padding: 40px;
+      transition: all .3s ease;
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
       background: #0abcba;
       /* Old browsers */
@@ -178,3 +175,7 @@ header {
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=0 );
       /* IE6-9 */ }
+    .process .process_single_box_wrapper .process_hover_wrapper.open {
+      opacity: 1;
+      visibility: visible;
+      transition: all .3s ease; }

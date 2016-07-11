@@ -44,9 +44,9 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-			<span>We take a limited number of cases, so we can give every client the personal attention they deserve.</span>
+				<span>We take a limited number of cases, so we can give every client the personal attention they deserve.</span>
 			
-		</div><!-- process_hover_wrapper -->
+			</div><!-- process_hover_wrapper -->
 
 			
 			
