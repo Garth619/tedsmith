@@ -32,7 +32,6 @@ get_header(); ?>
 
 <section class="process">
 	
-	
 	<div class="process_single_box_wrapper">
 		
 		<div class="process_single_box">
@@ -44,26 +43,34 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-				<span>We take a limited number of cases, so we can give every client the personal attention they deserve.</span>
+				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
 			
 			</div><!-- process_hover_wrapper -->
 
-			
-			
-			
-		</div><!-- process_single_box -->
+			</div><!-- process_single_box -->
 		
-				
+		</div><!-- process_single_box_wrapper -->
+	
+	</section><!-- process -->
+	
+	<section class="about">
 		
-	</div><!-- process_single_box_wrapper -->
-	
-	
-	
-</section><!-- process -->
-	<section style="height:1000px;width:100%;"></section>
-	
-	
-</section>
+		<h1>Central Texas area Lawyers</h1>
+		
+		<h2>serving Fort Hood, Bell, Coryell&nbsp;counties</h2>
+		
+		<h3 class="purple">experience matters</h3>
+		
+		<p>Texans have been represented by the Ted Smith Law Group for over 43 years.</p>
+		
+		<h3 class="blue">former JAG officer</h3>
+		
+		<p>mr. smith served as a jag officer at fort hood before opening his private practice.</p>
+
+		
+		
+	</section><!-- about -->
+
 
 
 

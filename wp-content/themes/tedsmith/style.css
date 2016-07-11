@@ -25,7 +25,12 @@ a img {
 /* Global */
 body {
   font-family: "Utopia W01 Regular";
-  line-height: 1; }
+  line-height: 1;
+  color: #323233; }
+
+section {
+  width: 100%;
+  text-align: center; }
 
 header, section, nav, footer {
   display: block; }
@@ -91,12 +96,11 @@ header {
       margin-bottom: 4px;
       background: #4274e1; }
 
+/* Home Banner */
 .home_banner {
   background: url(images/main-image-mobile.jpg) no-repeat top center;
   background-size: cover;
-  width: 100%;
   padding: 65px 0;
-  text-align: center;
   color: #fff;
   font-family: "Utopia W01 Bd"; }
   .home_banner .play_button {
@@ -129,8 +133,8 @@ header {
   .review_stars_wrapper .small_arrow {
     margin-left: 10px; }
 
+/* Process */
 .process {
-  text-align: center;
   padding: 20px 20px 40px; }
   .process .process_single_box_wrapper {
     position: relative; }
@@ -185,3 +189,41 @@ header {
       opacity: 1;
       visibility: visible;
       transition: all .3s ease; }
+
+/* About Us */
+.about {
+  background: #f5f5f5;
+  height: 1000px;
+  padding: 100px 20px 0; }
+  .about h1 {
+    font-family: "Proxima N W01 Cd Light";
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2.9px;
+    margin-bottom: 48px; }
+  .about h2 {
+    font-size: 30px;
+    color: #6534ce;
+    font-family: "Utopia W01 Bd It";
+    font-weight: 300;
+    letter-spacing: 2.9px;
+    margin-bottom: 56px; }
+  .about h3 {
+    font-size: 28px;
+    font-family: "Utopia W01 Bd It";
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-bottom: 20px; }
+  .about h3.purple {
+    color: #6534ce;
+    border-bottom: 1px solid #6534ce; }
+  .about h3.blue {
+    color: #4274e1;
+    border-bottom: 1px solid #4274e1; }
+  .about p {
+    font-family: "Proxima N W01 Cd Light";
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 22px 0 40px;
+    line-height: 1.2; }
