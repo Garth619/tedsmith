@@ -87,13 +87,59 @@ get_header(); ?>
 		
 		<div class="aos_box_wrapper">
 			
-			<div class="aos__single_box">
+			<div class="aos_single_box_wrapper">
 				
-				<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
+				<div class="aos_single_box">
 				
-				<h2>personal injury</h2>
+					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
+				
+					<h2>personal injury</h2>
+				
+				</div><!-- aos_single_box -->
+				
+				<div class="aos_single_box_lower">
+					
+					<span>click to learn more<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/></span>
+					
+				</div><!-- aos_single_box_lower -->
 			
-			</div><!-- aos__single_box -->
+			</div><!-- aos_single_box_wrapper -->
+			
+			<div class="aos_single_box_wrapper">
+				
+				<div class="aos_single_box">
+				
+					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
+				
+					<h2>personal injury</h2>
+				
+				</div><!-- aos_single_box -->
+				
+				<div class="aos_single_box_lower">
+					
+					<span>click to learn more<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/></span>
+					
+				</div><!-- aos_single_box_lower -->
+			
+			</div><!-- aos_single_box_wrapper -->
+			
+			<div class="aos_single_box_wrapper">
+				
+				<div class="aos_single_box">
+				
+					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
+				
+					<h2>personal injury</h2>
+				
+				</div><!-- aos_single_box -->
+				
+				<div class="aos_single_box_lower">
+					
+					<span>click to learn more<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/></span>
+					
+				</div><!-- aos_single_box_lower -->
+			
+			</div><!-- aos_single_box_wrapper -->
 			
 		</div><!-- aos_box_wrapper -->
 		

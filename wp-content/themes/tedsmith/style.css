@@ -247,7 +247,7 @@ header {
 /* Areas of Service */
 .areas_of_service {
   background: #000;
-  padding: 90px 10px 0px; }
+  padding: 90px 10px 90px; }
   .areas_of_service h1 {
     color: #fff;
     margin-bottom: 50px;
@@ -262,11 +262,26 @@ header {
     display: inline-block;
     margin-bottom: 50px; }
 
-.aos_box_wrapper .aos__single_box {
-  background: #fff; }
-  .aos_box_wrapper .aos__single_box img.aos_icon {
-    margin: 55px 0 40px; }
-  .aos_box_wrapper .aos__single_box h2 {
-    font-family: "Utopia W01 Bd It";
-    font-weight: 300;
-    font-size: 33px; }
+.aos_box_wrapper .aos_single_box_wrapper {
+  background: #fff;
+  margin-bottom: 15px; }
+  .aos_box_wrapper .aos_single_box_wrapper .aos_single_box {
+    border-bottom: 1px solid #6534ce; }
+    .aos_box_wrapper .aos_single_box_wrapper .aos_single_box img.aos_icon {
+      margin: 55px 0 40px; }
+    .aos_box_wrapper .aos_single_box_wrapper .aos_single_box h2 {
+      font-family: "Utopia W01 Bd It";
+      font-weight: 300;
+      font-size: 33px;
+      padding-bottom: 76px; }
+  .aos_box_wrapper .aos_single_box_wrapper .aos_single_box_lower span {
+    font-family: "Proxima N W01 Cd Reg";
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 25px 0;
+    display: block; }
+    .aos_box_wrapper .aos_single_box_wrapper .aos_single_box_lower span .process_arrow {
+      margin-left: 10px;
+      position: relative;
+      top: 5px; }
