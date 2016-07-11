@@ -243,3 +243,30 @@ header {
 .toggle_text {
   display: none;
   margin-top: 22px; }
+
+/* Areas of Service */
+.areas_of_service {
+  background: #000;
+  padding: 90px 10px 0px; }
+  .areas_of_service h1 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-family: "Utopia W01 Bd It";
+    font-weight: 300;
+    letter-spacing: 2px; }
+  .areas_of_service .short_line {
+    width: 50%;
+    height: 1px;
+    background: #fff;
+    display: inline-block;
+    margin-bottom: 50px; }
+
+.aos_box_wrapper .aos__single_box {
+  background: #fff; }
+  .aos_box_wrapper .aos__single_box img.aos_icon {
+    margin: 55px 0 40px; }
+  .aos_box_wrapper .aos__single_box h2 {
+    font-family: "Utopia W01 Bd It";
+    font-weight: 300;
+    font-size: 33px; }

@@ -13,10 +13,6 @@ jQuery(document).ready(function() {
 		
 		jQuery(this).next('.toggle_text').delay(300).slideToggle(200);
 		
-		
-		
 	});
 	
-	
-
 });

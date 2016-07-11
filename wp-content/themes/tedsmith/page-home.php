@@ -80,8 +80,24 @@ get_header(); ?>
 		
 	</section><!-- about -->
 
-<section style="height:1000px;"></section>
-
+	<section class="areas_of_service">
+		
+		<h1>our areas of practice</h1>
+		<div class="short_line"></div><!-- short_line -->
+		
+		<div class="aos_box_wrapper">
+			
+			<div class="aos__single_box">
+				
+				<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
+				
+				<h2>personal injury</h2>
+			
+			</div><!-- aos__single_box -->
+			
+		</div><!-- aos_box_wrapper -->
+		
+	</section><!-- areas_of_service -->
 
 
 <?php get_footer(); ?>
