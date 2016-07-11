@@ -18947,6 +18947,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/process-arrow-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1148,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/process-arrow-white.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/process-arrow-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/process-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,

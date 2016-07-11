@@ -107,7 +107,7 @@ get_header(); ?>
 				<div class="aos_single_box_lower">
 					
 					<span>click to learn more</span>
-					<img class="process_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+<!-- 					<img class="process_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/> -->
 					
 				</div><!-- aos_single_box_lower -->
 			
