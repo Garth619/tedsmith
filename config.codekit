@@ -18601,6 +18601,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/tedsmith\/functions copy.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/functions copy.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/tedsmith\/functions.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -18828,376 +18837,387 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-1.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4313,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-1.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-1.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-1.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-2.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6126,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-2.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-2.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-2.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-3.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10136,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-3.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/award-3.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-3.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/burger-menu.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/burger-menu.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 163,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/burger-menu.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/burger-menu.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/burger-menu.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/burger-menu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/ilawyer-logo.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/ilawyer-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3760,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/ilawyer-logo.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/ilawyer-logo.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/ilawyer-logo.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/ilawyer-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/logo-m.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/logo-m.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5240,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/logo-m.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/logo-m.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/logo-m.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/logo-m.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon1.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4859,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon1.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon1.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon1.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon2.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5958,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon2.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon2.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon2.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon3.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2215,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon3.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/pa-icon3.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon3.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/pa-icon3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/paypal.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/paypal.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6227,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/paypal.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/paypal.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/paypal.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/paypal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/scroll-downarrow.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/process-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1411,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/process-arrow.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/process-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/scroll-downarrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 334,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/scroll-downarrow.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/scroll-downarrow.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/scroll-downarrow.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/scroll-downarrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sidebar-arrowdrop.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sidebar-arrowdrop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 260,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sidebar-arrowdrop.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sidebar-arrowdrop.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sidebar-arrowdrop.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sidebar-arrowdrop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/smith-logo.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/smith-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3046,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/smith-logo.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/smith-logo.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/smith-logo.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/smith-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-bbb-h.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-bbb-h.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2559,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-bbb-h.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-bbb-h.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-bbb-h.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-bbb-h.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-bbb.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-bbb.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1647,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-bbb.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-bbb.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-bbb.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-bbb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-fb.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-fb.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 327,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-fb.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-fb.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-fb.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-fb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-goggle-h.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-goggle-h.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2171,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-goggle-h.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-goggle-h.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-goggle-h.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-goggle-h.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-goggle.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-goggle.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1303,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-goggle.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-goggle.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-goggle.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-goggle.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-linkedin-h.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-linkedin-h.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1451,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-linkedin-h.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-linkedin-h.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-linkedin-h.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-linkedin-h.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-linkedin.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-linkedin.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 747,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-linkedin.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-linkedin.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-linkedin.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-linkedin.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-twitter-h.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-twitter-h.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2124,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-twitter-h.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-twitter-h.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-twitter-h.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-twitter-h.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-twitter.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1281,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-twitter.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-twitter.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-twitter.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-youtube-h.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-youtube-h.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2158,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-youtube-h.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-youtube-h.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-youtube-h.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-youtube-h.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-youtube.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-youtube.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1353,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-youtube.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/social-youtube.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-youtube.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-youtube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon1.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4107,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon1.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon1.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon1.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon2.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5745,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon2.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon2.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon2.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon3.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4437,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon3.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/sp-icon3.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon3.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/sp-icon3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-arrow.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 287,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-arrow.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-arrow.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-arrow.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-bbb.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-bbb.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2182,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-bbb.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-bbb.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-bbb.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-bbb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-fb.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-fb.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2371,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-fb.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-fb.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-fb.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-fb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-g.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-g.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2313,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-g.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/stars-g.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-g.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/stars-g.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/tab-sp-arrow-left.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/tab-sp-arrow-left.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 354,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/tab-sp-arrow-left.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/tab-sp-arrow-left.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/tab-sp-arrow-left.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/tab-sp-arrow-left.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/tab-sp-arrow-right.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/tab-sp-arrow-right.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 337,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/tab-sp-arrow-right.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/tab-sp-arrow-right.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/tab-sp-arrow-right.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/tab-sp-arrow-right.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/test-stars.png": {
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/test-stars.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3022,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/test-stars.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small jpg:pngs\/test-stars.png",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/test-stars.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/test-stars.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -19243,6 +19263,28 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/js\/tedsmith-custom-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/js\/tedsmith-custom-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/js\/min\/tedsmith-custom-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/tedsmith\/js\/tedsmith-custom.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/js\/tedsmith-custom.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/js\/tedsmith-custom-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
 		},
 	"\/wp-content\/themes\/tedsmith\/loop-attachment.php": {
 		"fileType": 8192,
