@@ -59,7 +59,7 @@ header,section,nav,footer {
 	display:block;
 }
 
-span.button_consultation {
+span.mybutton {
 	color:$purple;
 	background:#fff;
 	font-family: $utopiabold;
@@ -415,3 +415,36 @@ header {
 				height:23px;
 				background:url(images/small-imgs/process-arrow-white.png) top left no-repeat;
 			}
+			
+
+/* Client Testimonials */
+
+
+
+.client_testimonials {
+	background:url(images/test-bgimage.jpg) top left no-repeat;
+	background-size: cover;
+	padding:75px 0 0;
+	h1 {
+		font-size: 50px;
+		font-family: $utopiabolditalic;
+		font-weight:300;
+		color:#fff;
+		border-bottom:1px #fff solid;
+		padding-bottom: 30px;
+		margin:0 9% 35px;
+	}
+	.testimonial_wrapper {
+		background: #fff;
+		width:81%;
+		margin:61px auto 0;
+		padding:50px 20px;
+		.testimonial_stars {
+			margin-bottom: 50px;
+		}
+		p {
+			font-size:18px;
+			line-height:1.5;
+		}
+	}
+}

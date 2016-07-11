@@ -35,7 +35,7 @@ section {
 header, section, nav, footer {
   display: block; }
 
-span.button_consultation {
+span.mybutton {
   color: #6534ce;
   background: #fff;
   font-family: "Utopia W01 Bd";
@@ -322,3 +322,27 @@ header {
   width: 31px;
   height: 23px;
   background: url(images/small-imgs/process-arrow-white.png) top left no-repeat; }
+
+/* Client Testimonials */
+.client_testimonials {
+  background: url(images/test-bgimage.jpg) top left no-repeat;
+  background-size: cover;
+  padding: 75px 0 0; }
+  .client_testimonials h1 {
+    font-size: 50px;
+    font-family: "Utopia W01 Bd It";
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 1px #fff solid;
+    padding-bottom: 30px;
+    margin: 0 9% 35px; }
+  .client_testimonials .testimonial_wrapper {
+    background: #fff;
+    width: 81%;
+    margin: 61px auto 0;
+    padding: 50px 20px; }
+    .client_testimonials .testimonial_wrapper .testimonial_stars {
+      margin-bottom: 50px; }
+    .client_testimonials .testimonial_wrapper p {
+      font-size: 18px;
+      line-height: 1.5; }

@@ -13,7 +13,7 @@ get_header(); ?>
 	<h1>Serving the citizens of Texas since&nbsp;1976</h1>
 	<h2>Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</h2>
 	
-	<span class="button_consultation">
+	<span class="mybutton">
 		click for a free consultation
 	</span><!-- button_consultation -->
 	
@@ -107,7 +107,6 @@ get_header(); ?>
 				<div class="aos_single_box_lower">
 					
 					<span>click to learn more</span>
-<!-- 					<img class="process_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/> -->
 					
 				</div><!-- aos_single_box_lower -->
 			
@@ -129,7 +128,7 @@ get_header(); ?>
 				<div class="aos_single_box_lower">
 					
 					<span>click to learn more</span>
-					<img class="process_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+					
 					
 				</div><!-- aos_single_box_lower -->
 			
@@ -150,7 +149,7 @@ get_header(); ?>
 				<div class="aos_single_box_lower">
 					
 					<span>click to learn more</span>
-					<img class="process_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+					
 					
 				</div><!-- aos_single_box_lower -->
 			
@@ -160,6 +159,24 @@ get_header(); ?>
 		</div><!-- aos_box_wrapper -->
 		
 	</section><!-- areas_of_service -->
+	
+	<section class="client_testimonials">
+		
+		<h1>client testimonials</h1>
+		
+		<span class="mybutton">
+			view more testimonials
+		</span><!-- button_consultation -->
+		
+		<div class="testimonial_wrapper">
+			
+			<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
+			
+			<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this group."</p>
+			
+		</div><!-- testimonial_wrapper -->
+		
+	</section><!-- client_testimonials -->
 
 
 <?php get_footer(); ?>
