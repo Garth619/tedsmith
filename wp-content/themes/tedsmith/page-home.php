@@ -61,16 +61,26 @@ get_header(); ?>
 		
 		<h3 class="purple">experience matters</h3>
 		
-		<p>Texans have been represented by the Ted Smith Law Group for over 43 years.</p>
+		<p class="large_paragraph">Texans have been represented by the Ted Smith Law Group for over 43 years.</p>
 		
 		<h3 class="blue">former JAG officer</h3>
 		
-		<p>mr. smith served as a jag officer at fort hood before opening his private practice.</p>
-
+		<p class="large_paragraph">mr. smith served as a jag officer at fort hood before opening his private practice.</p>
 		
+		<p class="sub_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies risus quis viverra scelerisque. Suspendisse eu lacinia enim, vel pellentesque diam. Pellentesque feugiat a massa ac iaculis. Aliquam erat volutpat. Aliquam non quam luctus, tincidunt urna malesuada, convallis risus. Suspendisse tincidunt vehicula ultrices. Sed congue elit pretium, fringilla neque ac, imperdiet nisl. In posuere eros pellentesque porttitor varius.</p>
+		
+		
+		<span class="read_more">READ MORE</span>
+		
+		<div class="toggle_text">
+		
+			<p class="sub_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies risus quis viverra scelerisque. Suspendisse eu lacinia enim, vel pellentesque diam. Pellentesque feugiat a massa ac iaculis. Aliquam erat volutpat. Aliquam non quam luctus, tincidunt urna malesuada, convallis risus. Suspendisse tincidunt vehicula ultrices. Sed congue elit pretium, fringilla neque ac, imperdiet nisl. In posuere eros pellentesque porttitor varius.</p>
+
+		</div><!-- toggle_text -->
 		
 	</section><!-- about -->
 
+<section style="height:1000px;"></section>
 
 
 
