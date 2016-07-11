@@ -87,59 +87,75 @@ get_header(); ?>
 		
 		<div class="aos_box_wrapper">
 			
+			<a href="">
+			
 			<div class="aos_single_box_wrapper">
+				
 				
 				<div class="aos_single_box">
 				
 					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
 				
 					<h2>personal injury</h2>
+					
+				
 				
 				</div><!-- aos_single_box -->
 				
+			
+				
 				<div class="aos_single_box_lower">
 					
-					<span>click to learn more<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/></span>
+					<span>click to learn more</span>
+					<img class="process_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 					
 				</div><!-- aos_single_box_lower -->
 			
 			</div><!-- aos_single_box_wrapper -->
+			</a>
 			
+			
+			<a href="">
 			<div class="aos_single_box_wrapper">
 				
 				<div class="aos_single_box">
 				
-					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
+					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon2.png"/>
 				
-					<h2>personal injury</h2>
+					<h2>family law</h2>
 				
 				</div><!-- aos_single_box -->
 				
 				<div class="aos_single_box_lower">
 					
-					<span>click to learn more<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/></span>
+					<span>click to learn more</span>
+					<img class="process_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 					
 				</div><!-- aos_single_box_lower -->
 			
 			</div><!-- aos_single_box_wrapper -->
+			</a>
 			
+			<a href="">
 			<div class="aos_single_box_wrapper">
 				
 				<div class="aos_single_box">
 				
-					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
+					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon3.png"/>
 				
-					<h2>personal injury</h2>
+					<h2>social security disability</h2>
 				
 				</div><!-- aos_single_box -->
 				
 				<div class="aos_single_box_lower">
 					
-					<span>click to learn more<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/></span>
+					<span>click to learn more</span>
+					<img class="process_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 					
 				</div><!-- aos_single_box_lower -->
 			
 			</div><!-- aos_single_box_wrapper -->
+			</a>
 			
 		</div><!-- aos_box_wrapper -->
 		

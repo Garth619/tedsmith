@@ -262,26 +262,44 @@ header {
     display: inline-block;
     margin-bottom: 50px; }
 
-.aos_box_wrapper .aos_single_box_wrapper {
-  background: #fff;
-  margin-bottom: 15px; }
-  .aos_box_wrapper .aos_single_box_wrapper .aos_single_box {
-    border-bottom: 1px solid #6534ce; }
-    .aos_box_wrapper .aos_single_box_wrapper .aos_single_box img.aos_icon {
-      margin: 55px 0 40px; }
-    .aos_box_wrapper .aos_single_box_wrapper .aos_single_box h2 {
-      font-family: "Utopia W01 Bd It";
-      font-weight: 300;
-      font-size: 33px;
-      padding-bottom: 76px; }
-  .aos_box_wrapper .aos_single_box_wrapper .aos_single_box_lower span {
-    font-family: "Proxima N W01 Cd Reg";
-    text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 2px;
-    padding: 25px 0;
-    display: block; }
-    .aos_box_wrapper .aos_single_box_wrapper .aos_single_box_lower span .process_arrow {
+.aos_box_wrapper a {
+  text-decoration: none;
+  color: #000; }
+  .aos_box_wrapper a .aos_single_box_wrapper {
+    background: #fff;
+    margin-bottom: 15px; }
+    .aos_box_wrapper a .aos_single_box_wrapper:hover .aos_single_box_lower {
+      background: red;
+      color: #fff;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5b45c1+0,0abcba+100 */
+      background: #5b45c1;
+      /* Old browsers */
+      background: -moz-linear-gradient(left, #5b45c1 0%, #0abcba 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #5b45c1 0%, #0abcba 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #5b45c1 0%, #0abcba 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b45c1', endColorstr='#0abcba',GradientType=1 );
+      /* IE6-9 */ }
+    .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box {
+      border-bottom: 1px solid #6534ce; }
+      .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box img.aos_icon {
+        margin: 55px 0 40px; }
+      .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box h2 {
+        font-family: "Utopia W01 Bd It";
+        font-weight: 300;
+        font-size: 33px;
+        padding-bottom: 76px;
+        line-height: 1.2; }
+    .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box_lower span {
+      font-family: "Proxima N W01 Cd Reg";
+      text-transform: uppercase;
+      font-size: 15px;
+      letter-spacing: 2px;
+      padding: 25px 0;
+      display: inline-block; }
+    .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box_lower img.process_arrow {
       margin-left: 10px;
       position: relative;
       top: 5px; }

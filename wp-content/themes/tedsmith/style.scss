@@ -340,10 +340,25 @@ header {
 	}
 }
 
+
 .aos_box_wrapper {
+	a {
+		text-decoration: none;
+		color:#000;
 	.aos_single_box_wrapper {
 		background: #fff;
 		margin-bottom:15px;
+		&:hover .aos_single_box_lower {
+			background: red;
+			color:#fff;
+			
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5b45c1+0,0abcba+100 */
+			background: #5b45c1; /* Old browsers */
+			background: -moz-linear-gradient(left,  #5b45c1 0%, #0abcba 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(left,  #5b45c1 0%,#0abcba 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to right,  #5b45c1 0%,#0abcba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b45c1', endColorstr='#0abcba',GradientType=1 ); /* IE6-9 */
+			}
 		.aos_single_box {
 			border-bottom: 1px solid $purple;
 			img.aos_icon {
@@ -354,6 +369,7 @@ header {
 				font-weight: 300;
 				font-size: 33px;
 				padding-bottom:76px;
+				line-height:1.2;
 			}
 		}
 		.aos_single_box_lower {
@@ -363,13 +379,15 @@ header {
 				font-size:15px;
 				letter-spacing:2px;
 				padding:25px 0;
-				display: block;
-				.process_arrow {
-					margin-left:10px;
-					position: relative;
-					top:5px;
-				}
+				display: inline-block;
 			}
+			img.process_arrow {
+				margin-left:10px;
+				position: relative;
+				top:5px;
+			}
+			
 		}
 	}
+}
 }
