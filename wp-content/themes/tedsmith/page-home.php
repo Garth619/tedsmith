@@ -41,21 +41,26 @@ get_header(); ?>
 			<h3>expect personal attention</h3>
 			<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
-		</div><!-- process_single_box -->
-		
-		<div class="process_hover_wrapper">
+			
+			<div class="process_hover_wrapper">
 			
 			<span>We take a limited number of cases, so we can give every client the personal attention they deserve.</span>
 			
 		</div><!-- process_hover_wrapper -->
+
+			
+			
+			
+		</div><!-- process_single_box -->
 		
+				
 		
 	</div><!-- process_single_box_wrapper -->
 	
 	
 	
 </section><!-- process -->
-	
+	<section style="height:1000px;width:100%;"></section>
 	
 	
 </section>

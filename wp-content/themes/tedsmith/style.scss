@@ -190,9 +190,12 @@ header {
 			font-weight:300;
 			font-style: italic;
 			font-size:30px;
+/*
 			position:absolute;
 			top:0;
 			left:0;
+*/
+			z-index:0;
 			img.process_icons {
 				margin-bottom: 25px;
 			}
@@ -204,6 +207,7 @@ header {
 		
 		.process_hover_wrapper {
 			position:absolute;
+			z-index:1;
 			display:none;
 			top:0;
 			left:0;

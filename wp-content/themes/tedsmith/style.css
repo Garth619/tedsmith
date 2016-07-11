@@ -142,15 +142,19 @@ header {
       font-weight: 300;
       font-style: italic;
       font-size: 30px;
-      position: absolute;
-      top: 0;
-      left: 0; }
+      /*
+      			position:absolute;
+      			top:0;
+      			left:0;
+      */
+      z-index: 0; }
       .process .process_single_box_wrapper .process_single_box img.process_icons {
         margin-bottom: 25px; }
       .process .process_single_box_wrapper .process_single_box img.process_arrow {
         margin-top: 40px; }
     .process .process_single_box_wrapper .process_hover_wrapper {
       position: absolute;
+      z-index: 1;
       display: none;
       top: 0;
       left: 0;
