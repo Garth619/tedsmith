@@ -172,11 +172,36 @@ get_header(); ?>
 			
 			<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-			<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this group."</p>
+			<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
+			
+			<h3>Personal Injury Client</h3>
+			<h4>client direct review</h4>
 			
 		</div><!-- testimonial_wrapper -->
 		
 	</section><!-- client_testimonials -->
+	
+	<section class="meet_attorneys">
+		<h1>meet our attorneys</h1>
+		
+		<div class="attorneys_wrapper">
+			
+			<div class="attorneys_single_wrapper">
+				
+			<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
+			<div class="attorneys_title">
+				
+				<h2>Ted Smith</h2>
+				<h3>Founder / Senior Partner</h3>
+				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+				
+			</div><!-- attorneys_title -->
+			
+			</div><!-- attorneys_single_wrapper -->
+			
+		</div><!-- attorneys_wrapper -->
+		
+	</section>
 
 
 <?php get_footer(); ?>

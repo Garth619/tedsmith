@@ -30,7 +30,8 @@ body {
 
 section {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
 
 header, section, nav, footer {
   display: block; }
@@ -307,7 +308,6 @@ header {
   position: relative;
   top: 5px;
   display: inline-block;
-  background: red;
   width: 31px;
   height: 23px;
   background: url(images/small-imgs/process-arrow.png) top left no-repeat; }
@@ -339,10 +339,67 @@ header {
   .client_testimonials .testimonial_wrapper {
     background: #fff;
     width: 81%;
-    margin: 61px auto 0;
+    margin: 61px auto 75px;
     padding: 50px 20px; }
     .client_testimonials .testimonial_wrapper .testimonial_stars {
       margin-bottom: 50px; }
     .client_testimonials .testimonial_wrapper p {
       font-size: 18px;
       line-height: 1.5; }
+    .client_testimonials .testimonial_wrapper h3 {
+      font-family: "Proxima N W01 Cd Light";
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #6534ce;
+      font-size: 17px;
+      margin-top: 65px; }
+    .client_testimonials .testimonial_wrapper h4 {
+      font-size: 17px;
+      font-family: "Utopia W01 Bd It";
+      font-weight: 300;
+      letter-spacing: 2px;
+      margin-top: 5px; }
+
+/* Meet Attornys */
+.meet_attorneys {
+  background: #f5f5f5;
+  padding-top: 90px; }
+  .meet_attorneys img {
+    max-width: 100%;
+    height: auto;
+    display: block; }
+  .meet_attorneys h1 {
+    color: #4274e1;
+    border-bottom: 1px solid #4274e1;
+    padding-bottom: 30px;
+    font-family: "Utopia W01 Bd It";
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 28px;
+    display: inline-block;
+    margin-bottom: 98px; }
+  .meet_attorneys .attorneys_wrapper {
+    max-width: 320px;
+    margin: 0 auto; }
+    .meet_attorneys .attorneys_wrapper .attorneys_single_wrapper {
+      text-align: left; }
+      .meet_attorneys .attorneys_wrapper .attorneys_single_wrapper .attorneys_title {
+        background: #fff;
+        padding: 16px; }
+        .meet_attorneys .attorneys_wrapper .attorneys_single_wrapper .attorneys_title h2 {
+          color: #0abcba;
+          font-size: 30px;
+          font-family: "Utopia W01 Bd It";
+          font-weight: 300;
+          letter-spacing: 2px;
+          display: inline-block; }
+        .meet_attorneys .attorneys_wrapper .attorneys_single_wrapper .attorneys_title h3 {
+          font-family: "Proxima N W01 Cd Light";
+          text-transform: uppercase;
+          font-size: 16px;
+          letter-spacing: 2px;
+          margin-top: 5px;
+          display: inline-block; }
+        .meet_attorneys .attorneys_wrapper .attorneys_single_wrapper .attorneys_title .arrow {
+          float: right;
+          margin-top: -15px; }

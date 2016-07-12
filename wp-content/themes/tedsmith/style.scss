@@ -13,6 +13,7 @@ Author URI: http://highrankwebsites.com
 
 $blue: #4274e1;
 $purple:#6534ce;
+$teal:#0abcba;
 $greylight: #f5f5f5;
 
 /* Fonts */
@@ -53,6 +54,7 @@ body {
 section {
 	width:100%;
 	text-align: center;
+	overflow: hidden;
 }
 
 header,section,nav,footer {
@@ -397,7 +399,6 @@ header {
 				position: relative;
 				top:5px;
 				display: inline-block;
-				background: red;
 				width:31px;
 				height:23px;
 				background:url(images/small-imgs/process-arrow.png) top left no-repeat;
@@ -425,6 +426,7 @@ header {
 	background:url(images/test-bgimage.jpg) top left no-repeat;
 	background-size: cover;
 	padding:75px 0 0;
+	
 	h1 {
 		font-size: 50px;
 		font-family: $utopiabolditalic;
@@ -437,8 +439,9 @@ header {
 	.testimonial_wrapper {
 		background: #fff;
 		width:81%;
-		margin:61px auto 0;
+		margin:61px auto 75px;
 		padding:50px 20px;
+		
 		.testimonial_stars {
 			margin-bottom: 50px;
 		}
@@ -446,5 +449,79 @@ header {
 			font-size:18px;
 			line-height:1.5;
 		}
+		h3 {
+			font-family: $proximalight;
+			text-transform: uppercase;
+			letter-spacing:2px;
+			color: $purple;
+			font-size:17px;
+			margin-top:65px;
+		}
+		h4 {
+			font-size:17px;
+			font-family:$utopiabolditalic;
+			font-weight: 300;
+			letter-spacing:2px;
+			margin-top:5px;
+		}
 	}
 }
+
+
+ /* Meet Attornys */
+ 
+ 
+ .meet_attorneys {
+	 background: $greylight;
+	 padding-top:90px;
+	 img {
+		 max-width:100%;
+		 height:auto;
+		 display: block;
+	 }
+	 h1 {
+		 color: $blue;
+		 border-bottom:1px solid $blue;
+		 padding-bottom:30px;
+		 font-family:$utopiabolditalic;
+		 font-weight: 300;
+		 letter-spacing:2px;
+		 font-size:28px;
+		 display: inline-block;
+		 margin-bottom: 98px;
+	 }
+	 .attorneys_wrapper {
+		 max-width:320px;
+		 margin: 0 auto;
+	 	.attorneys_single_wrapper {
+		 	text-align: left;
+		 .attorneys_title {
+			 background:#fff;
+			 padding:16px;
+		 		h2 {
+		 			color:$teal;
+		 			font-size: 30px;
+		 			font-family:$utopiabolditalic;
+		 			font-weight: 300;
+		 			letter-spacing:2px;
+		 			display: inline-block;
+				}
+				h3 {
+					font-family: $proximalight;
+					text-transform: uppercase;
+					font-size: 16px;
+					letter-spacing:2px;
+					margin-top:5px;
+					display: inline-block;
+				}
+				.arrow {
+					float:right;
+					margin-top:-15px;
+				}
+		 }
+	 }
+ 	}
+ }
+ 
+ 
+ 
