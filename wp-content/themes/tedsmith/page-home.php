@@ -164,7 +164,7 @@ get_header(); ?>
 		
 		<h1>client testimonials</h1>
 		
-		<span class="mybutton">
+		<span class="mybutton testimonials_button">
 			view more testimonials
 		</span><!-- button_consultation -->
 		
@@ -206,6 +206,16 @@ get_header(); ?>
 		</div><!-- attorneys_wrapper -->
 		
 	</section><!-- meet_attorneys -->
+	
+	<section class="awards">
+		
+		<div class="logo_wrapper">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-1.png"/>
+			
+		</div><!-- logo_wrapper -->
+		
+	</section><!-- awards -->
 
 
 <?php get_footer(); ?>

@@ -79,6 +79,13 @@ span.mybutton {
 	cursor: pointer;
 }
 
+span.mybutton.testimonials_button {
+	color:$blue;
+	font-size:20px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
 
 
 
@@ -381,7 +388,6 @@ header {
 
 
 		.aos_single_box_wrapper:hover .aos_single_box_lower {
-			background: red;
 			color:#fff;
 			
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5b45c1+0,0abcba+100 */
@@ -452,7 +458,7 @@ header {
 		h3 {
 			font-family: $proximalight;
 			text-transform: uppercase;
-			letter-spacing:2px;
+			letter-spacing:1.5px;
 			color: $purple;
 			font-size:17px;
 			margin-top:65px;
@@ -473,7 +479,7 @@ header {
  
  .meet_attorneys {
 	 background: $greylight;
-	 padding-top:90px;
+	 padding:90px 0;
 	 img {
 		 max-width:100%;
 		 height:auto;
@@ -535,6 +541,14 @@ header {
  
  .attorneys_wrapper .attorneys_single_wrapper:hover .attorneys_title .arrow {
 	 display: none
+ }
+ 
+ 
+ /* Awards */
+ 
+ 
+ .awards {
+	 padding:50px 0;
  }
  
  
