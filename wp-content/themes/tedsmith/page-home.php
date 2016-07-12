@@ -182,26 +182,30 @@ get_header(); ?>
 	</section><!-- client_testimonials -->
 	
 	<section class="meet_attorneys">
+		
 		<h1>meet our attorneys</h1>
 		
 		<div class="attorneys_wrapper">
 			
+			
 			<div class="attorneys_single_wrapper">
+			
+				<a href="">
+					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
 				
-			<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
-			<div class="attorneys_title">
-				
-				<h2>Ted Smith</h2>
-				<h3>Founder / Senior Partner</h3>
-				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-				
-			</div><!-- attorneys_title -->
+					<div class="attorneys_title">
+						<h2>Ted Smith</h2>
+						<h3>Founder / Senior Partner</h3>
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+					</div><!-- attorneys_title -->
+				</a>
 			
 			</div><!-- attorneys_single_wrapper -->
 			
+			
 		</div><!-- attorneys_wrapper -->
 		
-	</section>
+	</section><!-- meet_attorneys -->
 
 
 <?php get_footer(); ?>
