@@ -216,6 +216,29 @@ get_header(); ?>
 		</div><!-- logo_wrapper -->
 		
 	</section><!-- awards -->
+	
+	<section class="request_wrapper">
+		
+		<div class="request">
+			
+			<h1>request<br/>a free consultation</h1>
+			
+		</div><!-- request -->
+		
+		<div class="form_wrapper">
+			
+<!--
+			<h1 class="description">Fill out the form to schedule a free consultation. We will contact you within 24 hours about your case.</h1>
+			<span class="sub_description">*All fields required</span>
+-->
+			
+			<?php gravity_form(1, false, true, false, '', true, 12);?>
+			
+		</div><!-- form_wrapper -->
+		
+	</section><!-- request_wrapper -->
+	
+	
 
 
 <?php get_footer(); ?>
