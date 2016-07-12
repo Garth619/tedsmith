@@ -227,16 +227,19 @@ get_header(); ?>
 		
 		<div class="form_wrapper">
 			
-<!--
-			<h1 class="description">Fill out the form to schedule a free consultation. We will contact you within 24 hours about your case.</h1>
-			<span class="sub_description">*All fields required</span>
--->
-			
 			<?php gravity_form(1, false, true, false, '', true, 12);?>
 			
 		</div><!-- form_wrapper -->
 		
 	</section><!-- request_wrapper -->
+	
+	<section class="office">
+		
+		<span class="office_titles">office</span>
+		<span class="sub_office_titles">660 West FM 2410 Harker Heights, Tx 76548</span>
+		
+		
+	</section><!-- office -->
 	
 	
 
