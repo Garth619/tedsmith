@@ -152,14 +152,15 @@ header {
   font-family: "Utopia W01 Bd"; }
   .home_banner .play_button {
     margin-bottom: 40px; }
-  .home_banner h1 {
+  .home_banner span.serving {
     font-family: "Utopia W01 Bd It";
     font-weight: 300;
     font-size: 48px;
     letter-spacing: 2.5px;
     margin-bottom: 20px;
-    padding: 0px 25px; }
-  .home_banner h2 {
+    padding: 0px 25px;
+    display: block; }
+  .home_banner span.experienced_lawyers {
     font-family: "Proxima N W01 Cd Light";
     font-weight: 300;
     text-transform: uppercase;
@@ -167,7 +168,8 @@ header {
     line-height: 1.2;
     letter-spacing: 1.9px;
     margin-bottom: 40px;
-    padding: 0px 25px; }
+    padding: 0px 25px;
+    display: block; }
 
 .review_stars_wrapper {
   margin-top: 48px; }
@@ -188,12 +190,16 @@ header {
     .process .process_single_box_wrapper .process_single_box {
       border: 1px solid #4274e1;
       width: 100%;
-      padding: 40px;
-      font-family: "Utopia W01 Regular";
-      font-weight: 300;
-      font-style: italic;
-      font-size: 30px;
-      z-index: 0; }
+      padding: 40px 60px;
+      z-index: 0;
+      cursor: pointer; }
+      .process .process_single_box_wrapper .process_single_box span.process_title {
+        font-family: "Utopia W01 Bd It";
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: 35px;
+        display: block;
+        line-height: 1.1; }
       .process .process_single_box_wrapper .process_single_box img.process_icons {
         margin-bottom: 25px; }
       .process .process_single_box_wrapper .process_single_box img.process_arrow {
@@ -255,16 +261,17 @@ header {
     font-weight: 300;
     letter-spacing: 2.9px;
     margin-bottom: 56px; }
-  .about h3 {
+  .about span.about_headers {
     font-size: 28px;
     font-family: "Utopia W01 Bd It";
     font-weight: 300;
     letter-spacing: 2px;
-    padding-bottom: 20px; }
-  .about h3.purple {
+    padding-bottom: 20px;
+    display: block; }
+  .about span.purple {
     color: #6534ce;
     border-bottom: 1px solid #6534ce; }
-  .about h3.blue {
+  .about span.blue {
     color: #4274e1;
     border-bottom: 1px solid #4274e1; }
   .about p.large_paragraph {
@@ -295,13 +302,14 @@ header {
 .areas_of_service {
   background: #151515;
   padding: 90px 10px 90px; }
-  .areas_of_service h1 {
+  .areas_of_service span.aos_header {
     color: #f2f2f2;
     margin-bottom: 50px;
     font-size: 28px;
     font-family: "Utopia W01 Bd It";
     font-weight: 300;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    display: block; }
   .areas_of_service .short_line {
     width: 50%;
     height: 1px;
@@ -319,12 +327,13 @@ header {
       border-bottom: 1px solid #6534ce; }
       .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box img.aos_icon {
         margin: 55px 0 40px; }
-      .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box h2 {
+      .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box span.aos_inner_header {
         font-family: "Utopia W01 Bd It";
         font-weight: 300;
         font-size: 33px;
         padding-bottom: 76px;
-        line-height: 1.2; }
+        line-height: 1.2;
+        display: block; }
     .aos_box_wrapper a .aos_single_box_wrapper .aos_single_box_lower span {
       font-family: "Proxima N W01 Cd Reg";
       text-transform: uppercase;
@@ -373,14 +382,15 @@ header {
   background: url(images/test-bgimage.jpg) top left no-repeat;
   background-size: cover;
   padding: 75px 0 0; }
-  .client_testimonials h1 {
+  .client_testimonials span.client_header {
     font-size: 50px;
     font-family: "Utopia W01 Bd It";
     font-weight: 300;
     color: #f2f2f2;
     border-bottom: 1px #fff solid;
     padding-bottom: 30px;
-    margin: 0 9% 35px; }
+    margin: 0 9% 35px;
+    display: block; }
   .client_testimonials .testimonial_wrapper {
     background: #fff;
     width: 81%;
@@ -391,19 +401,21 @@ header {
     .client_testimonials .testimonial_wrapper p {
       font-size: 18px;
       line-height: 1.5; }
-    .client_testimonials .testimonial_wrapper h3 {
-      font-family: "Proxima N W01 Cd Light";
+    .client_testimonials .testimonial_wrapper span.client_subheader {
+      font-family: "Proxima N W01 Cd Reg";
       text-transform: uppercase;
       letter-spacing: 1.5px;
       color: #6534ce;
       font-size: 17px;
-      margin-top: 65px; }
-    .client_testimonials .testimonial_wrapper h4 {
+      margin-top: 65px;
+      display: block; }
+    .client_testimonials .testimonial_wrapper span.client_lowerheader {
       font-size: 17px;
       font-family: "Utopia W01 Bd It";
       font-weight: 300;
       letter-spacing: 2px;
-      margin-top: 5px; }
+      margin-top: 5px;
+      display: block; }
 
 /* Meet Attornys */
 .meet_attorneys {
@@ -631,7 +643,8 @@ footer {
   footer span.copyright {
     padding: 0 100px;
     display: block;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    line-height: 1.2; }
   footer a {
     color: #fff;
     text-decoration: none; }

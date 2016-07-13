@@ -10,8 +10,8 @@ get_header(); ?>
 	
 	<img class="play_button" src="<?php bloginfo('template_directory');?>/images/mobile-play.png"/>
 	
-	<h1>Serving the citizens of Texas since&nbsp;1976</h1>
-	<h2>Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</h2>
+	<span class="serving">Serving the citizens of Texas since&nbsp;1976</span>
+	<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>
 	
 	<span class="mybutton">
 		click for a free consultation
@@ -37,7 +37,7 @@ get_header(); ?>
 		<div class="process_single_box">
 			
 			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
-			<h3>expect personal attention</h3>
+			<span class="process_title">expect personal attention</span>
 			<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			
@@ -59,11 +59,11 @@ get_header(); ?>
 		
 		<h2>serving Fort Hood, Bell, Coryell&nbsp;counties</h2>
 		
-		<h3 class="purple">experience matters</h3>
+		<span class="about_headers purple">experience matters</span>
 		
 		<p class="large_paragraph">Texans have been represented by the Ted Smith Law Group for over 43 years.</p>
 		
-		<h3 class="blue">former JAG officer</h3>
+		<span class="about_headers blue">former JAG officer</span>
 		
 		<p class="large_paragraph">mr. smith served as a jag officer at fort hood before opening his private practice.</p>
 		
@@ -82,7 +82,7 @@ get_header(); ?>
 
 	<section class="areas_of_service">
 		
-		<h1>our areas of practice</h1>
+		<span class="aos_header">our areas of practice</span>
 		<div class="short_line"></div><!-- short_line -->
 		
 		<div class="aos_box_wrapper">
@@ -96,7 +96,7 @@ get_header(); ?>
 				
 					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
 				
-					<h2>personal injury</h2>
+					<span class="aos_inner_header">personal injury</span>
 					
 				
 				
@@ -121,7 +121,7 @@ get_header(); ?>
 				
 					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon2.png"/>
 				
-					<h2>family law</h2>
+					<span class="aos_inner_header">family law</span>
 				
 				</div><!-- aos_single_box -->
 				
@@ -142,7 +142,7 @@ get_header(); ?>
 				
 					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon3.png"/>
 				
-					<h2>social security disability</h2>
+					<span class="aos_inner_header">social security disability</span>
 				
 				</div><!-- aos_single_box -->
 				
@@ -162,7 +162,7 @@ get_header(); ?>
 	
 	<section class="client_testimonials">
 		
-		<h1>client testimonials</h1>
+		<span class="client_header">client testimonials</span>
 		
 		<span class="mybutton testimonials_button">
 			view more testimonials
@@ -174,8 +174,8 @@ get_header(); ?>
 			
 			<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
 			
-			<h3>Personal Injury Client</h3>
-			<h4>client direct review</h4>
+			<span class="client_subheader">Personal Injury Client</span>
+			<span class="client_lowerheader">client direct review</span>
 			
 		</div><!-- testimonial_wrapper -->
 		

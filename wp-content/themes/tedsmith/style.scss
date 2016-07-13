@@ -204,15 +204,16 @@ header {
 	.play_button {
 		margin-bottom: 40px;
 	}
-	h1 {
+	span.serving {
 		font-family: $utopiabolditalic;
 		font-weight:300;
 		font-size:48px;
 		letter-spacing: 2.5px;
 		margin-bottom:20px;
 		padding:0px 25px;
+		display: block;
 	}
-	h2 {
+	span.experienced_lawyers {
 		font-family: $proximalight;
 		font-weight:300;
 		text-transform: uppercase;
@@ -221,6 +222,7 @@ header {
 		letter-spacing: 1.9px;
 		margin-bottom:40px;
 		padding:0px 25px;
+		display: block;
 	}
 }
 
@@ -248,12 +250,17 @@ header {
 		.process_single_box {
 			border:1px solid $blue;
 			width:100%;
-			padding:40px;
-			font-family: $utopiareg;
-			font-weight:300;
-			font-style: italic;
-			font-size:30px;
+			padding:40px 60px;
 			z-index:0;
+			cursor: pointer;
+			span.process_title {
+				font-family: $utopiabolditalic;
+				font-weight:300;
+				letter-spacing: 2px;
+				font-size:35px;
+				display: block;
+				line-height:1.1;
+			}
 			img.process_icons {
 				margin-bottom: 25px;
 			}
@@ -327,18 +334,19 @@ header {
 		letter-spacing:2.9px;
 		margin-bottom: 56px;
 	}
-	h3 {
+	span.about_headers {
 		font-size:28px;
 		font-family: $utopiabolditalic;
 		font-weight:300;
 		letter-spacing:2px;
 		padding-bottom:20px;
+		display: block;
 	}
-	h3.purple {
+	span.purple {
 		color:$purple;
 		border-bottom: 1px solid $purple;
 	}
-	h3.blue {
+	span.blue {
 		color:$blue;
 		border-bottom: 1px solid $blue;
 	}
@@ -378,13 +386,14 @@ header {
 .areas_of_service {
 	background: $black;
 	padding:90px 10px 90px;
-	h1 {
+	span.aos_header {
 		color:$offwhite;
 		margin-bottom:50px;
 		font-size:28px;
 		font-family: $utopiabolditalic;
 		font-weight:300;
 		letter-spacing:2px;
+		display: block;
 	}
 	.short_line {
 		width:50%;
@@ -410,12 +419,13 @@ header {
 			img.aos_icon {
 				margin:55px 0 40px;
 			}
-			h2 {
+			span.aos_inner_header {
 				font-family: $utopiabolditalic;
 				font-weight: 300;
 				font-size: 33px;
 				padding-bottom:76px;
 				line-height:1.2;
+				display:block;
 			}
 		}
 		.aos_single_box_lower {
@@ -480,7 +490,7 @@ header {
 	background-size: cover;
 	padding:75px 0 0;
 	
-	h1 {
+	span.client_header {
 		font-size: 50px;
 		font-family: $utopiabolditalic;
 		font-weight:300;
@@ -488,6 +498,7 @@ header {
 		border-bottom:1px #fff solid;
 		padding-bottom: 30px;
 		margin:0 9% 35px;
+		display:block;
 	}
 	.testimonial_wrapper {
 		background: #fff;
@@ -502,20 +513,22 @@ header {
 			font-size:18px;
 			line-height:1.5;
 		}
-		h3 {
-			font-family: $proximalight;
+		span.client_subheader {
+			font-family: $proximareg;
 			text-transform: uppercase;
 			letter-spacing:1.5px;
 			color: $purple;
 			font-size:17px;
 			margin-top:65px;
+			display: block;
 		}
-		h4 {
+		span.client_lowerheader {
 			font-size:17px;
 			font-family:$utopiabolditalic;
 			font-weight: 300;
 			letter-spacing:2px;
 			margin-top:5px;
+			display: block;
 		}
 	}
 }
@@ -785,6 +798,7 @@ footer {
 		padding:0 100px;
 		display: block;
 		margin-bottom:15px;
+		line-height:1.2;
 	}
 	a {
 		color:#fff;
