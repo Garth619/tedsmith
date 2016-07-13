@@ -99,15 +99,6 @@ span.mybutton.testimonials_button {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=1 );
   /* IE6-9 */ }
 
-.mobile_menu.fixed {
-  position: fixed;
-  top: 0;
-  z-index: 100;
-  transition: all .3s ease; }
-
-.home_banner.fixed {
-  margin-top: 85px; }
-
 /* Header */
 header {
   width: 100%;
@@ -137,7 +128,8 @@ header {
   text-transform: uppercase;
   overflow: hidden;
   text-align: center;
-  padding: 12px 0; }
+  padding: 12px 0;
+  position: relative; }
   .menu_wrapper span.mobile_menu_title {
     font-size: 22px;
     vertical-align: middle;
@@ -154,7 +146,9 @@ header {
 
 /* Nav */
 nav {
-  background: #fff; }
+  background: #fff;
+  z-index: 99;
+  position: relative; }
   nav ul li {
     list-style: none;
     font-family: "Proxima N W01 Cd Light";
@@ -175,6 +169,19 @@ nav {
         transition: all .4s ease; }
   nav ul li.menu-item-has-children > a {
     background: red; }
+
+.mobile_menu.fixed {
+  position: absolute;
+  top: 0; }
+
+.menu_wrapper.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transition: all .3s ease; }
+
+.home_banner.fixed {
+  margin-top: 85px; }
 
 /* Home Banner */
 .home_banner {
@@ -218,63 +225,60 @@ nav {
 /* Process */
 .process {
   padding: 20px 20px 40px; }
-  .process .process_single_box_wrapper {
-    position: relative; }
-    .process .process_single_box_wrapper .process_single_box {
-      border: 1px solid #4274e1;
-      width: 100%;
-      padding: 40px 60px;
-      z-index: 0;
-      cursor: pointer; }
-      .process .process_single_box_wrapper .process_single_box span.process_title {
-        font-family: "Utopia W01 Bd It";
-        font-weight: 300;
-        letter-spacing: 2px;
-        font-size: 35px;
-        display: block;
-        line-height: 1.1; }
-      .process .process_single_box_wrapper .process_single_box img.process_icons {
-        margin-bottom: 25px; }
-      .process .process_single_box_wrapper .process_single_box img.process_arrow {
-        margin-top: 40px; }
-    .process .process_single_box_wrapper .process_hover_wrapper {
-      position: absolute;
-      z-index: 1;
-      opacity: 0;
-      visibility: hidden;
-      top: 0;
-      left: 0;
-      width: 100%;
-      color: #f2f2f2;
-      font-family: "Proxima N W01 Cd Reg";
-      text-transform: uppercase;
-      font-size: 25px;
+  .process .process_single_box_wrapper .process_single_box {
+    border: 1px solid #4274e1;
+    width: 100%;
+    padding: 40px 60px;
+    cursor: pointer; }
+    .process .process_single_box_wrapper .process_single_box span.process_title {
+      font-family: "Utopia W01 Bd It";
       font-weight: 300;
       letter-spacing: 2px;
-      line-height: 1.5;
-      padding: 40px;
-      transition: all .3s ease;
-      height: 100%;
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
-      background: #0abcba;
-      /* Old browsers */
-      background: -moz-linear-gradient(top, #0abcba 0%, #5b45c1 100%);
-      /* FF3.6-15 */
-      background: -webkit-linear-gradient(top, #0abcba 0%, #5b45c1 100%);
-      /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to bottom, #0abcba 0%, #5b45c1 100%);
-      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=0 );
-      /* IE6-9 */ }
-      .process .process_single_box_wrapper .process_hover_wrapper span {
-        display: block;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%); }
-    .process .process_single_box_wrapper .process_hover_wrapper.open {
-      opacity: 1;
-      visibility: visible;
-      transition: all .3s ease; }
+      font-size: 35px;
+      display: block;
+      line-height: 1.1; }
+    .process .process_single_box_wrapper .process_single_box img.process_icons {
+      margin-bottom: 25px; }
+    .process .process_single_box_wrapper .process_single_box img.process_arrow {
+      margin-top: 40px; }
+  .process .process_single_box_wrapper .process_hover_wrapper {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #f2f2f2;
+    font-family: "Proxima N W01 Cd Reg";
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    padding: 40px;
+    transition: all .3s ease;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
+    background: #0abcba;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #0abcba 0%, #5b45c1 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0abcba 0%, #5b45c1 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0abcba 0%, #5b45c1 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=0 );
+    /* IE6-9 */ }
+    .process .process_single_box_wrapper .process_hover_wrapper span {
+      display: block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+  .process .process_single_box_wrapper .process_hover_wrapper.open {
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s ease; }
 
 /* About Us */
 .about {

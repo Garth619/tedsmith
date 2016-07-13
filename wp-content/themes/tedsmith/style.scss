@@ -133,17 +133,7 @@ span.mybutton.testimonials_button {
 	}
 }
 
-.mobile_menu.fixed {
-	position: fixed;
-	top:0;
-	z-index:100;
-	transition:all .3s ease;
-}
 
-
-.home_banner.fixed {
-	margin-top:85px;
-}
 
 
 
@@ -186,6 +176,7 @@ header {
 	overflow: hidden;
 	text-align: center;
 	padding: 12px 0;
+	position: relative;
 	span.mobile_menu_title {
 		font-size: 22px;
 		vertical-align: middle;
@@ -208,6 +199,8 @@ header {
 
 nav {
 	background: #fff;
+	z-index:99;
+	position: relative;
 	ul {
 		li {
 			list-style: none;
@@ -237,6 +230,24 @@ nav {
 			background:red;
 		}
 	}
+}
+
+.mobile_menu.fixed {
+	position:absolute;
+	top:0;
+}
+
+
+.menu_wrapper.fixed {
+	position: fixed;
+	top:0;
+	z-index:100;
+	transition:all .3s ease;
+}
+
+
+.home_banner.fixed {
+	margin-top:85px;
 }
 
 
@@ -295,12 +306,12 @@ nav {
 .process {
 	padding:20px 20px 40px;
 	.process_single_box_wrapper {
-		position: relative;
+		
+		
 		.process_single_box {
 			border:1px solid $blue;
 			width:100%;
 			padding:40px 60px;
-			z-index:0;
 			cursor: pointer;
 			span.process_title {
 				font-family: $utopiabolditalic;
