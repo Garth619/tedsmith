@@ -183,7 +183,7 @@ get_header(); ?>
 	
 	<section class="meet_attorneys">
 		
-		<h1>meet our attorneys</h1>
+		<span class="attorneys_header">meet our attorneys</span>
 		
 		<div class="attorneys_wrapper">
 			
@@ -194,8 +194,8 @@ get_header(); ?>
 					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
 				
 					<div class="attorneys_title">
-						<h2>Ted Smith</h2>
-						<h3>Founder / Senior Partner</h3>
+						<span class="attorneys_name">Ted Smith</span>
+						<span class="attorneys_position">Founder / Senior Partner</span>
 						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 					</div><!-- attorneys_title -->
 				</a>

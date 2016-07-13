@@ -2,7 +2,7 @@
 		
 		<div class="request">
 			
-			<h1>request<br/>a free consultation</h1>
+			<span class="request_header">request<br/>a free consultation</span>
 			
 		</div><!-- request -->
 		
