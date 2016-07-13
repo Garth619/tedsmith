@@ -151,19 +151,22 @@ header {
   z-index: 100;
   transition: all .3s ease; }
 
+/*
 nav.fixed {
-  top: 0px;
-  position: absolute;
-  left: 0; }
-
+	top:0px;
+	position: absolute;
+	left:0;
+}
+*/
 .home_banner.fixed {
   margin-top: 85px; }
 
 nav {
   background: #fff;
   z-index: 99;
-  position: relative;
-  display: none; }
+  position: absolute;
+  top: 206px;
+  width: 100%; }
   nav ul li {
     list-style: none;
     font-family: "Proxima N W01 Cd Light";

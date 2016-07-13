@@ -205,11 +205,13 @@ header {
 	transition:all .3s ease;
 }
 
+/*
 nav.fixed {
 	top:0px;
 	position: absolute;
 	left:0;
 }
+*/
 
 .home_banner.fixed {
 	margin-top:85px;
@@ -218,8 +220,11 @@ nav.fixed {
 nav {
 	background: #fff;
 	z-index:99;
-	position: relative;
-	display:none;
+	position: absolute;
+	top:206px;
+	width:100%;
+	
+	
 	ul {
 		li {
 			list-style: none;
