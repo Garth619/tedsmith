@@ -53,7 +53,7 @@ body {
 	color:#323233;
 }
 
-section {
+section, footer {
 	width:100%;
 	text-align: center;
 	overflow: hidden;
@@ -682,6 +682,7 @@ input.gform_button {
   -moz-border-radius: 10px;
 	border-radius: 10px;
 	cursor: pointer;
+	margin-top:15px;
 	
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
 	background: #0abcba; /* Old browsers */
@@ -751,5 +752,47 @@ input.gform_button {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=1 ); /* IE6-9 */
 }
 
+
+/* Social Icons */
+
+.social_icons {
+	background: $black;
+	padding:75px 0;
+	.social_img {
+		display: block;
+		margin:0 auto 40px;
+	}
+	a {
+		text-decoration: none;
+		font-family: $proximalight;
+		text-transform: uppercase;
+		letter-spacing:1.5px;
+		color:#fff;
+	}
+}
+
+
+/* Footer */
+
+footer {
+	color:#fff;
+	background:#000;
+	font-family: $proximalight;
+	text-transform: uppercase;
+	letter-spacing:1.5px;
+	font-size:16px;
+	span.copyright {
+		padding:0 100px;
+		display: block;
+		margin-bottom:15px;
+	}
+	a {
+		color:#fff;
+		text-decoration: none;
+	}
+	img {
+		margin-bottom:35px;
+	}
+}
 
  
