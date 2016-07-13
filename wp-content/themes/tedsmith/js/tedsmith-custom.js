@@ -19,11 +19,11 @@ jQuery(document).ready(function() {
 	
 	jQuery(window).scroll(function(){
   	
-  	var sticky = jQuery('.mobile_menu, .menu_wrapper, .home_banner'),
+  	var sticky = jQuery('.menu_wrapper, nav, .home_banner'),
   			
       	scroll = jQuery(window).scrollTop();
 
-		if (scroll >= 164) sticky.addClass('fixed');
+		if (scroll >= 163) sticky.addClass('fixed');
 
 		else sticky.removeClass('fixed')
 		 			

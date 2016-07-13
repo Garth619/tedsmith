@@ -51,7 +51,7 @@
 			
 		</div><!-- header_inner -->
 		
-		<div class="mobile_menu">
+		
 		
 			<div class="menu_wrapper">
 					
@@ -73,7 +73,7 @@
 				
 			</nav>
 		
-		</div><!-- mobile_menu -->
+		
 		
 	</header>
 				
