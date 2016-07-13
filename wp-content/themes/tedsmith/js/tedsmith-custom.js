@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
   			
       	scroll = jQuery(window).scrollTop();
 
-		if (scroll >= 163) sticky.addClass('fixed');
+		if (scroll >= 161) sticky.addClass('fixed');
 
 		else sticky.removeClass('fixed')
 		 			

@@ -41,7 +41,7 @@
 		<div class="header_inner">
 			
 			<a href="<?php bloginfo('url');?>">
-				<img src="<?php bloginfo('template_directory');?>/images/ted-smith-logo.png"/>
+				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/logo-m.png"/>
 			</a>
 			
 			<div class="consultation_header">
