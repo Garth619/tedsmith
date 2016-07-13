@@ -15,4 +15,23 @@ jQuery(document).ready(function() {
 		
 	});
 	
+	// My Custom Fixed Mobile Menu
+	
+	jQuery(window).scroll(function(){
+  	
+  	var sticky = jQuery('.mobile_menu, .home_banner'),
+  			
+      	scroll = jQuery(window).scrollTop();
+
+		if (scroll >= 164) sticky.addClass('fixed');
+
+		else sticky.removeClass('fixed')
+		 			
+	
+	});
+	
+	jQuery('.menu_wrapper').clone().appendTo("body");
+	
+	
 });
+

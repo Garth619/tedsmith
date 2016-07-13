@@ -34,6 +34,8 @@
 
 <body <?php body_class(); ?>>
 	
+	<div id="wrap">
+	
 	<header>
 		
 		<div class="header_inner">
@@ -49,25 +51,35 @@
 			
 		</div><!-- header_inner -->
 		
-		<nav class="menu_wrapper">
-				
-				<span class="mobile_menu_title">Menu</span>
-				
-				<div class="menu_bars">
+		<div class="mobile_menu">
+		
+			<div class="menu_wrapper">
 					
-					<div class="menu_single_bar"></div>
-					<div class="menu_single_bar"></div>
-					<div class="menu_single_bar"></div>
+					<span class="mobile_menu_title">Menu</span>
 					
-				</div><!-- menu_bars -->
+					<div class="menu_bars">
+						
+						<div class="menu_single_bar"></div>
+						<div class="menu_single_bar"></div>
+						<div class="menu_single_bar"></div>
+						
+					</div><!-- menu_bars -->
+					
+			</div><!-- menu_wrapper -->
+			
+			<nav>
 				
-		</nav><!-- menu_wrapper -->
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+				
+			</nav>
+		
+		</div><!-- mobile_menu -->
 		
 	</header>
 				
 				
 				
 				
-				<?php //wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+				
 			
 
