@@ -23866,6 +23866,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/wp-content\/themes\/tedsmith\/js\/tedsmith-custom copy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/js\/tedsmith-custom copy.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/js\/min\/tedsmith-custom copy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/wp-content\/themes\/tedsmith\/js\/tedsmith-custom-min.js": {
 		"fileType": 64,
 		"ignore": 1,
