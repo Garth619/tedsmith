@@ -207,24 +207,28 @@ header {
 
 
 .menu_bars.open {
-	
+	position:relative;
+	top:-2px;
 }
 
 
 .menu_bars.open .menu_single_bar:first-of-type {
     transform: rotate(45deg);
-    transform-origin: 7px 9px 0;
+    transform-origin: -1px 9px 0;
     transition: all 0.2s ease 0s;
+    width:30px;
 }
 
 .menu_bars.open .menu_single_bar:nth-of-type(2) {
     opacity: 0;
+    transition: all 0.2s ease 0s;
 }
 
 .menu_bars.open .menu_single_bar:last-of-type {
     transform: rotate(-45deg);
-    transform-origin: 13px 0 0;
+    transform-origin: 7px 0 0;
     transition: all 0.2s ease 0s;
+    width:30px;
 }
 
 
