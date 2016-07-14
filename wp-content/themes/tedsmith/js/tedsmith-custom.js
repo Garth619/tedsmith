@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
 	
 	jQuery(window).scroll(function(){
   	
-  	var sticky = jQuery('.menu_wrapper, .nav_wrapper, nav, .home_banner'),
+  	var sticky = jQuery('.menu_wrapper, .nav_wrapper, .home_banner'),
   			
       	scroll = jQuery(window).scrollTop();
 
@@ -30,7 +30,15 @@ jQuery(document).ready(function() {
 	
 	});
 	
-	jQuery('.menu_wrapper').clone().appendTo("body");
+	jQuery('.mobile_menu_title, .menu_bars').click(function() {
+  	
+		jQuery('.nav_wrapper').slideToggle(400);
+		jQuery('.mobile_menu_title, .menu_bars, span.mobile_menu_title').toggleClass('open');
+  	
+	});
+	
+	
+	
 	
 	
 });

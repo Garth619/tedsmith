@@ -22,6 +22,9 @@ a {
 a img {
   border: none; }
 
+html {
+  -webkit-text-size-adjust: 100%; }
+
 /* Global */
 body {
   font-family: "Utopia W01 Regular";
@@ -129,12 +132,18 @@ header {
   overflow: hidden;
   text-align: center;
   padding: 12px 0;
-  position: relative; }
+  position: relative;
+  height: 54px; }
   .menu_wrapper span.mobile_menu_title {
     font-size: 22px;
     vertical-align: middle;
     display: inline-block;
-    margin-right: 15px; }
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s; }
+  .menu_wrapper span.mobile_menu_title.open {
+    color: #4274e1;
+    transition: all 0.2s ease 0s; }
   .menu_wrapper .menu_bars {
     width: 45px;
     vertical-align: middle;
@@ -142,7 +151,27 @@ header {
     .menu_wrapper .menu_bars .menu_single_bar {
       height: 6px;
       margin-bottom: 4px;
-      background: #4274e1; }
+      background: #4274e1;
+      transition: all 0.2s ease 0s;
+      cursor: pointer; }
+
+.menu_bars.open {
+  width: 35px; }
+
+.menu_bars.open .menu_single_bar:first-of-type {
+  transform: rotate(45deg);
+  transform-origin: 2px 1px 0;
+  transition: all 0.2s ease 0s;
+  height: 4px; }
+
+.menu_bars.open .menu_single_bar:nth-of-type(2) {
+  opacity: 0; }
+
+.menu_bars.open .menu_single_bar:last-of-type {
+  transform: rotate(-45deg);
+  transform-origin: 6px 5px 0;
+  transition: all 0.2s ease 0s;
+  height: 4px; }
 
 /* Nav */
 .menu_wrapper.fixed {
@@ -161,7 +190,7 @@ header {
   background: #fff;
   width: 100%;
   left: 0;
-  display: block; }
+  display: none; }
 
 .nav_wrapper.fixed {
   position: fixed;

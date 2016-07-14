@@ -44,6 +44,8 @@ $proximareg: "Proxima N W01 Cd Reg";
 a {outline: none;}
 a img {border:none}
 
+html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
+
 
 /* Global */
 
@@ -177,11 +179,18 @@ header {
 	text-align: center;
 	padding: 12px 0;
 	position: relative;
+	height:54px;
 	span.mobile_menu_title {
 		font-size: 22px;
 		vertical-align: middle;
 		display: inline-block;
 		margin-right:15px;
+		cursor: pointer;
+		transition: all 0.2s ease 0s;
+	}
+	span.mobile_menu_title.open {
+		color:$blue;
+		transition: all 0.2s ease 0s;
 	}
 	.menu_bars {
 		width:45px;
@@ -191,9 +200,39 @@ header {
 			height:6px;
 			margin-bottom:4px;
 			background:$blue;
+			transition: all 0.2s ease 0s;
+			cursor: pointer;
 		}
 	}
 }
+
+
+.menu_bars.open {
+	width:35px;
+	
+	
+}
+
+
+.menu_bars.open .menu_single_bar:first-of-type {
+    transform: rotate(45deg);
+    transform-origin: 2px 1px 0;
+    transition: all 0.2s ease 0s;
+    height:4px;
+}
+
+.menu_bars.open .menu_single_bar:nth-of-type(2) {
+    opacity: 0;
+}
+
+.menu_bars.open .menu_single_bar:last-of-type {
+    transform: rotate(-45deg);
+    transform-origin: 6px 5px 0;
+    transition: all 0.2s ease 0s;
+    height:4px;
+}
+
+
 
 /* Nav */
 
@@ -216,9 +255,8 @@ header {
 	top:212px;
 	background: #fff;
 	width:100%;
-	
 	left:0;
-	display: block;
+	display: none;
 	
 }
 
@@ -232,9 +270,7 @@ header {
 	
 }
 
-nav.fixed {
-	
-}
+
 
 
 nav {
