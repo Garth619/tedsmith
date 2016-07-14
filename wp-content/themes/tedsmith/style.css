@@ -171,7 +171,7 @@ header {
 .menu_bars.open .menu_single_bar:last-of-type {
   transform: rotate(-45deg);
   transform-origin: 7px 0 0;
-  transition: all 0.2s ease 0s;
+  transform-origin: 6px 0 0;
   width: 30px; }
 
 /* Nav */
@@ -191,12 +191,12 @@ header {
   background: #fff;
   width: 100%;
   left: 0;
-  display: none; }
+  display: none;
+  height: 100%; }
 
 .nav_wrapper.fixed {
   position: fixed;
   top: 53px;
-  height: 100%;
   overflow-y: scroll; }
 
 nav {
@@ -208,7 +208,8 @@ nav {
     font-family: "Proxima N W01 Cd Light";
     text-transform: uppercase;
     font-size: 18px;
-    font-weight: 300; }
+    font-weight: 300;
+    cursor: pointer; }
     nav ul li a {
       color: #151515;
       text-decoration: none;
@@ -224,6 +225,8 @@ nav {
       					transition:background .4s ease;
       				}
       */ }
+    nav ul li ul.sub-menu {
+      display: none; }
   nav ul li.menu-item-has-children > a:after {
     background: url(images/small-imgs/black-arrow.png) top left no-repeat;
     content: "";

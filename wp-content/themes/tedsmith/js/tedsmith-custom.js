@@ -38,6 +38,14 @@ jQuery(document).ready(function() {
 	});
 	
 	
+	jQuery('.menu-item-has-children ').click(function() {
+  	
+		jQuery(this).children('.sub-menu').slideToggle(400);
+		jQuery(this).toggleClass('open');
+  	
+	});
+	
+	
 	
 	
 	
