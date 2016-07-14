@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
 	
 	jQuery(window).scroll(function(){
   	
-  	var sticky = jQuery('.menu_wrapper, .home_banner'),
+  	var sticky = jQuery('.menu_wrapper, .nav_wrapper, nav, .home_banner'),
   			
       	scroll = jQuery(window).scrollTop();
 

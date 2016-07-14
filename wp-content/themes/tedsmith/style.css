@@ -157,7 +157,7 @@ header {
 .nav_wrapper {
   z-index: 99;
   position: absolute;
-  top: 190px;
+  top: 212px;
   background: #fff;
   width: 100%;
   left: 0;
@@ -166,6 +166,7 @@ header {
 .nav_wrapper.fixed {
   position: fixed;
   top: 53px;
+  height: 100%;
   overflow-y: scroll; }
 
 nav {
