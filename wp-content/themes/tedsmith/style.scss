@@ -277,6 +277,7 @@ nav {
 		width:100%;
 		padding-bottom:65px;
 	ul {
+		transition:background .4s ease;
 		li {
 			list-style: none;
 			font-family: $proximareg;
@@ -306,6 +307,11 @@ nav {
 			}
 			ul.sub-menu.open {
 				background:#eaeaea;
+
+				li.menu-item-has-children a {
+					background:#eaeaea;
+				}
+
 			}
 		}
 		li.menu-item-has-children > a:after {
@@ -316,7 +322,7 @@ nav {
 			display: inline-block;
 			margin-left:9px;
 		}
-		li.menu-item-has-children > a.open {
+		li.menu-item-has-children a.open {
 			background:#f5f5f5;
 			transition:background .4s ease;
 		}
