@@ -132,8 +132,7 @@ header {
   overflow: hidden;
   text-align: center;
   padding: 12px 0;
-  position: relative;
-  height: 54px; }
+  position: relative; }
   .menu_wrapper span.mobile_menu_title {
     font-size: 22px;
     vertical-align: middle;
@@ -155,23 +154,18 @@ header {
       transition: all 0.2s ease 0s;
       cursor: pointer; }
 
-.menu_bars.open {
-  width: 35px; }
-
 .menu_bars.open .menu_single_bar:first-of-type {
   transform: rotate(45deg);
-  transform-origin: 2px 1px 0;
-  transition: all 0.2s ease 0s;
-  height: 4px; }
+  transform-origin: 7px 9px 0;
+  transition: all 0.2s ease 0s; }
 
 .menu_bars.open .menu_single_bar:nth-of-type(2) {
   opacity: 0; }
 
 .menu_bars.open .menu_single_bar:last-of-type {
   transform: rotate(-45deg);
-  transform-origin: 6px 5px 0;
-  transition: all 0.2s ease 0s;
-  height: 4px; }
+  transform-origin: 13px 0 0;
+  transition: all 0.2s ease 0s; }
 
 /* Nav */
 .menu_wrapper.fixed {

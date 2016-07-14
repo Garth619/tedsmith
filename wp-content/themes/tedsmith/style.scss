@@ -179,7 +179,6 @@ header {
 	text-align: center;
 	padding: 12px 0;
 	position: relative;
-	height:54px;
 	span.mobile_menu_title {
 		font-size: 22px;
 		vertical-align: middle;
@@ -208,17 +207,14 @@ header {
 
 
 .menu_bars.open {
-	width:35px;
-	
 	
 }
 
 
 .menu_bars.open .menu_single_bar:first-of-type {
     transform: rotate(45deg);
-    transform-origin: 2px 1px 0;
+    transform-origin: 7px 9px 0;
     transition: all 0.2s ease 0s;
-    height:4px;
 }
 
 .menu_bars.open .menu_single_bar:nth-of-type(2) {
@@ -227,9 +223,8 @@ header {
 
 .menu_bars.open .menu_single_bar:last-of-type {
     transform: rotate(-45deg);
-    transform-origin: 6px 5px 0;
+    transform-origin: 13px 0 0;
     transition: all 0.2s ease 0s;
-    height:4px;
 }
 
 
