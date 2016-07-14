@@ -38,10 +38,10 @@ jQuery(document).ready(function() {
 	});
 	
 	
-	jQuery('.menu-item-has-children ').click(function() {
+	jQuery('li.menu-item-has-children > a').click(function() {
   	
-		jQuery(this).children('.sub-menu').slideToggle(400);
-		jQuery(this).toggleClass('open');
+		jQuery(this).next('.sub-menu').slideToggle(400).toggleClass('open');
+		jQuery(this, 'li.menu-item-has-children > a').toggleClass('open');
   	
 	});
 	
