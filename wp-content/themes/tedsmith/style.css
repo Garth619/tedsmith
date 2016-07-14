@@ -107,10 +107,12 @@ header {
   width: 100%;
   text-align: center; }
   header .header_inner {
-    padding: 30px 12px 0px; }
+    padding: 30px 0px 0px; }
     header .header_inner img {
       max-width: 100%;
       padding-bottom: 15px; }
+    header .header_inner img.desktop_logo {
+      display: none; }
 
 .consultation_header {
   margin-bottom: 25px; }
@@ -758,3 +760,36 @@ footer {
     text-decoration: none; }
   footer img {
     margin-bottom: 35px; }
+
+@media screen and (min-width: 755px) {
+  /* Header */
+  header {
+    text-align: left; }
+    header .header_inner {
+      overflow: hidden;
+      padding: 0; }
+      header .header_inner .header_left {
+        display: block;
+        float: left;
+        padding: 30px 0 0 12px; }
+        header .header_inner .header_left img.desktop_logo {
+          display: block; }
+        header .header_inner .header_left img.mobile_logo {
+          display: none; }
+
+  .consultation_header {
+    margin-top: 4px; }
+    .consultation_header span {
+      margin-right: 8px; }
+
+  .menu_wrapper {
+    width: 80px;
+    float: right;
+    height: 153px; }
+    .menu_wrapper span.mobile_menu_title {
+      margin: 0;
+      position: relative;
+      top: 70px;
+      font-size: 20px; }
+    .menu_wrapper .menu_bars {
+      padding-top: 12px; } }

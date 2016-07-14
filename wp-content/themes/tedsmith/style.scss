@@ -147,10 +147,13 @@ header {
 	width:100%;
 	text-align: center;
 	.header_inner {
-		padding:30px 12px 0px;
+		padding:30px 0px 0px;
 		img {
 			max-width:100%;
 			padding-bottom:15px;
+		}
+		img.desktop_logo {
+			display:none;
 		}
 	}
 }
@@ -964,5 +967,63 @@ footer {
 		margin-bottom:35px;
 	}
 }
+
+
+@media screen and (min-width: 755px) {
+	
+	/* Header */
+
+
+header {
+	text-align:left;
+	.header_inner {
+		overflow:hidden;
+		padding:0;
+		.header_left {
+			display:block;
+			float:left;
+			padding:30px 0 0 12px;
+			img.desktop_logo {
+				display:block;
+			}
+			img.mobile_logo {
+				display:none;
+			}
+		}
+	}
+}
+
+.consultation_header {
+	margin-top: 4px;
+	span {
+		margin-right:8px;
+	}
+}
+
+.menu_wrapper {
+	width:80px;
+	float:right;
+	height:153px;
+	span.mobile_menu_title {
+		margin:0;
+		position:relative;
+		top:70px;
+		font-size:20px;
+	}
+	.menu_bars {
+		padding-top: 12px;
+		
+		.menu_single_bar {
+			
+		}
+	}
+}
+
+
+
+
+	
+}
+
 
  

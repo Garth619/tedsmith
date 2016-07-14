@@ -40,16 +40,21 @@
 		
 		<div class="header_inner">
 			
-			<a href="<?php bloginfo('url');?>">
-				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/logo-m.png"/>
-			</a>
+			<div class="header_left">
 			
-			<div class="consultation_header">
-				<span>Call for a Free Consultation</span>
-				<a class="phone_header" href="tel:2546905688">254.690.5688</a>
-			</div><!-- consultation_header -->
+				<a href="<?php bloginfo('url');?>">
+					<img class="mobile_logo" src="<?php bloginfo('template_directory');?>/images/small-imgs/logo-m.png"/>
+					<img class="desktop_logo" src="<?php bloginfo('template_directory');?>/images/small-imgs/smith-logo.png"/>
+				</a>
+				
+				<div class="consultation_header">
+					<span>Call for a Free Consultation</span>
+					<a class="phone_header" href="tel:2546905688">254.690.5688</a>
+				</div><!-- consultation_header -->
+				
+				</div><!-- header_left -->
 			
-		</div><!-- header_inner -->
+		
 		
 		
 		
@@ -77,6 +82,7 @@
 			
 			</div><!-- nav_wrapper -->
 		
+		</div><!-- header_inner -->
 		
 		
 	</header>
