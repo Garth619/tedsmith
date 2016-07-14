@@ -67,11 +67,15 @@
 					
 			</div><!-- menu_wrapper -->
 			
-			<nav>
+			<div class="nav_wrapper">
 				
-				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+				<nav>
 				
-			</nav>
+					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+				
+				</nav>
+			
+			</div><!-- nav_wrapper -->
 		
 		
 		
