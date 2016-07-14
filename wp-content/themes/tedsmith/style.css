@@ -232,8 +232,12 @@ nav {
         display: none; }
       nav ul li ul.sub-menu.open {
         background: #eaeaea; }
+        nav ul li ul.sub-menu.open li ul.sub-menu.open li a {
+          background: #cbcbcb; }
         nav ul li ul.sub-menu.open li.menu-item-has-children a {
           background: #eaeaea; }
+        nav ul li ul.sub-menu.open li.menu-item-has-children a.open {
+          background: #e0e0e0; }
     nav ul li.menu-item-has-children > a:after {
       background: url(images/small-imgs/black-arrow.png) top left no-repeat;
       content: "";

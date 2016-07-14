@@ -307,9 +307,22 @@ nav {
 			}
 			ul.sub-menu.open {
 				background:#eaeaea;
-
+				li {
+					ul.sub-menu.open {
+						li {
+							a {
+								background: #cbcbcb;
+							}
+						}
+					}
+				}
+				
 				li.menu-item-has-children a {
 					background:#eaeaea;
+				}
+				li.menu-item-has-children a.open {
+					background:#e0e0e0;
+						
 				}
 
 			}
@@ -328,8 +341,6 @@ nav {
 		}
 	}
 }
-
-
 
 
 
