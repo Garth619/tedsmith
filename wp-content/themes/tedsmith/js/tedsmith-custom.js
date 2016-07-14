@@ -46,6 +46,66 @@ jQuery(document).ready(function() {
 	});
 	
 	
+	// Media Queries Detection for various functions 
+	
+	
+/*
+	 var query = Modernizr.mq('(min-width: 755px)');
+ 
+	 if (query) {
+   	
+   	jQuery('body').css("background","red");
+ 		
+ 		
+ 		}
+*/
+
+
+// MediaCheck library
+
+jQuery(function() {
+  var $test = jQuery('test');
+
+  mediaCheck({
+    media: '(max-width: 420px)',
+    entry: function() {
+      console.log('starting 420');
+    },
+    exit: function() {
+      console.log('leaving 420');
+    }
+  });
+
+  mediaCheck({
+    media: '(max-width: 600px)',
+    entry: function() {
+      jQuery('#test').text('This is a smaller screen.');
+    },
+    exit: function() {
+      jQuery('#test').text('This is a larger screen.');
+    }
+  });
+
+  mediaCheck({
+    media: '(max-width: 40em)',
+    entry: function() {
+      console.log('starting 40em');
+    },
+    exit: function() {
+      console.log('leaving 40em');
+    }
+  });
+
+  mediaCheck({
+    media: '(max-width: 50em)',
+    both: function() {
+      console.log('starting or ending 50em');
+    }
+  });
+
+});
+	
+	
 	
 	
 	
