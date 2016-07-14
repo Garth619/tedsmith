@@ -187,10 +187,13 @@ nav {
       padding: 25px 10px 21px;
       border-bottom: 1px solid #e2e2e2;
       width: 100%;
-      transition: background .4s ease; }
-      nav ul li a:hover {
-        background: #f5f5f5;
-        transition: background .4s ease; }
+      transition: background .4s ease;
+      /*
+      				&:hover {
+      					background:#f5f5f5;
+      					transition:background .4s ease;
+      				}
+      */ }
   nav ul li.menu-item-has-children > a:after {
     background: url(images/small-imgs/black-arrow.png) top left no-repeat;
     content: "";
