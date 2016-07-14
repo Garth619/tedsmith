@@ -63,6 +63,7 @@ jQuery(document).ready(function() {
 
 // MediaCheck library
 
+
 /*
 jQuery(function() {
   var $test = jQuery('test');
@@ -112,40 +113,53 @@ jQuery(function() {
 
 
 
-  function smallScreen(mq) {
-    if (mq.media)
 
-    	jQuery("body").css("background","red");
-    
+
+/*
+  var $demo = $('.demo-area');
+
+  function stickyheader(mq) {
+    if (mq.media)
+    $demo.text('This is a smaller screen.');
+    $demo.animate({
+      backgroundColor: '#19ae2b'
+    });
   }
 
   function largeScreen(mq) {
-    if (jQuery(document).width() >= 900) {
+    if ($(document).width() >= 900) {
       // Note: Because this gets called by both media query checks,
       // it needs to make sure that it actually needs to apply so
       // it doesn't overwrite the smallScreen message.
-      
-      jQuery("body").css("background","blue");
-      
+      $demo.text('This is a larger screen.');
+      $demo.animate({
+        backgroundColor: '#d3811e'
+      });
     }
   }
 
-  function largescreentwo(mq) {
-    
-    jQuery("body").css("background","purple");
+  function dude(mq) {
+    $demo.text("Dude, that's a really big screen.");
+    $demo.animate({
+      backgroundColor: '#6814d3'
+    });
   }
 
   mediaCheck({
-    media: '(min-width: 755px)',
+    media: '(min-width: 900px)',
     entry: largeScreen,
     exit: smallScreen
   });
 
   mediaCheck({
     media: '(min-width: 1400px)',
-    entry: largescreentwo,
+    entry: dude,
     exit: largeScreen
   });
+*/
+
+
+
 	
 	
 	
