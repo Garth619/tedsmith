@@ -1,11 +1,18 @@
 jQuery(document).ready(function() {
 	
 	
-	jQuery('.process_single_box_wrapper').click(function() {
+
+/*
+jQuery('.process_single_box_wrapper').click(function() {
   	
   	jQuery('.process_hover_wrapper').toggleClass('open');
   	
 	});
+*/
+
+
+
+	
 	
 	jQuery('.read_more').click(function(){
 		
@@ -48,122 +55,61 @@ jQuery(document).ready(function() {
 	
 	// Media Queries Detection for various functions 
 	
-	
-/*
-	 var query = Modernizr.mq('(min-width: 755px)');
- 
-	 if (query) {
-   	
-   	jQuery('body').css("background","red");
+
  		
  		
- 		}
-*/
+ 		
+ 		
+ 		jQuery(window).resize(function(){
+            
+      if (Modernizr.mq('(min-width: 755px)')) {
+          
+          jQuery("body").css("background","red");
+          
+          
+          
+          
+          
+          
+      } else {
+          
+          // Clear the settings etc
+          
+          jQuery("body").css("background","blue");
+          
+          
+         
 
-
-// MediaCheck library
-
-
-/*
-jQuery(function() {
-  var $test = jQuery('test');
-
-  mediaCheck({
-    media: '(max-width: 420px)',
-    entry: function() {
-      console.log('starting 420');
-    },
-    exit: function() {
-      console.log('leaving 420');
-    }
-  });
-
-  mediaCheck({
-    media: '(max-width: 600px)',
-    entry: function() {
-      jQuery('#test').text('This is a smaller screen.');
-    },
-    exit: function() {
-      jQuery('#test').text('This is a larger screen.');
-    }
-  });
-
-  mediaCheck({
-    media: '(max-width: 40em)',
-    entry: function() {
-      console.log('starting 40em');
-    },
-    exit: function() {
-      console.log('leaving 40em');
-    }
-  });
-
-  mediaCheck({
-    media: '(max-width: 50em)',
-    both: function() {
-      console.log('starting or ending 50em');
-    }
-  });
-
-});
-*/
+						function garrett() {
+						  jQuery('.process_hover_wrapper').toggleClass('open');
+						}
+						
+						
+						jQuery( ".process_single_box_wrapper" ).on( "click", garrett );
 
 
 
 
 
+          
+   }
+    
+    
+    }).resize();
+ 		
+ 		
+ 		
+ 		
 
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
 
-
-/*
-  var $demo = $('.demo-area');
-
-  function stickyheader(mq) {
-    if (mq.media)
-    $demo.text('This is a smaller screen.');
-    $demo.animate({
-      backgroundColor: '#19ae2b'
-    });
-  }
-
-  function largeScreen(mq) {
-    if ($(document).width() >= 900) {
-      // Note: Because this gets called by both media query checks,
-      // it needs to make sure that it actually needs to apply so
-      // it doesn't overwrite the smallScreen message.
-      $demo.text('This is a larger screen.');
-      $demo.animate({
-        backgroundColor: '#d3811e'
-      });
-    }
-  }
-
-  function dude(mq) {
-    $demo.text("Dude, that's a really big screen.");
-    $demo.animate({
-      backgroundColor: '#6814d3'
-    });
-  }
-
-  mediaCheck({
-    media: '(min-width: 900px)',
-    entry: largeScreen,
-    exit: smallScreen
-  });
-
-  mediaCheck({
-    media: '(min-width: 1400px)',
-    entry: dude,
-    exit: largeScreen
-  });
-*/
-
-
-
-	
-	
-	
-	
-	
+ 	
 });
 
