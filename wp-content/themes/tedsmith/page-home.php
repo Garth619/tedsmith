@@ -34,7 +34,7 @@ get_header(); ?>
 	
 	<div class="process_single_box_wrapper">
 		
-		<div class="process_single_box">
+		<div class="process_single_box myclick">
 			
 			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
 			<span class="process_title">expect personal attention</span>

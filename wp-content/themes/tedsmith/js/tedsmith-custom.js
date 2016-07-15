@@ -2,16 +2,23 @@ jQuery(document).ready(function() {
 	
 	
 
-/*
-jQuery('.process_single_box_wrapper').click(function() {
+
+jQuery('.myclick').click(function() {
   	
   	jQuery('.process_hover_wrapper').toggleClass('open');
   	
-	});
+});
+
+
+
+/*
+          function garretttwo() {
+						  jQuery('.process_hover_wrapper').toggleClass('open');
+						}
+						
+						
+						jQuery( ".process_single_box_wrapper" ).off( "click", garretttwo );
 */
-
-
-
 	
 	
 	jQuery('.read_more').click(function(){
@@ -64,10 +71,10 @@ jQuery('.process_single_box_wrapper').click(function() {
             
       if (Modernizr.mq('(min-width: 755px)')) {
           
-          jQuery("body").css("background","red");
+          jQuery(".process_single_box").removeClass("myclick");
           
           
-          
+
           
           
           
@@ -75,24 +82,10 @@ jQuery('.process_single_box_wrapper').click(function() {
           
           // Clear the settings etc
           
-          jQuery("body").css("background","blue");
+          jQuery(".process_single_box").addClass("myclick");
           
           
-         
-
-						function garrett() {
-						  jQuery('.process_hover_wrapper').toggleClass('open');
-						}
-						
-						
-						jQuery( ".process_single_box_wrapper" ).on( "click", garrett );
-
-
-
-
-
-          
-   }
+         }
     
     
     }).resize();
