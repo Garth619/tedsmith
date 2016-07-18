@@ -30,7 +30,7 @@ jQuery('.read_more').click(function(){
 		
 		jQuery('.read_more').fadeOut();
 		
-		jQuery(this).next('.toggle_text').delay(300).slideToggle(200);
+		jQuery(this).next('.toggle_text').delay(300).slideDown(200);
 		
 	});
 	
@@ -69,7 +69,13 @@ jQuery('.read_more').click(function(){
 	
 	
 	
-	  jQuery('.your-class').slick({
+	  jQuery('.review_stars_wrapper').slick({
+	    
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    
+			infinite: true
+	    // autoplay: true,
 	    
 	  });
 

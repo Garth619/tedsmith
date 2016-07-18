@@ -387,15 +387,24 @@ nav {
 
 .review_stars_wrapper {
 	margin-top: 48px;
-	span.review_text {
-		font-family: $proximareg;
-		text-transform: uppercase;
-		font-size: 15px;
-		display:block;
-		margin-top: 30px;
-	}
-	.small_arrow {
-		margin-left:10px;
+	text-align: center;
+	.review_single_wrapper {
+	
+		span.review_text {
+			font-family: $proximareg;
+			text-transform: uppercase;
+			font-size: 15px;
+			display:inline-block;
+			margin-top: 30px;
+		}
+		img.stars_img {
+			margin:0 auto;
+			display:inline-block;
+		}
+		.small_arrow {
+			margin-left:10px;
+			display:inline-block;
+		}
 	}
 }
 
@@ -1144,6 +1153,7 @@ nav {
 		display:block;
 		margin-top: 30px;
 	}
+	
 	.small_arrow {
 		margin-left:10px;
 	}
