@@ -43,10 +43,47 @@
 		
 		<div class="social_icon_wrapper">
 			
-			<a href="">
-				<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-goggle.png"/>
-				<span>Google+</span>
-			</a>
+			<div>
+				<a href="">
+					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-twitter.png"/>
+					<span>Twitter</span>
+				</a>
+			</div>
+			
+			<div>
+				<a href="">
+					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-linkedin.png"/>
+					<span>LinkedIn</span>
+				</a>
+			</div>
+			
+			<div>
+				<a href="">
+					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-goggle.png"/>
+					<span>Google+</span>
+				</a>
+			</div>
+			
+			<div>
+				<a href="">
+					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-fb.png"/>
+					<span>Facebook</span>
+				</a>
+			</div>
+			
+			<div>
+				<a href="">
+					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-bbb.png"/>
+					<span>BBB</span>
+				</a>
+			</div>
+			
+			<div>
+				<a href="">
+					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-youtube.png"/>
+					<span>Youtube</span>
+				</a>
+			</div>
 			
 		</div><!-- social_icon_wrapper -->
 		

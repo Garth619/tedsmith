@@ -286,6 +286,37 @@ get_header(); ?>
 			
 			</div><!-- attorneys_single_wrapper -->
 			
+			<div class="attorneys_single_wrapper">
+			
+				<a href="">
+					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
+				
+					<div class="attorneys_title">
+						<span class="attorneys_name">Ted Smith</span>
+						<span class="attorneys_position">Founder / Senior Partner</span>
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+					</div><!-- attorneys_title -->
+				</a>
+			
+			</div><!-- attorneys_single_wrapper -->
+			
+			<div class="attorneys_single_wrapper">
+			
+				<a href="">
+					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
+				
+					<div class="attorneys_title">
+						<span class="attorneys_name">Ted Smith</span>
+						<span class="attorneys_position">Founder / Senior Partner</span>
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+					</div><!-- attorneys_title -->
+				</a>
+			
+			</div><!-- attorneys_single_wrapper -->
+			
+		
+
+			
 			
 		</div><!-- attorneys_wrapper -->
 		
@@ -295,7 +326,19 @@ get_header(); ?>
 		
 		<div class="logo_wrapper">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-1.png"/>
+			<div class="single_logo">
+				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-1.png"/>
+			</div><!-- single_logo -->
+			<div class="single_logo">
+				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-2.png"/>
+			</div><!-- single_logo -->
+			<div class="single_logo">
+				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-3.png"/>
+			</div><!-- single_logo -->
+			<div class="single_logo">
+				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-4.png"/>
+			</div><!-- single_logo -->
+			
 			
 		</div><!-- logo_wrapper -->
 		

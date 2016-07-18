@@ -67,29 +67,16 @@ jQuery('.read_more').click(function(){
 	
 	// Slick Slideshow 
 	
-	// Review Stars
-	
-	  jQuery('.review_stars_wrapper').slick({
-	    dots:true,
-	    slidesToShow: 1,
-	    slidesToScroll: 1,
-	    infinite: true
-	   
-	    
-	  });
-	  
-	 // Process
-	
-	  jQuery('.process_single_box_wrapper').slick({
-	    dots:true,
-	    slidesToShow: 1,
-	    slidesToScroll: 1,
-	    infinite: true
-	   
-	    
-	  });
 
 	
+	  jQuery('.review_stars_wrapper, .process_single_box_wrapper, .attorneys_wrapper, .logo_wrapper, .social_icon_wrapper').slick({
+	    dots:true,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    infinite: true
+	   });
+	  
 	
-	}); // End of Dcoumet Ready
+	  
+}); // End of Dcoumet Ready
 

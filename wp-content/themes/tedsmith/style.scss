@@ -524,18 +524,18 @@ nav {
 		}
 	}
 	ul.slick-dots {
-	li {
-		button:before {
-			background:#000;
+		li {
+			button:before {
+				background:#000;
+			}
+			button:focus:before {
+				background:$blue;
+			}
 		}
-		button:focus:before {
+		li.slick-active button:before {
 			background:$blue;
 		}
 	}
-	li.slick-active button:before {
-		background:$blue;
-	}
-}
 }
 
 /* About Us */
@@ -764,7 +764,7 @@ nav {
  
  .meet_attorneys {
 	 background: $greylight;
-	 padding:90px 0;
+	 padding: 90px 0 60px;
 	 img {
 		 max-width:100%;
 		 height:auto;
@@ -786,6 +786,7 @@ nav {
 		 margin: 0 auto;
 	 	.attorneys_single_wrapper {
 		 	text-align: left;
+		 	margin:0 0px 60px;
 		 .attorneys_title {
 			 background:#fff;
 			 padding:16px;
@@ -813,8 +814,23 @@ nav {
 		 }
 	 }
  	}
+ 	ul.slick-dots {
+		li {
+			button:before {
+				background:#000;
+			}
+			button:focus:before {
+				background:$blue;
+			}
+		}
+		li.slick-active button:before {
+			background:$blue;
+		}
+	}
+ 	
  }
  
+/*
 .attorneys_wrapper .attorneys_single_wrapper:hover .attorneys_title  {
 	 background: $black;
  }
@@ -827,6 +843,7 @@ nav {
  .attorneys_wrapper .attorneys_single_wrapper:hover .attorneys_title .arrow {
 	 display: none
  }
+*/
  
  
  /* Awards */
@@ -834,6 +851,28 @@ nav {
  
  .awards {
 	 padding:50px 0;
+	 ul.slick-dots {
+		 		li {
+		 			button:before {
+		 				background:#000;
+					}
+					button:focus:before {
+						background:$blue;
+					}
+				}
+				li.slick-active button:before {
+					background:$blue;
+				}
+			}
+	 .single_logo {
+		 margin-bottom:40px;
+		 display: inline-block;
+	 		img {
+		 		display: inline-block;
+		 		margin:0 auto;
+		 		vertical-align: middle;
+		 	}
+		}
  }
  
  
