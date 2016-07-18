@@ -3,11 +3,24 @@ jQuery(document).ready(function() {
 	
 
 
-jQuery('.myclick').click(function() {
+jQuery('.mobile .process_single_box_wrapper').click(function() {
   	
   	jQuery('.process_hover_wrapper').toggleClass('open');
   	
-});
+	});
+	
+	
+jQuery('.desktop .process_single_box_wrapper').mouseenter(function() {
+  	
+  	jQuery('.process_hover_wrapper').addClass('open');
+  	
+	});
+	
+jQuery('.desktop .process_single_box_wrapper').mouseleave(function() {
+  	
+  	jQuery('.process_hover_wrapper').removeClass('open');
+  	
+	});
 
 
 
@@ -60,38 +73,7 @@ jQuery('.myclick').click(function() {
 	});
 	
 	
-	// Media Queries Detection for various functions 
-	
-
- 		
- 		
- 		
- 		
- 		jQuery(window).resize(function(){
-            
-      if (Modernizr.mq('(min-width: 755px)')) {
-          
-          jQuery(".process_single_box").removeClass("myclick");
-          
-          
-
-          
-          
-          
-      } else {
-          
-          // Clear the settings etc
-          
-          jQuery(".process_single_box").addClass("myclick");
-          
-          
-         }
-    
-    
-    }).resize();
- 		
- 		
- 		
+	 		
  		
 
  		

@@ -135,7 +135,13 @@ span.mybutton.testimonials_button {
 	}
 }
 
+.mobile {
+	display:block;
+}
 
+.desktop {
+	display:none;
+}
 
 
 
@@ -965,7 +971,17 @@ footer {
 
 @media screen and (min-width: 755px) {
 	
-	/* Header */
+
+.mobile {
+	display:none;
+}
+
+.desktop {
+	display:block;
+}
+
+
+/* Header */
 
 
 header {
@@ -1064,6 +1080,10 @@ nav {
 		}
 	}
 }
+
+
+
+
 
 
 
