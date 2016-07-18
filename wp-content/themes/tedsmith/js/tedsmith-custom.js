@@ -67,10 +67,21 @@ jQuery('.read_more').click(function(){
 	
 	// Slick Slideshow 
 	
-	
+	// Review Stars
 	
 	  jQuery('.review_stars_wrapper').slick({
+	    dots:true,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    infinite: true
+	   
 	    
+	  });
+	  
+	 // Process
+	
+	  jQuery('.process_single_box_wrapper').slick({
+	    dots:true,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
 	    infinite: true
