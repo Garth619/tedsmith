@@ -73,9 +73,8 @@ jQuery('.read_more').click(function(){
 	    
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
-	    
-			infinite: true
-	    // autoplay: true,
+	    infinite: true
+	   
 	    
 	  });
 

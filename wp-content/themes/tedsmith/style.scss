@@ -387,9 +387,13 @@ nav {
 
 .review_stars_wrapper {
 	margin-top: 48px;
-	text-align: center;
-	.review_single_wrapper {
 	
+	.review_single_wrapper {
+		display:inline-block;
+		img.stars_img {
+			margin:0 auto;
+			display:block;
+		}
 		span.review_text {
 			font-family: $proximareg;
 			text-transform: uppercase;
@@ -397,10 +401,7 @@ nav {
 			display:inline-block;
 			margin-top: 30px;
 		}
-		img.stars_img {
-			margin:0 auto;
-			display:inline-block;
-		}
+		
 		.small_arrow {
 			margin-left:10px;
 			display:inline-block;
