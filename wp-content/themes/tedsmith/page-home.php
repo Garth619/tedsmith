@@ -25,7 +25,14 @@ get_header(); ?>
 		
 		<div class="review_single_wrapper">
 			
-			<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-g.png"/>
+			<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-bbb.png"/>
+			<span class="review_text">4.6 google rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+			
+		</div><!-- review_single_wrapper -->
+		
+		<div class="review_single_wrapper">
+			
+			<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-fb.png"/>
 			<span class="review_text">3.9 facebook rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
 			
 		</div><!-- review_single_wrapper -->
@@ -33,14 +40,7 @@ get_header(); ?>
 		<div class="review_single_wrapper">
 			
 			<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-g.png"/>
-			<span class="review_text">3.9 facebook rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
-			
-		</div><!-- review_single_wrapper -->
-		
-		<div class="review_single_wrapper">
-			
-			<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-g.png"/>
-			<span class="review_text">3.9 facebook rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+			<span class="review_text">4.1 bbb rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
 			
 		</div><!-- review_single_wrapper -->
 		
@@ -64,8 +64,8 @@ get_header(); ?>
 		
 		<div class="process_single_box myclick">
 			
-			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
-			<span class="process_title">expect personal attention</span>
+			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon1.png"/>
+			<span class="process_title">honest evaluations</span>
 			<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			
@@ -94,8 +94,23 @@ get_header(); ?>
 			
 			<div class="process_single_box myclick">
 			
-			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
-			<span class="process_title">expect personal attention</span>
+			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon3.png"/>
+			<span class="process_title">we love helping people</span>
+			<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+			
+			
+			<div class="process_hover_wrapper">
+			
+				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+			
+			</div><!-- process_hover_wrapper -->
+
+			</div><!-- process_single_box -->
+			
+			<div class="process_single_box myclick">
+			
+			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon4.png"/>
+			<span class="process_title">affordable & knowledgeable</span>
 			<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			
@@ -115,6 +130,44 @@ get_header(); ?>
 	<section class="process desktop">
 	
 	<div class="process_single_box_wrapper">
+		
+		<div class="process_single_box myclick">
+			
+			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
+			<span class="process_title">expect personal attention</span>
+			<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+			
+			
+			<div class="process_hover_wrapper">
+			
+				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+			
+			</div><!-- process_hover_wrapper -->
+
+			</div><!-- process_single_box -->
+		
+		</div><!-- process_single_box_wrapper -->
+		
+		<div class="process_single_box_wrapper">
+		
+		<div class="process_single_box myclick">
+			
+			<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
+			<span class="process_title">expect personal attention</span>
+			<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+			
+			
+			<div class="process_hover_wrapper">
+			
+				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+			
+			</div><!-- process_hover_wrapper -->
+
+			</div><!-- process_single_box -->
+		
+		</div><!-- process_single_box_wrapper -->
+		
+		<div class="process_single_box_wrapper">
 		
 		<div class="process_single_box myclick">
 			
