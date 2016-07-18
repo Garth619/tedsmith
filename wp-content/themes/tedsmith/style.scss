@@ -852,18 +852,18 @@ nav {
  .awards {
 	 padding:50px 0;
 	 ul.slick-dots {
-		 		li {
-		 			button:before {
-		 				background:#000;
-					}
-					button:focus:before {
-						background:$blue;
-					}
+		 li {
+		 		button:before {
+		 			background:#000;
 				}
-				li.slick-active button:before {
+				button:focus:before {
 					background:$blue;
 				}
 			}
+			li.slick-active button:before {
+				background:$blue;
+			}
+		}
 	 .single_logo {
 		 margin-bottom:40px;
 		 display: inline-block;
@@ -1036,18 +1036,42 @@ input.gform_button {
 
 .social_icons {
 	background: $black;
-	padding:75px 0;
-	.social_img {
-		display: block;
-		margin:0 auto 40px;
+	padding:75px 0 0px;
+	.social_icon_wrapper {
+		
+		ul.slick-dots {
+			padding: 25px 0 10px;
+			background:#0d0d0d;
+			li {
+			 	button:before {
+			 		background:#343434;
+			 	}
+			 	button:focus:before {
+			 		background:$blue;
+			 	}
+			 }
+			 li.slick-active button:before {
+			 	background:$blue;
+			 }
+		}
+		.single_social_wrapper {
+			margin-bottom:75px;
+			.social_img {
+				display: block;
+				margin:0 auto 40px;
+			}
+			a {
+				text-decoration: none;
+				font-family: $proximalight;
+				text-transform: uppercase;
+				letter-spacing:1.5px;
+				color:#fff;
+			}
+	}		
 	}
-	a {
-		text-decoration: none;
-		font-family: $proximalight;
-		text-transform: uppercase;
-		letter-spacing:1.5px;
-		color:#fff;
-	}
+	.slick-dotted.slick-slider {
+    margin-bottom: 25px !important;
+}
 }
 
 
@@ -1060,6 +1084,7 @@ footer {
 	text-transform: uppercase;
 	letter-spacing:1.5px;
 	font-size:16px;
+	padding-top:30px;
 	span.copyright {
 		padding:0 25px;
 		display: block;
