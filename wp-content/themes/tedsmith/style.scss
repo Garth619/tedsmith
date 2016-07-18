@@ -167,9 +167,7 @@ ul.slick-dots {
 
 
 .slick-prev, .slick-next {
-	
 	display:none !important;
-	
 }
 
 /* Header */
@@ -466,6 +464,7 @@ nav {
 			padding:40px 20px;
 			cursor: pointer;
 			margin:0 0px 35px;
+			height:368px;
 			span.process_title {
 				font-family: $utopiabolditalic;
 				font-weight:300;
@@ -1129,6 +1128,8 @@ span.mybutton {
 }
 
 
+
+
 /* Header */
 
 header {
@@ -1289,9 +1290,27 @@ nav {
 
 .process {
 	.process_single_box_wrapper {
+		position:relative;
+		.slick-prev, .slick-next {
+			display:block  !important;
+			
+		}
+		.slick-prev:before {
+    	content: "ee" !important;
+// 			background:url(images/small-imgs/tab-sp-arrow-right.png) top left no-repeat;
+			width:13px;
+			height:23px;
+			background:red;
+			color:red;
+		}
+		.slick-prev {
+			left:0px !important;
+			z-index:6000;			
+		}
 		.process_single_box {
 			padding:95px 150px 35px;
 			margin:0px;
+			height:425px;
 			span.process_title {
 				font-size:43px;
 			}

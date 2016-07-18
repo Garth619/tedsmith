@@ -77,6 +77,19 @@ jQuery('.read_more').click(function(){
 	   });
 	   
 	   
+/*
+	   jQuery('.process_single_box_wrapper').slick({
+	    dots:true,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    infinite: true
+	   });
+*/
+	   
+	   
+	   
+	   
+	   
 	  jQuery('.review_stars_wrapper').slick({
 			slidesToShow: 3,
 	    slidesToScroll: 3,
