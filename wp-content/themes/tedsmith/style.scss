@@ -461,7 +461,7 @@ nav {
 			width:100%;
 			padding:40px 60px;
 			cursor: pointer;
-			margin:0 10px 35px;
+			margin:0 0px 35px;
 			span.process_title {
 				font-family: $utopiabolditalic;
 				font-weight:300;
@@ -729,7 +729,7 @@ nav {
 		background: #fff;
 		width:81%;
 		margin:61px auto 0px;
-		padding:50px 20px;
+		padding: 50px 20px 70px;
 		
 		.testimonial_stars {
 			margin-bottom: 50px;
@@ -937,6 +937,7 @@ nav {
 			 }
 			 textarea {
 				 width:100%;
+				 height:185px;
 			 }
 			 ::-webkit-input-placeholder {color:$purple;}
 			 ::-moz-placeholder          {color:$purple;} 
@@ -1266,7 +1267,7 @@ nav {
 }
 
 .review_stars_wrapper {
-	margin-top: 60px;
+	margin-top: 70px;
 	span.review_text {
 		font-family: $proximareg;
 		text-transform: uppercase;

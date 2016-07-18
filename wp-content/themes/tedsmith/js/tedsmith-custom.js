@@ -69,12 +69,29 @@ jQuery('.read_more').click(function(){
 	
 
 	
-	  jQuery('.review_stars_wrapper, .process_single_box_wrapper, .attorneys_wrapper, .logo_wrapper, .social_icon_wrapper').slick({
+	  jQuery('.process_single_box_wrapper, .attorneys_wrapper, .logo_wrapper, .social_icon_wrapper').slick({
 	    dots:true,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
 	    infinite: true
 	   });
+	   
+	   
+	  jQuery('.review_stars_wrapper').slick({
+			slidesToShow: 3,
+	    slidesToScroll: 3,
+			responsive: [
+			  {
+			    breakpoint: 755,
+			    settings: {
+			      slidesToShow: 1,
+			      slidesToScroll: 1,
+			      infinite: true,
+			      dots: true
+			    }
+			  }
+			]
+		});
 	  
 	
 	  

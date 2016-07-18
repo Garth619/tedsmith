@@ -94,7 +94,7 @@
 		
 		
 		<span class="copyright">Copyright &copy; ted smith law group 2016 | <a href="">disclaimer</a> | <a href="">sitemap</a></span>
-		<a href=""><img src="<?php bloginfo('template_directory');?>/images/small-imgs/ilawyer-logo.png"/></a>
+		<a href="http://ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/small-imgs/ilawyer-logo.png"/></a>
 		
 		
 	</footer>
