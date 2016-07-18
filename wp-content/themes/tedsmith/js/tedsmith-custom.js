@@ -23,18 +23,7 @@ jQuery('.desktop .process_single_box_wrapper').mouseleave(function() {
 	});
 
 
-
-/*
-          function garretttwo() {
-						  jQuery('.process_hover_wrapper').toggleClass('open');
-						}
-						
-						
-						jQuery( ".process_single_box_wrapper" ).off( "click", garretttwo );
-*/
-	
-	
-	jQuery('.read_more').click(function(){
+jQuery('.read_more').click(function(){
 		
 		jQuery('.read_more').fadeOut();
 		
@@ -74,17 +63,5 @@ jQuery('.desktop .process_single_box_wrapper').mouseleave(function() {
 	
 	
 	 		
- 		
-
- 		
- 		
- 		
- 		
- 		
- 		
- 		
- 		
-
- 	
 });
 
