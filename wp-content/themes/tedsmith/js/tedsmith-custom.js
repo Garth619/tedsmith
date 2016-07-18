@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
 	
 	
-
+// Process Mobile CLick
 
 jQuery('.mobile .process_single_box_wrapper').click(function() {
   	
@@ -21,6 +21,9 @@ jQuery('.desktop .process_single_box_wrapper').mouseleave(function() {
   	jQuery('.process_hover_wrapper').removeClass('open');
   	
 	});
+	
+
+// Read More Slide Toggle
 
 
 jQuery('.read_more').click(function(){
@@ -62,6 +65,15 @@ jQuery('.read_more').click(function(){
 	});
 	
 	
-	 		
-});
+	// Slick Slideshow 
+	
+	
+	
+	  jQuery('.your-class').slick({
+	    
+	  });
+
+	
+	
+	}); // End of Dcoumet Ready
 
