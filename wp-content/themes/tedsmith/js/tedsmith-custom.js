@@ -69,7 +69,7 @@ jQuery('.read_more').click(function(){
 	
 
 	
-	  jQuery('.process_single_box_wrapper, .attorneys_wrapper, .logo_wrapper, .social_icon_wrapper').slick({
+	  jQuery('.process.mobile .process_single_box_wrapper, .attorneys_wrapper, .logo_wrapper, .social_icon_wrapper').slick({
 	    dots:true,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
@@ -87,6 +87,16 @@ jQuery('.read_more').click(function(){
 */
 	   
 	   
+	  jQuery('.process.desktop .process_single_box_wrapper').slick({
+			dots:true,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    infinite: true,
+	    prevArrow: ".prev",
+	    nextArrow: ".next"
+		});
+	  
+	  
 	   
 	   
 	   

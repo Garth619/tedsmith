@@ -128,6 +128,9 @@ get_header(); ?>
 	
 	
 	<section class="process desktop">
+		
+	<div class="prev"></div><!-- prev -->
+	<div class="next"></div><!-- next -->
 	
 	<div class="process_single_box_wrapper">
 		
@@ -199,28 +202,36 @@ get_header(); ?>
 	
 	<section class="about">
 		
-		<h1>Central Texas area Lawyers</h1>
+		<h1>Central Texas area&nbsp;Lawyers</h1>
 		
 		<h2>serving Fort Hood, Bell, Coryell&nbsp;counties</h2>
 		
-		<span class="about_headers purple">experience matters</span>
+		<div class="about_columns">
+			
+			<span class="about_headers purple">experience matters</span>
+			<p class="large_paragraph">Texans have been represented by the Ted Smith Law Group for over 43&nbsp;years.</p>
 		
-		<p class="large_paragraph">Texans have been represented by the Ted Smith Law Group for over 43 years.</p>
+		</div><!-- about_columns -->
 		
-		<span class="about_headers blue">former JAG officer</span>
+		<div class="about_columns">
+			
+			<span class="about_headers blue">former JAG officer</span>
+			<p class="large_paragraph second">mr. smith served as a jag officer at fort hood before opening his private&nbsp;practice.</p>
 		
-		<p class="large_paragraph">mr. smith served as a jag officer at fort hood before opening his private practice.</p>
+		</div><!-- about_columns -->
 		
-		<p class="sub_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies risus quis viverra scelerisque. Suspendisse eu lacinia enim, vel pellentesque diam. Pellentesque feugiat a massa ac iaculis. Aliquam erat volutpat. Aliquam non quam luctus, tincidunt urna malesuada, convallis risus. Suspendisse tincidunt vehicula ultrices. Sed congue elit pretium, fringilla neque ac, imperdiet nisl. In posuere eros pellentesque porttitor varius.</p>
+			<p class="sub_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies risus quis viverra scelerisque. Suspendisse eu lacinia enim, vel pellentesque diam. Pellentesque feugiat a massa ac iaculis. Aliquam erat volutpat. Aliquam non quam luctus, tincidunt urna malesuada, convallis risus. Suspendisse tincidunt vehicula ultrices. Sed congue elit pretium, fringilla neque ac, imperdiet nisl. In posuere eros pellentesque porttitor varius. Aenean aliquet luctus augue id pulvinar. Cras ac pellentesque ante. Nam tempor sapien eu enim mollis, ac tincidunt nisl semper. Etiam at tortor nec sapien euismod gravida. Proin sollicitudin varius nisi a lacinia. Proin vestibulum eget augue et ultricies. Aenean cursus tristique ante ac sollicitudin.</p>
 		
 		
-		<span class="read_more">READ MORE</span>
+			<span class="read_more">READ MORE</span>
 		
-		<div class="toggle_text">
+			<div class="toggle_text">
 		
-			<p class="sub_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies risus quis viverra scelerisque. Suspendisse eu lacinia enim, vel pellentesque diam. Pellentesque feugiat a massa ac iaculis. Aliquam erat volutpat. Aliquam non quam luctus, tincidunt urna malesuada, convallis risus. Suspendisse tincidunt vehicula ultrices. Sed congue elit pretium, fringilla neque ac, imperdiet nisl. In posuere eros pellentesque porttitor varius.</p>
+				<p class="sub_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies risus quis viverra scelerisque. Suspendisse eu lacinia enim, vel pellentesque diam. Pellentesque feugiat a massa ac iaculis. Aliquam erat volutpat. Aliquam non quam luctus, tincidunt urna malesuada, convallis risus. Suspendisse tincidunt vehicula ultrices. Sed congue elit pretium, fringilla neque ac, imperdiet nisl. In posuere eros pellentesque porttitor varius. Aenean aliquet luctus augue id pulvinar. Cras ac pellentesque ante. Nam tempor sapien eu enim mollis, ac tincidunt nisl semper. Etiam at tortor nec sapien euismod gravida. Proin sollicitudin varius nisi a lacinia. Proin vestibulum eget augue et ultricies. Aenean cursus tristique ante ac sollicitudin.</p>
 
 		</div><!-- toggle_text -->
+		
+		
 		
 	</section><!-- about -->
 
