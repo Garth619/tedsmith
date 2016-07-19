@@ -69,7 +69,7 @@ jQuery('.read_more').click(function(){
 	
 
 	
-	  jQuery('.process.mobile .process_single_box_wrapper, .attorneys_wrapper, .logo_wrapper, .social_icon_wrapper').slick({
+	  jQuery('.process.mobile .process_single_box_wrapper, .attorneys_wrapper, .social_icon_wrapper').slick({
 	    dots:true,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
@@ -77,16 +77,27 @@ jQuery('.read_more').click(function(){
 	   });
 	   
 	   
-/*
-	   jQuery('.process_single_box_wrapper').slick({
-	    dots:true,
-	    slidesToShow: 1,
-	    slidesToScroll: 1,
-	    infinite: true
-	   });
-*/
+		 // Review Stars
 	   
-	   
+	  jQuery('.review_stars_wrapper').slick({
+			slidesToShow: 3,
+	    slidesToScroll: 3,
+			responsive: [
+			  {
+			    breakpoint: 755,
+			    settings: {
+			      slidesToShow: 1,
+			      slidesToScroll: 1,
+			      infinite: true,
+			      dots: true
+			    }
+			  }
+			]
+		});
+	  
+	  
+	  // Process Desktop
+	  
 	  jQuery('.process.desktop .process_single_box_wrapper').slick({
 			dots:true,
 	    slidesToShow: 1,
@@ -95,14 +106,16 @@ jQuery('.read_more').click(function(){
 	    prevArrow: ".prev",
 	    nextArrow: ".next"
 		});
+		
+		
 	  
 	  
-	   
-	   
-	   
-	  jQuery('.review_stars_wrapper').slick({
-			slidesToShow: 3,
-	    slidesToScroll: 3,
+	 // Awards 
+		
+		
+	 	jQuery('.logo_wrapper').slick({
+			slidesToShow: 2,
+			slidesToScroll: 2,
 			responsive: [
 			  {
 			    breakpoint: 755,

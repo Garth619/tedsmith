@@ -402,9 +402,6 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 			</div><!-- attorneys_single_wrapper -->
 			
 		
-
-			
-			
 		</div><!-- attorneys_wrapper -->
 		
 	</section><!-- meet_attorneys -->
