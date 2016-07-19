@@ -309,7 +309,7 @@ header {
 nav.mobile_menu {
 		background: #fff;
 		width:100%;
-		padding-bottom:65px;
+		padding-bottom: 105px;
 	ul {
 		transition:background .4s ease;
 		li {
@@ -1235,7 +1235,7 @@ header {
 }
 
 nav.mobile_menu {
-	padding-bottom:65px;
+	padding-bottom: 205px;
 	ul {
 		li {
 			text-align: center;
@@ -1665,8 +1665,17 @@ header {
 
 /* Nav */
 
+
+nav.mobile_menu {
+	display:none;
+}
+
 nav.desktop_menu {
 	display:block;
+}
+
+.nav_wrapper, .nav_wrapper.fixed {
+	display: none !important;
 }
 
 
