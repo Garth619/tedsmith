@@ -17,9 +17,6 @@ get_header(); ?>
 		click for a free consultation
 	</span><!-- button_consultation -->
 	
-
-
-	
 	<div class="review_stars_wrapper">
 		
 		
@@ -49,13 +46,6 @@ get_header(); ?>
 	</div><!-- review_stars_wrapper -->
 		
 		
-		
-			
-		
-				
-		
-
-	
 </section><!-- home_banner -->
 
 <section class="process mobile">
