@@ -77,13 +77,19 @@
 			
 			<div class="nav_wrapper">
 				
-				<nav>
+				<nav class="mobile_menu">
 				
 					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 				
-				</nav>
-			
+				</nav><!-- mobile_menu -->
+				
 			</div><!-- nav_wrapper -->
+			
+			<nav class="desktop_menu">
+					
+					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+
+					</nav><!-- desktop_menu -->
 		
 		</div><!-- header_inner -->
 		
