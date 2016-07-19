@@ -17,7 +17,7 @@
 	<section class="office">
 		
 		<span class="office_titles">office</span>
-		<span class="sub_office_titles">660 West FM 2410 Harker Heights, Tx 76548</span>
+		<span class="sub_office_titles">660 West FM 2410 Harker Heights, Tx&nbsp;76548</span>
 		
 		<div class="gradient_button"><a href="">Get Directions</a></div><!-- gradient_button -->
 		

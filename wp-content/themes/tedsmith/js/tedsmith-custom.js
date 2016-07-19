@@ -69,7 +69,7 @@ jQuery('.read_more').click(function(){
 	
 
 	
-	  jQuery('.process.mobile .process_single_box_wrapper, .attorneys_wrapper, .social_icon_wrapper').slick({
+	  jQuery('.process.mobile .process_single_box_wrapper, .attorneys_wrapper').slick({
 	    dots:true,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
@@ -128,6 +128,28 @@ jQuery('.read_more').click(function(){
 			  }
 			]
 		});
+		
+		
+	// Social Icons
+	
+ 
+	jQuery('.social_icon_wrapper').slick({
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			dots: true,
+			responsive: [
+			  {
+			    breakpoint: 755,
+			    settings: {
+			      slidesToShow: 1,
+			      slidesToScroll: 1,
+			      infinite: true,
+			      dots: true
+			    }
+			  }
+			]
+		});
+
 	  
 	
 	  
