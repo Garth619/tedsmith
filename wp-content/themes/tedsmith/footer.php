@@ -103,7 +103,7 @@
 <?php wp_footer(); ?>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/tedsmith-custom-min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
 <!-- <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/modernizr.js"></script> -->
 <!--
 <script src="<?php bloginfo('template_directory');?>/js/scrollmagic-plug/scrollmagic/minified/ScrollMagic.min.js"></script>
