@@ -352,7 +352,7 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 		
 	</section><!-- client_testimonials -->
 	
-	<section class="meet_attorneys">
+	<section class="meet_attorneys mobile">
 		
 		<span class="attorneys_header">meet our attorneys</span>
 		
@@ -408,6 +408,67 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 		</div><!-- attorneys_wrapper -->
 		
 	</section><!-- meet_attorneys -->
+	
+	
+	<section class="meet_attorneys desktop">
+		
+		<span class="attorneys_header">meet our attorneys</span>
+		
+		<div class="attorneys_wrapper">
+			
+			
+			<div class="attorneys_single_wrapper">
+			
+				<a href="">
+					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+				
+					<div class="attorneys_title">
+						<span class="attorneys_name">Ted Smith</span>
+						<span class="attorneys_position">Founder / Senior Partner</span>
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+					</div><!-- attorneys_title -->
+				</a>
+			
+			</div><!-- attorneys_single_wrapper -->
+			
+			<div class="attorneys_single_wrapper">
+			
+				<a href="">
+					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+				
+					<div class="attorneys_title">
+						<span class="attorneys_name">Ted Smith</span>
+						<span class="attorneys_position">Founder / Senior Partner</span>
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+					</div><!-- attorneys_title -->
+				</a>
+			
+			</div><!-- attorneys_single_wrapper -->
+			
+			<div class="attorneys_single_wrapper">
+			
+				<a href="">
+					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+				
+					<div class="attorneys_title">
+						<span class="attorneys_name">Ted Smith</span>
+						<span class="attorneys_position">Founder / Senior Partner</span>
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+					</div><!-- attorneys_title -->
+				</a>
+			
+			</div><!-- attorneys_single_wrapper -->
+			
+		
+
+			
+			
+		</div><!-- attorneys_wrapper -->
+		
+	</section><!-- meet_attorneys -->
+	
+	
+	
 	
 	<section class="awards">
 		

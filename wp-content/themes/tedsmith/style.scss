@@ -1496,7 +1496,59 @@ nav {
 }
 
 
-		
+/* Meet Attornys */
+ 
+ 
+ .meet_attorneys {
+	 span.attorneys_header {
+		 	padding:0 0 35px;
+		 	margin:0 10% 45px;
+		 	display:block;
+		 	
+	 }
+	 .attorneys_wrapper {
+		 	max-width:520px;
+		 .attorneys_single_wrapper {
+		 		a {
+			 		text-decoration: none;
+		 			.attorneys_title {
+		 				span.attorneys_name {
+		 					text-decoration: none;
+		 					display:block;
+		 				}
+						span.attorneys_position {
+							font-family: $proximareg;
+							text-transform: uppercase;
+							font-size: 16px;
+							letter-spacing:2px;
+							margin-top:5px;
+							display: inline-block;
+							color:$black;
+						}
+						.arrow {
+							float:right;
+							margin-top:-15px;
+						}
+		 			}
+		 		}
+	 		}
+ 		}
+ 	ul.slick-dots {
+		li {
+			button:before {
+				background:#000;
+			}
+			button:focus:before {
+				background:$blue;
+			}
+		}
+		li.slick-active button:before {
+			background:$blue;
+		}
+	}
+ 	
+ }
+ 
 
 
 
