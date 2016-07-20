@@ -57,10 +57,10 @@ jQuery('.read_more').click(function(){
 	});
 	
 	
-	jQuery('li.menu-item-has-children > a').click(function() {
+	jQuery('.mobile_menu li.menu-item-has-children > a').click(function() {
   	
 		jQuery(this).next('.sub-menu').slideToggle(400).toggleClass('open');
-		jQuery(this, 'li.menu-item-has-children > a').toggleClass('open');
+		jQuery(this, '.mobile_menu li.menu-item-has-children > a').toggleClass('open');
   	
 	});
 	

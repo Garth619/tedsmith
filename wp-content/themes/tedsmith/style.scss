@@ -1650,8 +1650,11 @@ header {
 	text-align: left;
 	.header_inner {
 		.header_left {
-			width:23%;
-			padding:55px 0 .5% 1%;
+			 padding: 23px 1% 0 1.2%;
+			 width: 22%;
+			img.desktop_logo {
+				padding-bottom:10px;
+			}
 			
 		}
 	
@@ -1660,11 +1663,28 @@ header {
 
 .consultation_header {
 	display: none;
+	margin-bottom:10px
 }
 
 .menu_wrapper {
 	display: none;
 }
+
+
+.consultation_header {
+	display:block;
+	span {
+		display:none;
+	}
+	a.phone_header {
+		font-family:$utopiabold;
+		font-size: 23px;
+		
+	}
+}
+
+
+
 
 /* Nav */
 
@@ -1675,10 +1695,10 @@ nav.mobile_menu {
 
 nav.desktop_menu {
 	display:block;
-	padding:0px 0 0;
+	padding: 0 0 0 1.5%;
 	float:left;
-	width:73%;
-	padding-left:1%;
+	width:78%;
+// 	padding-left:1%;
 	.menu-header {
 		overflow: hidden;
 		ul {
@@ -1686,11 +1706,11 @@ nav.desktop_menu {
 			margin:0;
 			font-family: $proximareg;
 			text-transform: uppercase;
-			font-size:16px;
+			font-size:15px;
 			letter-spacing: 1.7px;
 			> li {
 				display: inline-block;
-				margin:0 .5% 0 0;
+				margin:0 .8% 0 0;
 				color:#323233;
 				cursor:pointer;
 				> a {
@@ -1698,7 +1718,7 @@ nav.desktop_menu {
 					width:100%;
 					text-decoration:none;
 					color:#323233;
-					padding:56px 3px;
+					padding:41px 4.9px;
 					transition:background .3s ease;
 					&:hover {
 						color:$blue;
@@ -1737,11 +1757,16 @@ nav.desktop_menu {
 	}
 }
 
+li.menu-item-has-children:hover {
+	ul.sub-menu {
+		display:block;
+	}
+}
+
 li.current-menu-item > a {
 	color:$blue;
 	background:$greylight;
 	border-top:6px solid $blue;
-	
 }
 
 .nav_wrapper, .nav_wrapper.fixed {
