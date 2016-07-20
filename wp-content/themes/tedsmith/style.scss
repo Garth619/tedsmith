@@ -1648,10 +1648,11 @@ footer {
 header {
 	width:100%;
 	text-align: left;
-	
 	.header_inner {
 		.header_left {
-			width:30%
+			width:23%;
+			padding:55px 0 .5% 1%;
+			
 		}
 	
 	}
@@ -1676,8 +1677,8 @@ nav.desktop_menu {
 	display:block;
 	padding:0px 0 0;
 	float:left;
-	width:70%;
-	padding-left:3%;
+	width:73%;
+	padding-left:1%;
 	.menu-header {
 		overflow: hidden;
 		ul {
@@ -1685,10 +1686,11 @@ nav.desktop_menu {
 			margin:0;
 			font-family: $proximareg;
 			text-transform: uppercase;
-			font-size:17px;
+			font-size:16px;
+			letter-spacing: 1.7px;
 			> li {
 				display: inline-block;
-				margin:0 1.5% 0 0;
+				margin:0 .5% 0 0;
 				color:#323233;
 				cursor:pointer;
 				> a {
@@ -1696,22 +1698,20 @@ nav.desktop_menu {
 					width:100%;
 					text-decoration:none;
 					color:#323233;
-					padding:41px 15px 37px;
+					padding:56px 3px;
 					transition:background .3s ease;
 					&:hover {
-					color:$blue;
-					background:$greylight;
-					border-top:6px solid $blue;
-					padding-top:35px;
-					transition:background .3s ease;
-					
+						color:$blue;
+						background:$greylight;
+						border-top:6px solid $blue;
+						transition:background .3s ease;
 					}
 				}
 				ul.sub-menu {
 					display:none;
 				}
 			}
-			li.menu-item-has-children {
+			> li.menu-item-has-children {
 				> a:after {
 					content:"";
 					 width: 0; 
@@ -1735,6 +1735,13 @@ nav.desktop_menu {
 			margin:0;
 		}
 	}
+}
+
+li.current-menu-item > a {
+	color:$blue;
+	background:$greylight;
+	border-top:6px solid $blue;
+	
 }
 
 .nav_wrapper, .nav_wrapper.fixed {
