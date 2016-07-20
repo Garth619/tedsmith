@@ -1728,7 +1728,15 @@ nav.desktop_menu {
 					}
 				}
 				ul.sub-menu {
-					display:none;
+						// display:none;
+						max-width:300px;
+						position:absolute;
+						top:62;
+						background: #fff; li {
+							a {
+								padding:0;
+							}
+						}
 				}
 			}
 			> li.menu-item-has-children {
@@ -1757,11 +1765,6 @@ nav.desktop_menu {
 	}
 }
 
-li.menu-item-has-children:hover {
-	ul.sub-menu {
-		display:block;
-	}
-}
 
 li.current-menu-item > a {
 	color:$blue;
@@ -1773,6 +1776,16 @@ li.current-menu-item > a {
 	display: none !important;
 }
 
+nav.desktop_menu div.menu-header ul#menu-mainnav-1.menu li:hover > ul.sub-menu {
+	display:block;
+}
+
+/* Home Banner */
+
+
+.home_banner {
+	margin-top:93px;
+	}
 
 	
 	
