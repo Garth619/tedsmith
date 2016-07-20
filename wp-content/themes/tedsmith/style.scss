@@ -1650,7 +1650,9 @@ header {
 	text-align: left;
 	
 	.header_inner {
-		
+		.header_left {
+			width:30%
+		}
 	
 	}
 }
@@ -1672,20 +1674,45 @@ nav.mobile_menu {
 
 nav.desktop_menu {
 	display:block;
-	ul {
-		list-style: none;
-		margin:0;
-		li {
-			display: inline-block;
-			margin:0 1%;
-			a {
-				display:block;
-				width:100%;
-				text-decoration:none;
+	padding:0px 0 0;
+	float:left;
+	width:70%;
+	padding-left:3%;
+	.menu-header {
+		overflow: hidden;
+		ul {
+			list-style: none;
+			margin:0;
+			font-family: $proximareg;
+			text-transform: uppercase;
+			font-size:17px;
+			> li {
+				float:left;
+				margin:0 1.5% 0 0;
+				color:#323233;
+				padding:41px 15px 37px;
+				a {
+					display:block;
+					width:100%;
+					text-decoration:none;
+					color:#323233;
+					&:hover {
+					color:$blue;
+					}
+				}
+				ul.sub-menu {
+					display:none;
+				}
+				&:hover {
+					background:$greylight;
+					border-top:6px solid $blue;
+					padding-top:35px;
+					
+				}
 			}
-			ul.sub-menu {
-				display:none;
-			}
+		}
+		ul > li:last-of-type{
+			margin:0;
 		}
 	}
 }

@@ -44,7 +44,7 @@
 			<div class="header_left">
 			
 				<a href="<?php bloginfo('url');?>">
-					<div class="demo-area"></div>
+					
 				
 					<img class="mobile_logo" src="<?php bloginfo('template_directory');?>/images/small-imgs/logo-m.png"/>
 					<img class="desktop_logo" src="<?php bloginfo('template_directory');?>/images/small-imgs/smith-logo.png"/>
