@@ -1698,11 +1698,18 @@ nav.desktop_menu {
 			text-transform: uppercase;
 			font-size:15px;
 			letter-spacing: 1.7px;
+			li:hover > a {
+				color:$blue;
+				background:$greylight;
+				border-top:6px solid $blue;
+				transition:background .3s ease;
+			}
 			> li {
 				display: inline-block;
 				margin:0 .8% 0 0;
 				color:#323233;
 				cursor:pointer;
+				
 				> a {
 					display:block;
 					width:100%;
@@ -1723,18 +1730,35 @@ nav.desktop_menu {
 						position:absolute;
 						top:62;
 						background: #fff;
+						li:hover > a {
+									border:none;
+								}
 						li {
 							width:100%;
 							transition:background .4s ease;
+							position: relative;
+							border-bottom: 1px solid #e2e2e2;
 							a {
 								padding:25px;
 								width:100%;
-								border-bottom: 1px solid #e2e2e2;
+								
+								
 								&:hover {
 									border:none;
-									border-bottom: 1px solid #e2e2e2;
+// 									border-bottom: 1px solid #e2e2e2;
 									background:#f5f5f5;
 									transition:background .4s ease;
+								}
+							}
+							ul.sub-menu {
+								position:absolute;
+								top:1px;
+								left:300px;
+								li {
+									a {
+										min-width:275px;
+										padding:25px;
+									}
 								}
 							}
 						}
@@ -1781,15 +1805,6 @@ nav.desktop_menu {
 
 
 
-li.menu-item-has-children > a:after {
-			background:url(images/small-imgs/black-arrow.png)top left no-repeat;
-			content:"";
-			width:18px;
-			height:13px;
-			display: inline-block;
-			margin-left:9px;
-		}
-
 
 
 
@@ -1802,9 +1817,6 @@ html body.home.page.page-id-85.page-template-default div#wrap header div.header_
 	display:none;
 }
 
-html body.home.page.page-id-85.page-template-default div#wrap header div.header_inner nav.desktop_menu div.menu-header ul#menu-mainnav-1.menu li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.menu-item-177 ul.sub-menu li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.menu-item-208 ul.sub-menu {
-	display:none;
-}
 
 
 li.current-menu-item > a {
