@@ -89,7 +89,13 @@
 					
 					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 
-					</nav><!-- desktop_menu -->
+			</nav><!-- desktop_menu -->
+			
+			<div class="phone_header_desktop_wrapper">
+				
+				<a class="phone_header_desktop" href="tel:2546905688">254.690.5688</a>
+			
+			</div><!-- phone_header_desktop -->
 		
 		</div><!-- header_inner -->
 		
