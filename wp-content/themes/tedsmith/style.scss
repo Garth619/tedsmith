@@ -412,40 +412,44 @@ nav.desktop_menu {
 	}
 }
 
-.review_stars_wrapper {
-	margin-top: 48px;
-	
-	.review_single_wrapper {
-		display:inline-block;
-		margin-bottom:50px;
-		img.stars_img {
-			margin:0 auto;
-			display:block;
-		}
-		span.review_text {
-			font-family: $proximareg;
-			text-transform: uppercase;
-			font-size: 15px;
-			display:inline-block;
-			margin-top: 30px;
-		}
+.review_stars_maxwidth {
+	max-width:950px;
+	margin:0 auto;
+	.review_stars_wrapper {
+		margin-top: 68px;
 		
-		.small_arrow {
-			margin-left:10px;
+		.review_single_wrapper {
 			display:inline-block;
-		}
-	}
-	ul.slick-dots {
-		li {
-			button:before {
-				background:#fff;
+			margin-bottom:50px;
+			img.stars_img {
+				margin:0 auto;
+				display:block;
 			}
-			button:focus:before {
+			span.review_text {
+				font-family: $proximareg;
+				text-transform: uppercase;
+				font-size: 15px;
+				display:inline-block;
+				margin-top: 30px;
+			}
+			
+			.small_arrow {
+				margin-left:10px;
+				display:inline-block;
+			}
+		}
+		ul.slick-dots {
+			li {
+				button:before {
+					background:#fff;
+				}
+				button:focus:before {
+					background:$blue;
+				}
+			}
+			li.slick-active button:before {
 				background:$blue;
 			}
-		}
-		li.slick-active button:before {
-			background:$blue;
 		}
 	}
 }
@@ -1257,20 +1261,24 @@ nav.mobile_menu {
 	margin-top: 153px;
 	background: url(images/main-image-tablet.jpg) no-repeat top center;
 	padding: 166px 0 60px;
-	.play_button {
-		margin:0 0 40px 15%;
-		float:left;
-	}
-	span.serving {
-		font-size:75px;
-		display: block;
-		clear:both;
-		margin-bottom:40px;
-	}
-	span.experienced_lawyers {
-		font-size:30px;
-		line-height:1.3;
-		margin-bottom:40px;
+	.home_banner_content {
+		max-width: 900px;
+		margin:0 auto;
+		.play_button {
+			margin:0 0 40px 15%;
+			float:left;
+		}
+		span.serving {
+			font-size:75px;
+			display: block;
+			clear:both;
+			margin-bottom:40px;
+		}
+		span.experienced_lawyers {
+			font-size:30px;
+			line-height:1.3;
+			margin-bottom:40px;
+		}
 	}
 }
 
@@ -1802,13 +1810,7 @@ nav.desktop_menu {
 
 
 
-
-
-
-
-
-
-li.current-menu-item > a {
+li.current-menu-item > a { /* this needs to be nested up above */
 	color:$blue;
 	background:$greylight;
 	border-top:6px solid $blue;
@@ -1827,12 +1829,62 @@ nav.desktop_menu div.menu-header ul#menu-mainnav-1.menu li:hover > ul.sub-menu {
 
 .home_banner {
 	margin-top:93px;
+	background:url(images/main-image-desk.jpg) top center no-repeat;
+	padding:175px 6% 190px;
+	.home_banner_content {
+		img.play_button {
+			display: inline-block;
+			float:none;
+			margin-left:0;
+			margin-right:0;
+		}
 	}
+}
+	
+.home_banner.fixed {
+	margin-top:93px;
+}
 
 	
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (min-width: 1700px) {
+	
+	
+	.home_banner {
+	margin-top:93px;
+	background:url(images/main-image-desk.jpg) top center no-repeat;
+	padding:175px 6% 190px;
+	.home_banner_content { /* needs to be further out on queries */
+		float:left;
+		max-width:780px;
+		img.play_button {
+			display: inline-block;
+			float:none;
+			margin-left:0;
+			margin-right:0;
+		}
+		span.experienced_lawyers {
+    	font-size: 30px;
+			line-height: 1.3;
+			margin-bottom: 50px;
+		}
+	}	
+	
+	.review_stars_wrapper {
+		margin-top: 504px;
+		float:right;
+	}
+	
+	}
+	
+	
+	
+}
 
 
  
