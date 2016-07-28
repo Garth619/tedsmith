@@ -1857,19 +1857,24 @@ nav.desktop_menu div.menu-header ul#menu-mainnav-1.menu li:hover > ul.sub-menu {
 	
 } /* Media Query */
 
-@media screen and (min-width: 1275px) {
+@media screen and (min-width: 1400px) {
 	
 	
+
+
+
+
+
 
 /* Nav */
 
 
 nav.desktop_menu {
 	padding: 0 0 0 1.5%;
-	width:63%;
+	width:77%;
 	.menu-header {
 		ul {
-			font-size:18px;
+			font-size:17px;
 			> li {
 					margin:0 1% 0 0;
 					> a {
@@ -1879,11 +1884,44 @@ nav.desktop_menu {
 			}
 		}
 	}
-
-
-
-
+	
+	
+	
+	
 } /* Media Query */
+
+
+
+
+@media screen and (min-width: 1610px) {
+	
+	header {
+	.header_inner {
+		.header_left {
+			
+			img.desktop_logo {
+				padding-bottom:10px;
+				margin-top:18px;
+			}
+			
+		}
+	
+	}
+}
+
+
+.consultation_header {
+		a.phone_header {
+    	display: none;
+		}
+	}
+
+
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (min-width: 1775px) {
 	
