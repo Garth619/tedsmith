@@ -8,48 +8,52 @@ get_header(); ?>
 
 <section class="home_banner">
 	
-	<div class="home_banner_content">
+	<div class="home_banner_inner">
 	
-		<img class="play_button" src="<?php bloginfo('template_directory');?>/images/mobile-play.png"/>
-	
-		<span class="serving">Serving the citizens of Texas since&nbsp;1976</span>
-		<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>
-	
-
-	
-		<span class="mybutton">
-			click for a free consultation
-		</span><!-- button_consultation -->
-	
-	</div><!-- home_banner_content -->
-	
-	<div class="review_stars_maxwidth">
-	
-		<div class="review_stars_wrapper">
+		<div class="home_banner_content">
+		
+			<img class="play_button" src="<?php bloginfo('template_directory');?>/images/mobile-play.png"/>
+		
+			<span class="serving">Serving the citizens of Texas since&nbsp;1976</span>
+			<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>
+		
+		
+		
+			<span class="mybutton">
+				click for a free consultation
+			</span><!-- button_consultation -->
+		
+		</div><!-- home_banner_content -->
+		
+		<div class="review_stars_maxwidth">
+		
+			<div class="review_stars_wrapper">
+				
+				
+				<div class="review_single_wrapper">
+					
+					<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-bbb.png"/>
+					<span class="review_text">4.6 google rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+					
+				</div><!-- review_single_wrapper -->
+				
+				<div class="review_single_wrapper">
+					
+					<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-fb.png"/>
+					<span class="review_text">3.9 facebook rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+					
+				</div><!-- review_single_wrapper -->
+				
+				<div class="review_single_wrapper">
+					
+					<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-g.png"/>
+					<span class="review_text">4.1 bbb rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+					
+				</div><!-- review_single_wrapper -->
+				
+				</div><!-- review_stars_maxwidth for desktop -->
 			
-			
-			<div class="review_single_wrapper">
-				
-				<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-bbb.png"/>
-				<span class="review_text">4.6 google rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
-				
-			</div><!-- review_single_wrapper -->
-			
-			<div class="review_single_wrapper">
-				
-				<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-fb.png"/>
-				<span class="review_text">3.9 facebook rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
-				
-			</div><!-- review_single_wrapper -->
-			
-			<div class="review_single_wrapper">
-				
-				<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-g.png"/>
-				<span class="review_text">4.1 bbb rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
-				
-			</div><!-- review_single_wrapper -->
-			
-			</div><!-- review_stars_maxwidth for desktop -->
+		</div><!-- home_banner_inner -->
 	
 		
 	</div><!-- review_stars_wrapper -->
