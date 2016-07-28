@@ -12,7 +12,7 @@ get_header(); ?>
 	
 		<div class="home_banner_content">
 		
-			<img class="play_button" src="<?php bloginfo('template_directory');?>/images/mobile-play.png"/>
+			<div class="play_button"></div><!-- play_button -->
 		
 			<span class="serving">Serving the citizens of Texas since&nbsp;1976</span>
 			<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>

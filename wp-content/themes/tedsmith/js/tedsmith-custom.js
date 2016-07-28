@@ -100,11 +100,26 @@ jQuery('.read_more').click(function(){
 	  
 	  jQuery('.process.desktop .process_single_box_wrapper').slick({
 			dots:true,
-	    slidesToShow: 1,
+	    slidesToShow: 4,
 	    slidesToScroll: 1,
 	    infinite: true,
+	    arrows:true,
 	    prevArrow: ".prev",
-	    nextArrow: ".next"
+			nextArrow: ".next",
+	    responsive: [
+			  {
+			    breakpoint: 1300,
+			    settings: {
+			      slidesToShow: 2,
+			      slidesToScroll: 2,
+			      infinite: true,
+			      dots: true,
+			      prevArrow: ".prev",
+						nextArrow: ".next",
+						arrows:true
+			    }
+			  }
+			]
 		});
 		
 		

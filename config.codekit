@@ -20743,17 +20743,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/mobile-play.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3369,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/mobile-play.png",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/mobile-play.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/award-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -20893,6 +20882,17 @@
 		"initialSize": 6227,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/paypal.png",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/paypal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6726,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/play.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/play.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

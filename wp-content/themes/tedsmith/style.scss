@@ -82,6 +82,7 @@ span.mybutton {
 	font-weight:300;
 	letter-spacing: 1.2px;
 	cursor: pointer;
+	transition:all .3s ease;
 }
 
 span.mybutton.testimonials_button {
@@ -394,6 +395,11 @@ nav.desktop_menu {
 	font-family:$utopiabold;
 	.play_button {
 		margin-bottom: 40px;
+		width:101px;
+		height:101px;
+		background: url(images/small-imgs/play.png) top left no-repeat;
+		background-position: 0 0;
+		display: inline-block;
 	}
 	span.serving {
 		font-family: $utopiabolditalic;
@@ -1687,8 +1693,6 @@ header {
 }
 
 
-
-
 /* Nav */
 
 
@@ -1721,7 +1725,6 @@ nav.desktop_menu {
 				margin:0 .8% 0 0;
 				color:#323233;
 				cursor:pointer;
-				
 				> a {
 					display:block;
 					width:100%;
@@ -1745,8 +1748,8 @@ nav.desktop_menu {
 						visibility: hidden;
 						transition:all .3s ease;
 						li:hover > a {
-									border:none;
-								}
+							border:none;
+						}
 						li {
 							width:100%;
 							transition:background .4s ease;
@@ -1840,11 +1843,15 @@ nav.desktop_menu div.menu-header ul#menu-mainnav-1.menu li:hover > ul.sub-menu {
 	background:url(images/main-image-desk.jpg) top center no-repeat;
 	padding:175px 6% 190px;
 	.home_banner_content {
-		img.play_button {
+		.play_button {
 			display: inline-block;
 			float:none;
 			margin-left:0;
 			margin-right:0;
+		}
+		.play_button:hover {
+			background: url(images/small-imgs/play.png) top left no-repeat;
+			background-position: 0 -103px;
 		}
 	}
 }
@@ -1852,6 +1859,14 @@ nav.desktop_menu div.menu-header ul#menu-mainnav-1.menu li:hover > ul.sub-menu {
 .home_banner.fixed {
 	margin-top:93px;
 }
+
+
+span.mybutton:hover {
+	color:#fff;
+	background:$purple;
+	transition:all .3s ease;
+}
+
 
 	
 	
