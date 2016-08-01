@@ -205,35 +205,70 @@ get_header(); ?>
 	
 	<section class="about">
 		
-		<h1>Central Texas area&nbsp;Lawyers</h1>
+		<div class="about_inner">
 		
-		<h2>serving Fort Hood, Bell, Coryell&nbsp;counties</h2>
-		
-		<div class="about_columns">
+			<h1>Central Texas area&nbsp;Lawyers</h1>
 			
-			<span class="about_headers purple">experience matters</span>
-			<p class="large_paragraph">Texans have been represented by the Ted Smith Law Group for over 43&nbsp;years.</p>
-		
-		</div><!-- about_columns -->
-		
-		<div class="about_columns">
+			<h2>serving Fort Hood, Bell, Coryell&nbsp;counties</h2>
 			
-			<span class="about_headers blue">former JAG officer</span>
-			<p class="large_paragraph second">mr. smith served as a jag officer at fort hood before opening his private&nbsp;practice.</p>
-		
-		</div><!-- about_columns -->
-		
-			<p class="sub_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies risus quis viverra scelerisque. Suspendisse eu lacinia enim, vel pellentesque diam. Pellentesque feugiat a massa ac iaculis. Aliquam erat volutpat. Aliquam non quam luctus, tincidunt urna malesuada, convallis risus. Suspendisse tincidunt vehicula ultrices. Sed congue elit pretium, fringilla neque ac, imperdiet nisl. In posuere eros pellentesque porttitor varius. Aenean aliquet luctus augue id pulvinar. Cras ac pellentesque ante. Nam tempor sapien eu enim mollis, ac tincidunt nisl semper. Etiam at tortor nec sapien euismod gravida. Proin sollicitudin varius nisi a lacinia. Proin vestibulum eget augue et ultricies. Aenean cursus tristique ante ac sollicitudin.</p>
-		
-		
-			<span class="read_more">READ MORE</span>
-		
-			<div class="toggle_text">
-		
-				<p class="sub_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultricies risus quis viverra scelerisque. Suspendisse eu lacinia enim, vel pellentesque diam. Pellentesque feugiat a massa ac iaculis. Aliquam erat volutpat. Aliquam non quam luctus, tincidunt urna malesuada, convallis risus. Suspendisse tincidunt vehicula ultrices. Sed congue elit pretium, fringilla neque ac, imperdiet nisl. In posuere eros pellentesque porttitor varius. Aenean aliquet luctus augue id pulvinar. Cras ac pellentesque ante. Nam tempor sapien eu enim mollis, ac tincidunt nisl semper. Etiam at tortor nec sapien euismod gravida. Proin sollicitudin varius nisi a lacinia. Proin vestibulum eget augue et ultricies. Aenean cursus tristique ante ac sollicitudin.</p>
+			<div class="about_columns_wrapper">
+			
+				<div class="about_columns">
+					
+					<span class="about_headers purple">experience matters</span>
+					<p class="large_paragraph">Texans have been represented by the Ted Smith Law Group for over 43&nbsp;years.</p>
+				
+				</div><!-- about_columns -->
+				
+				<div class="about_columns">
+					
+					<span class="about_headers blue">former JAG officer</span>
+					<p class="large_paragraph second">mr. smith served as a jag officer at fort hood before opening his private&nbsp;practice.</p>
+				
+				</div><!-- about_columns -->
+			
+			</div><!-- about_columns_wrapper -->
+			
+				<div class="about_main_content_wrapper">
+				
+					<p class="sub_paragraph first_intro"><strong>Welcome to Nelson & Smith, Attorneys at Law. We serve clients in Macon, Georgia and the surrounding cities, including Dublin and Hawkinsville. When you make an appointment with us, we make sure you receive the individual attention and expert legal counsel you&nbsp;deserve.</strong></p>
+					
+					
+					<span class="about_sub_headers">Your Experience Matters</span><!-- about_headers -->
+					
+					<p class="sub_paragraph">Welcome to Nelson & Smith, Attorneys at Law. We serve clients in Macon, Georgia and the surrounding cities, including Dublin and Hawkinsville. When you make an appointment with us, we make sure you receive the individual attention and expert legal counsel you&nbsp;deserve.</p>
+					
+					
+					
+					
+					
+					
+					<span class="read_more">READ MORE</span>
+					
+					<div class="toggle_text">
+					
+						<span class="about_sub_headers">Our Experience Matters</span><!-- about_headers -->
+					
+						<p class="sub_paragraph">Of course, you cannot restore your quality of life if your attorneys don’t have the experience to win your case. The team at Nelson 
+& Smith has years of such experience. We have recovered millions of dollars for clients in all kinds of compensation cases. Whether your case involves a work-related injury, a vehicle accident, or a defective product, rest assured that we will hold the right parties&nbsp;accountable.</p>
 
-		</div><!-- toggle_text -->
+					<p class="sub_paragraph">Our attorneys are skilled mediators. Ideally, settlement talks should yield satisfactory results for everyone involved. However, sometimes, responsible parties, such as companies that sell defective products, are not prepared to be reasonable. In those cases, we do not want you to walk away feeling defeated. We will fight for you, ensuring you get just&nbsp;compensation.</p>
+					
+					<span class="about_sub_headers">our practice areas</span><!-- about_headers -->
+					
+					<p class="sub_paragraph">Nelson & Smith is one of the most versatile firms in Middle Georgia. We handle accidents related to almost all vehicles, including cars, trucks, ATVs, and motorcycles. Since the type of injury you received also influences your case, we are prepared to handle a plethora of those as well. These include spinal injuries, broken bones, brain injuries, burns, and dog&nbsp;bites.</p>
+					
+					<p class="sub_paragraph">Finally, we pride ourselves on expertly handling all kinds of workplace injuries. Whether you or a loved one was injured at a construction site or a daycare, we can build an expert case that leads to full compensation and helps you get back to the life you&nbsp;love.</p>
+					
+					<p class="sub_paragraph">Feel free to contact us by phone or fax any time, and speak to one of the expert injury attorneys on our team. We look forward to working with&nbsp;you.</p>
+			
+			</div><!-- toggle_text -->
+			
+			
+			</div><!-- about_main_content_wrapper -->
 		
+		
+		</div><!-- about_inner -->
 		
 		
 	</section><!-- about -->
