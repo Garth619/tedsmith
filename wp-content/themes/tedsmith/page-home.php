@@ -368,11 +368,15 @@ who can level the playing field against the insurance carriers and their massive
 	
 	<section class="client_testimonials">
 		
-		<span class="client_header">client testimonials</span>
+		<div class="client_header_wrapper">
 		
-		<span class="mybutton testimonials_button">
-			view more testimonials
-		</span><!-- button_consultation -->
+			<span class="client_header">client testimonials</span>
+		
+			<span class="mybutton testimonials_button">
+				view more testimonials
+			</span><!-- button_consultation -->
+		
+		</div><!-- client_header_wrapper -->
 		
 		<div class="testimonial_wrapper">
 			
@@ -396,6 +400,28 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 			
 				<span class="client_subheader">Juan</span>
 				<span class="client_lowerheader">avvo.com review</span>
+			
+			</div><!-- single_testimonial -->
+			
+			<div class="single_testimonial">
+				
+				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
+			
+				<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
+			
+				<span class="client_subheader">Personal Injury Client</span>
+				<span class="client_lowerheader">client direct review</span>
+			
+			</div><!-- single_testimonial -->
+			
+			<div class="single_testimonial">
+				
+				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
+			
+				<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
+			
+				<span class="client_subheader">Personal Injury Client</span>
+				<span class="client_lowerheader">client direct review</span>
 			
 			</div><!-- single_testimonial -->
 			
