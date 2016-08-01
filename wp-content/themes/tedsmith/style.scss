@@ -666,6 +666,7 @@ nav.desktop_menu {
 
 
 .aos_box_wrapper {
+	padding:0 2%;
 	a {
 		text-decoration: none;
 		color:$black;
@@ -677,6 +678,9 @@ nav.desktop_menu {
 			border-bottom: 1px solid $purple;
 			img.aos_icon {
 				margin:55px 0 40px;
+			}
+			span.description, span.blue_headers {
+				display: none;
 			}
 			span.aos_inner_header {
 				font-family: $utopiabolditalic;
@@ -1486,49 +1490,26 @@ nav.mobile_menu {
 
 
 .aos_box_wrapper {
-// 	padding:0 13%;
-padding:0 3%;
+	padding:0 3%;
 	a {
-		
-	.aos_single_box_wrapper {
-		margin:0 1%;
-	}
-	.aos_single_box_wrapper {
-		width:31%;
-		float:left;
-		
-		.aos_single_box {
-			
-			img.aos_icon {
-				
-			}
-			span.aos_inner_header {
-							}
+		.aos_single_box_wrapper {
+			margin:0 0.2%;
 		}
-		.aos_single_box_lower {
-			span {
-				
+		.aos_single_box_wrapper {
+			width:32.9%;
+			float:left;
+			.aos_single_box {
+				min-height:430px;
+				padding:0 20px;
+				img.aos_icon {
+					margin-top:97px;
+				}
 			}
-			
 		}
 	}
 }
-}
 
 
-		.aos_single_box_wrapper:hover .aos_single_box_lower {
-			
-		}
-			
-			
-			.aos_single_box_lower:after {
-				
-			}
-			
-			
-			.aos_single_box_wrapper:hover .aos_single_box_lower:after {
-				
-			}
 
 
 /* Client Testimonials */
@@ -1977,10 +1958,74 @@ span.mybutton:hover {
   -moz-column-count:2;
   column-count:2;
   padding-left:4%;
-  -webkit-column-gap:45px;
-  -moz-column-gap:45px;
-  column-gap:45px
+  -webkit-column-gap:65px;
+  -moz-column-gap:65px;
+  column-gap:65px
 }
+
+
+/* Areas of Service */
+
+
+.areas_of_service {
+	position: relative;
+	span.aos_header {
+		text-align: left;
+		padding-left:9%;
+	}
+	.short_line {
+		width:20%;
+		position: absolute;
+		top:10px;
+		left:0;
+	}
+}
+
+
+
+.aos_box_wrapper {
+	padding:0 9%;
+	overflow: hidden;
+	a {
+		.aos_single_box_wrapper {
+			margin:0 0.2%;
+		}
+		.aos_single_box_wrapper {
+			width:32.9%;
+			float:left;
+			.aos_single_box {
+				min-height:630px;
+				padding:0 20px;
+				img.aos_icon {
+					margin-top:130px;
+				}
+				span.aos_inner_header {
+					padding-bottom:35px;
+				}
+				span.description {
+					display: block;
+					font-family: $proximareg;
+					font-wieght:300;
+					font-size:17px;
+					line-height:1.8;
+					max-width: 80%;
+					margin: 0 auto;
+					text-transform: capitalize;
+				}
+				span.blue_headers {
+					color:$blue;
+					font-family: $utopiabold;
+					font-weight: 300;
+					font-size:22px;
+					margin:40px 0;
+					display: block;
+					letter-spacing:2px;
+				}
+			}
+		}
+	}
+}
+
 
 	
 	
@@ -2165,7 +2210,7 @@ a.phone_header_desktop {
 	h2 {
 		margin: 0 0% 56px 0%;
 		text-align: right;
-		font-size:70px;
+		font-size:67px;
 	}
 }
 

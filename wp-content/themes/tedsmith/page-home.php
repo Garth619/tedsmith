@@ -291,7 +291,10 @@ get_header(); ?>
 				
 					<span class="aos_inner_header">personal injury</span>
 					
-				
+					<span class="description">Injured due to someone else's recklessness? When this happens, you need the help of experienced attorneys 
+who can level the playing field against the insurance carriers and their massive legal departments.</span>
+
+					<span class="blue_headers">Let Us Help.</span>
 				
 				</div><!-- aos_single_box -->
 				
@@ -315,6 +318,12 @@ get_header(); ?>
 					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon2.png"/>
 				
 					<span class="aos_inner_header">family law</span>
+					
+					<span class="description">Whether you have reached the end of your marriage or are beginning a new chapter of your life by adopting a child, the legal process can be daunting. </span>
+
+					<span class="blue_headers">We Can help.</span>
+					
+					
 				
 				</div><!-- aos_single_box -->
 				
@@ -336,6 +345,10 @@ get_header(); ?>
 					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon3.png"/>
 				
 					<span class="aos_inner_header">social security disability</span>
+					
+					<span class="description">Have you been denied Social Security Disability? Our attorneys understand that seeking after Social Security Disability benefits can seem overwhelming.</span>
+
+					<span class="blue_headers">Let Us Help.</span>
 				
 				</div><!-- aos_single_box -->
 				
