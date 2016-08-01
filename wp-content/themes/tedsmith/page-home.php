@@ -429,153 +429,200 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 		
 	</section><!-- client_testimonials -->
 	
-	<section class="meet_attorneys mobile">
+	<section class="meet_attorneys">
 		
 		<span class="attorneys_header">meet our attorneys</span>
 		
-		<div class="attorneys_wrapper">
-			
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
-				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
-			
-			</div><!-- attorneys_single_wrapper -->
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
-				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
-			
-			</div><!-- attorneys_single_wrapper -->
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-mob.jpg"/>
-				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
-			
-			</div><!-- attorneys_single_wrapper -->
-			
+		<div class="attornies_mobile">
 		
-		</div><!-- attorneys_wrapper -->
+			<div class="attorneys_wrapper attornies_slideshow">
+				
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith2</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith3</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith4</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith5</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith6</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+			</div><!-- attorneys_wrapper -->
+			
+			</div><!-- attornies_mobile -->
+			
+			
+			
+			<div class="attornies_desktop">
 		
-	</section><!-- meet_attorneys -->
-	
-	
-	<section class="meet_attorneys desktop">
-		
-		<span class="attorneys_header">meet our attorneys</span>
-		
-		<div class="attorneys_wrapper">
-			
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+			<div class="attorneys_wrapper">
 				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
-			
-			</div><!-- attorneys_single_wrapper -->
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
 				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith2</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
-			
-			</div><!-- attorneys_single_wrapper -->
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+				<div class="attorneys_single_wrapper">
 				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith3</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
-			
-			</div><!-- attorneys_single_wrapper -->
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
 				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith4</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
-			
-			</div><!-- attorneys_single_wrapper -->
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+				</div><!-- attorneys_single_wrapper -->
 				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith5</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
-			
-			</div><!-- attorneys_single_wrapper -->
-			
-			<div class="attorneys_single_wrapper">
-			
-				<a href="">
-					<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+				<div class="attorneys_single_wrapper">
 				
-					<div class="attorneys_title">
-						<span class="attorneys_name">Ted Smith6</span>
-						<span class="attorneys_position">Founder / Senior Partner</span>
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-					</div><!-- attorneys_title -->
-				</a>
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith2</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith3</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith4</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith5</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Ted Smith6</span>
+							<span class="attorneys_position">Founder / Senior Partner</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+			</div><!-- attorneys_wrapper -->
 			
-			</div><!-- attorneys_single_wrapper -->
+			</div><!-- attornies_mobile -->
 			
-		</div><!-- attorneys_wrapper -->
+			
+			
 		
 	</section><!-- meet_attorneys -->
 	

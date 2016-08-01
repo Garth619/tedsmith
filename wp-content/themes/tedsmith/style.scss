@@ -805,6 +805,10 @@ nav.desktop_menu {
  /* Meet Attornys */
  
  
+.attornies_desktop {
+	 display: none;
+ }
+
  .meet_attorneys {
 	 background: $greylight;
 	 padding: 90px 0 60px;
@@ -2065,19 +2069,7 @@ span.mybutton:hover {
  	}
  	ul.slick-dots {
 	 	bottom:-60px !important;
-		li {
-			button:before {
-				
-			}
-			button:focus:before {
-				
-			}
-		}
-		li.slick-active button:before {
-			
-		}
 	}
- 	
  }
 
 
@@ -2134,6 +2126,54 @@ nav.desktop_menu {
 			}
 		}
 	}
+	
+	
+/* Meet Attornies */
+
+
+ .attornies_mobile {
+	 display: none;
+ }
+ 
+ .attornies_desktop {
+	 display: inline-block;
+ }
+ 
+ 
+ .meet_attorneys {
+	 
+	 img {
+		 
+	 }
+	 span.attorneys_header {
+		 
+	 }
+	 
+	 .attornies_desktop {
+	 	.attorneys_wrapper {
+		 	max-width:1585px;
+		 	margin:0 auto;
+		 	overflow: hidden;
+	 		.attorneys_single_wrapper {
+				width:32%;
+				float:left;
+				margin-bottom:25px;
+				.attorneys_title {
+			 
+		 			span.attorneys_name {
+		 			
+					}
+					span.attorneys_position {
+					
+					}
+					.arrow {
+					
+					}
+		 		}
+		 	}
+	 	}
+ 	}
+}
 	
 	
 	

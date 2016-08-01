@@ -126,7 +126,7 @@ jQuery('.read_more').click(function(){
 		// Attornies 
 		
 		
-		jQuery('.attorneys_wrapper').slick({
+		jQuery('.attornies_slideshow').slick({
 	    dots:true,
 	    slidesToShow: 2,
 	    slidesToScroll: 2,
