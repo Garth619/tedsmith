@@ -1484,9 +1484,51 @@ nav.mobile_menu {
 
 /* Areas of Service */
 
+
 .aos_box_wrapper {
-	padding:0 13%;
+// 	padding:0 13%;
+padding:0 3%;
+	a {
+		
+	.aos_single_box_wrapper {
+		margin:0 1%;
+	}
+	.aos_single_box_wrapper {
+		width:31%;
+		float:left;
+		
+		.aos_single_box {
+			
+			img.aos_icon {
+				
+			}
+			span.aos_inner_header {
+							}
+		}
+		.aos_single_box_lower {
+			span {
+				
+			}
+			
+		}
+	}
 }
+}
+
+
+		.aos_single_box_wrapper:hover .aos_single_box_lower {
+			
+		}
+			
+			
+			.aos_single_box_lower:after {
+				
+			}
+			
+			
+			.aos_single_box_wrapper:hover .aos_single_box_lower:after {
+				
+			}
 
 
 /* Client Testimonials */
@@ -2121,7 +2163,7 @@ a.phone_header_desktop {
 		text-align: left;
 	}
 	h2 {
-		margin: 0 2% 56px 0%;
+		margin: 0 0% 56px 0%;
 		text-align: right;
 		font-size:70px;
 	}
