@@ -38,7 +38,7 @@ jQuery('.read_more').click(function(){
 	
 	jQuery(window).scroll(function(){
   	
-  	var sticky = jQuery('.menu_wrapper, .nav_wrapper, .home_banner'),
+  	var sticky = jQuery('.menu_wrapper, .nav_wrapper, .home_banner, .main'),
   			
       	scroll = jQuery(window).scrollTop();
 
