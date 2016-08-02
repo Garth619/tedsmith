@@ -16,26 +16,38 @@
 	
 	<section class="office">
 		
-		<span class="office_titles">office</span>
-		<span class="sub_office_titles">660 West FM 2410 Harker Heights, Tx&nbsp;76548</span>
+		<div class="office_col1">
+			
+			<span class="office_titles">office</span>
+			<span class="sub_office_titles">660 West FM 2410 Harker Heights, Tx&nbsp;76548</span>
 		
-		<div class="gradient_button"><a href="">Get Directions</a></div><!-- gradient_button -->
+			<div class="gradient_button"><a href="">Get Directions</a></div><!-- gradient_button -->
 		
-		<div class="gradient_divider"></div><!-- gradient_divider -->
+			<div class="gradient_divider"></div><!-- gradient_divider -->
 		
-		<span class="office_titles">phone</span>
-		<a href="tel:2546905688" class="sub_office_titles">254.690.5688</a>
+		</div><!-- office_col1 -->
 		
-		<span class="office_titles fax_margin">fax</span>
-		<a href="tel:2546905685" class="sub_office_titles">254.690.5685</a>
+		<div class="office_col2">
 		
-		<div class="gradient_divider"></div><!-- gradient_divider -->
+			<span class="office_titles">phone</span>
+			<a href="tel:2546905688" class="sub_office_titles">254.690.5688</a>
+		
+			<span class="office_titles fax_margin">fax</span>
+			<a href="tel:2546905685" class="sub_office_titles">254.690.5685</a>
+		
+			<div class="gradient_divider"></div><!-- gradient_divider -->
+		
+		</div><!-- office_col2 -->
+		
+		<div class="office_col3">
 		
 		<span class="office_titles">we accept</span>
 		
 		<img class="payment" src="<?php bloginfo('template_directory');?>/images/small-imgs/paypal.png"/>
 		
 		<img class="payment" src="<?php bloginfo('template_directory');?>/images/small-imgs/creditcards.png"/>
+		
+		</div><!-- office_col3 -->
 		
 	</section><!-- office -->
 	

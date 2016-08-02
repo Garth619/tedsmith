@@ -1589,7 +1589,7 @@ nav.mobile_menu {
 		 margin-bottom:0px;
 		 padding:65px 0;
 	 	}
-	 .single_logo:nth-of-type(2n + 1) {
+	 .single_logo:nth-of-type(n + 1) {
 		 border-right:1px solid #d4d4d4;
 	 }
  	}
@@ -2038,10 +2038,7 @@ span.mybutton:hover {
 /* Meet Attornies */
 
 
-/* Meet Attornys */
- 
- 
- .meet_attorneys {
+	.meet_attorneys {
 	 padding-bottom:90px;
 	 img {
 		 
@@ -2141,12 +2138,15 @@ nav.desktop_menu {
  
  
  .meet_attorneys {
-	 
+	 padding:150px 0;
 	 img {
 		 
 	 }
 	 span.attorneys_header {
-		 
+		 text-align: left;
+		 margin: 0 0% 45px 0;
+		 padding: 0 0 35px 8%;
+		 border: none;
 	 }
 	 
 	 .attornies_desktop {
@@ -2155,7 +2155,7 @@ nav.desktop_menu {
 		 	margin:0 auto;
 		 	overflow: hidden;
 	 		.attorneys_single_wrapper {
-				width:32%;
+				width:32.9%;
 				float:left;
 				margin-bottom:25px;
 				.attorneys_title {
@@ -2174,7 +2174,8 @@ nav.desktop_menu {
 	 	}
  	}
 }
-	
+
+
 	
 	
 	
@@ -2291,6 +2292,85 @@ a.phone_header_desktop {
 				
 		}
 	}
+}
+
+
+/* Request Consultation */
+ 
+ .request {
+	 width:37%;
+	 float:left;
+	 padding:0;
+	 height: 945px;
+	 span.request_header {
+		 text-align: left;
+		 border-left:1px solid #fff;
+		 padding:0 0 70px 25px;
+		 position: relative;
+		 top: 50%;
+		 transform: translateY(-50%);
+		 font-size:70px;
+		}
+	}
+ 
+ .form_wrapper {
+	 float:left;
+	 width:63%;
+	 padding: 130px 7% 120px;
+	 height: 945px;
+	 span.description, .gform_confirmation_message {
+		text-align: left;
+		margin:0;
+	 }
+	 span.sub_description {
+	 		text-align: left;
+		}
+	 }
+ 
+ 
+ input.gform_button {
+    float:right;
+	}
+	
+	
+/* Office */
+
+
+.office {
+	
+	.office_col1, .office_col2, .office_col3 {
+		float:left;
+		width:33.333333%;
+	}
+	
+	span {
+		text-align: left;
+	}
+	.office_titles {
+		
+	}
+	.sub_office_titles {
+		text-align: left;
+		margin: 0 0 30px;
+	}
+	.fax_margin {
+		
+	}
+	.payment {
+		
+	}
+}
+
+.gradient_divider {
+	width:100%;
+	height:2px;
+	margin:55px 0 35px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
+	background: #0abcba; /* Old browsers */
+	background: -moz-linear-gradient(left,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #0abcba 0%,#5b45c1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #0abcba 0%,#5b45c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=1 ); /* IE6-9 */
 }
 
 
