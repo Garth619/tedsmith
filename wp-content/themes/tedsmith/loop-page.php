@@ -4,7 +4,10 @@
 		<h1><?php the_title(); ?></h1>
 		<div class="gradient_divider"></div><!-- gradient_divider -->
 					
-		<?php the_content(); ?>
+		
+		<div class="content_inner">
+			<?php the_content(); ?>
+		</div><!-- content_inner -->
 						
 						
 		<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>

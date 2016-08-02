@@ -176,6 +176,10 @@ ul.slick-dots {
 	display: none;
 }
 
+.sidebar {
+	display: none;
+}
+
 /* Header */
 
 
@@ -1187,7 +1191,7 @@ footer {
 	margin-top:75px;
 }
 
-#content {
+.content {
 	font-family: $utopiareg;
 	font-weight:300;
 	color: $black;
@@ -1795,7 +1799,6 @@ footer {
 		color: #fff;
 		padding:0 15%;
 		display: block;
-		margin-bottom: 92px;
 		.banner_vertical_align {
 			margin: 0 auto;
 			max-width: 570px;
@@ -1822,10 +1825,21 @@ footer {
 		}
 	}
 	
-	#content {
-		max-width:1000px;
-		margin:0 auto;
+	
+	
+	
+	
+.content {
+	max-width:1200px;
+	margin:0 auto;
+	padding:85px 40px;
+	h1 {
+		font-size:50px;
 	}
+}
+
+	
+	
 	
 	
 	/* About Us */
@@ -2258,20 +2272,8 @@ span.mybutton:hover {
 	 .attorneys_wrapper {
 		 	max-width:820px;
 	 	.attorneys_single_wrapper {
-		 margin:0 3px;
-		 .attorneys_title {
-			 
-		 		span.attorneys_name {
-		 			
-				}
-				span.attorneys_position {
-					
-				}
-				.arrow {
-					
-				}
+		 	margin:0 3px;
 		 }
-	 }
  	}
  	ul.slick-dots {
 	 	bottom:-60px !important;
@@ -2287,9 +2289,27 @@ span.mybutton:hover {
 		padding-top:103px;
 	}
 	
-
-
-
+	/* Pages with a sidebar */
+	
+	
+	#sidebar_content_wrapper {
+		max-width:1300px;
+		margin: 0 auto;
+		
+		.content.sidebar_template {
+			float:left;
+			width:60%;
+			
+		}
+		#sidebar {
+			display: block;
+			float: left;
+			width:40%;
+			height:1000px;
+			background:blue;
+		}
+	}
+	
 	
 	
 	
@@ -2406,6 +2426,14 @@ nav.desktop_menu {
 			.banner_sub_header {
 				font-size: 22px;
 			}
+		}
+	}
+	
+	
+	.content {
+		padding:92px 0px;
+		h1 {
+			font-size:60px;
 		}
 	}
 	
@@ -2567,8 +2595,29 @@ a.phone_header_desktop {
 	}
 	
 	
+	/* Inner Pages */
+	
+	
+	
+	.content {
+		h2 {
+			text-align: left;
+		}
+	}
+	
+	
+	
+	/* About Us Page */
 	
 
+	body.page-template-page-about .content_inner {
+		-webkit-column-count:2;
+		-moz-column-count:2;
+		column-count:2;
+		-webkit-column-gap:65px;
+		-moz-column-gap:65px;
+		column-gap:65px	
+  }
 	
 
 
