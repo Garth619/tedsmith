@@ -275,94 +275,98 @@ get_header(); ?>
 
 	<section class="areas_of_service">
 		
-		<span class="aos_header">our areas of practice</span>
-		<div class="short_line"></div><!-- short_line -->
+		<div class="areas_of_service_inner">
 		
-		<div class="aos_box_wrapper">
+			<span class="aos_header">our areas of practice</span>
+			<div class="short_line"></div><!-- short_line -->
 			
-			<a href="">
+			<div class="aos_box_wrapper">
+				
+				<a href="">
+				
+				<div class="aos_single_box_wrapper">
+					
+					
+					<div class="aos_single_box">
+					
+						<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
+					
+						<span class="aos_inner_header">personal injury</span>
+						
+						<span class="description">Injured due to someone else's recklessness? When this happens, you need the help of experienced attorneys 
+who 	can level the playing field against the insurance carriers and their massive legal departments.</span>
 			
-			<div class="aos_single_box_wrapper">
-				
-				
-				<div class="aos_single_box">
-				
-					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
-				
-					<span class="aos_inner_header">personal injury</span>
+						<span class="blue_headers">Let Us Help.</span>
 					
-					<span class="description">Injured due to someone else's recklessness? When this happens, you need the help of experienced attorneys 
-who can level the playing field against the insurance carriers and their massive legal departments.</span>
-
-					<span class="blue_headers">Let Us Help.</span>
+					</div><!-- aos_single_box -->
+					
 				
-				</div><!-- aos_single_box -->
+					
+					<div class="aos_single_box_lower">
+						
+						<span>click to learn more</span>
+						
+					</div><!-- aos_single_box_lower -->
 				
+				</div><!-- aos_single_box_wrapper -->
+				</a>
+				
+				
+				<a href="">
+				<div class="aos_single_box_wrapper">
+					
+					<div class="aos_single_box">
+					
+						<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon2.png"/>
+					
+						<span class="aos_inner_header">family law</span>
+						
+						<span class="description">Whether you have reached the end of your marriage or are beginning a new chapter of your life by adopting a child, the legal process can be daunting. </span>
 			
+						<span class="blue_headers">We Can help.</span>
+						
+						
+					
+					</div><!-- aos_single_box -->
+					
+					<div class="aos_single_box_lower">
+						
+						<span>click to learn more</span>
+						
+						
+					</div><!-- aos_single_box_lower -->
 				
-				<div class="aos_single_box_lower">
+				</div><!-- aos_single_box_wrapper -->
+				</a>
+				
+				<a href="">
+				<div class="aos_single_box_wrapper">
 					
-					<span>click to learn more</span>
+					<div class="aos_single_box">
 					
-				</div><!-- aos_single_box_lower -->
+						<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon3.png"/>
+					
+						<span class="aos_inner_header">social security disability</span>
+						
+						<span class="description">Have you been denied Social Security Disability? Our attorneys understand that seeking after Social Security Disability benefits can seem overwhelming.</span>
 			
-			</div><!-- aos_single_box_wrapper -->
-			</a>
-			
-			
-			<a href="">
-			<div class="aos_single_box_wrapper">
-				
-				<div class="aos_single_box">
-				
-					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon2.png"/>
-				
-					<span class="aos_inner_header">family law</span>
+						<span class="blue_headers">Let Us Help.</span>
 					
-					<span class="description">Whether you have reached the end of your marriage or are beginning a new chapter of your life by adopting a child, the legal process can be daunting. </span>
-
-					<span class="blue_headers">We Can help.</span>
+					</div><!-- aos_single_box -->
 					
-					
+					<div class="aos_single_box_lower">
+						
+						<span>click to learn more</span>
+						
+						
+					</div><!-- aos_single_box_lower -->
 				
-				</div><!-- aos_single_box -->
+				</div><!-- aos_single_box_wrapper -->
+				</a>
 				
-				<div class="aos_single_box_lower">
-					
-					<span>click to learn more</span>
-					
-					
-				</div><!-- aos_single_box_lower -->
-			
-			</div><!-- aos_single_box_wrapper -->
-			</a>
-			
-			<a href="">
-			<div class="aos_single_box_wrapper">
-				
-				<div class="aos_single_box">
-				
-					<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon3.png"/>
-				
-					<span class="aos_inner_header">social security disability</span>
-					
-					<span class="description">Have you been denied Social Security Disability? Our attorneys understand that seeking after Social Security Disability benefits can seem overwhelming.</span>
-
-					<span class="blue_headers">Let Us Help.</span>
-				
-				</div><!-- aos_single_box -->
-				
-				<div class="aos_single_box_lower">
-					
-					<span>click to learn more</span>
-					
-					
-				</div><!-- aos_single_box_lower -->
-			
-			</div><!-- aos_single_box_wrapper -->
-			</a>
-			
-		</div><!-- aos_box_wrapper -->
+			</div><!-- aos_box_wrapper -->
+		
+		</div><!-- areas_of_service_inner -->
 		
 	</section><!-- areas_of_service -->
 	
