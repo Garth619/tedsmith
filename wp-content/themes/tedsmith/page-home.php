@@ -400,7 +400,7 @@ who 	can level the playing field against the insurance carriers and their massiv
 				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
 				<p>“Mr. Smith took my case and won. I'm very grateful with Mr. Smith. He took the time to review all my files and explain to me what he was doing and our chances. 
-His very professional at what he do. I recommend Mr. Smith to anyone who needs legal help.”</p>
+His very professional at what he do. I recommend Mr. Smith to anyone who needs legal&nbsp;help.”</p>
 			
 				<span class="client_subheader">Juan</span>
 				<span class="client_lowerheader">avvo.com review</span>

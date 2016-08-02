@@ -1243,7 +1243,49 @@ footer {
 }
 
 
-/* About Us Page */
+/* Testimonials Page Page */
+
+
+
+
+	
+.content {
+	.testimonial_wrapper {
+		text-align: center;
+		.single_testimonial {
+			
+			margin:0 0 100px;
+			.testimonial_stars {
+				margin-bottom: 35px;
+			}
+			p {
+				font-size:17px;
+				line-height:1.5;
+				margin-bottom: 0;
+			}
+			span.client_subheader {
+				font-family: $proximareg;
+				text-transform: uppercase;
+				letter-spacing:1.5px;
+				color: $purple;
+				font-size:17px;
+				margin:30px 0px 0px 0px;
+				padding-top:30px;
+				display: block;
+				border-top:1px solid #c1c1c1;
+			}
+			span.client_lowerheader {
+				font-size:17px;
+				font-family:$utopiabolditalic;
+				font-weight: 300;
+				letter-spacing:2px;
+				margin-top:5px;
+				display: block;
+			}
+		}
+	}
+} 
+
 
 
 @media screen and (min-width: 755px) {
@@ -2332,7 +2374,7 @@ span.mybutton:hover {
 			display: block;
 			float: left;
 			width:22%;
-			height:1000px;
+			height:500px;
 			margin-top:102px;
 			.gradient_divider {
 				width:3px;
@@ -2369,7 +2411,6 @@ span.mybutton:hover {
 							&:hover {
 								color:$purple;
 							}
-							
 						}
 						ul {
 							padding:14px 0 9px;
