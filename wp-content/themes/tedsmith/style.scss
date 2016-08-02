@@ -1786,9 +1786,7 @@ footer {
 	margin-top:0px;
 }
 
- 
-
-.banner {
+ .banner {
 		background: url(images/main-image-internals.jpg) top left no-repeat;
 		background-size:cover;
 		width:100%;
@@ -2396,7 +2394,20 @@ nav.desktop_menu {
  	}
 }
 
-
+/* Inner Pages */
+	
+	.banner {
+		
+		.banner_vertical_align {
+			float:left;
+			.banner_header {
+				font-size:60px;
+			}
+			.banner_sub_header {
+				font-size: 22px;
+			}
+		}
+	}
 	
 	
 	
@@ -2554,6 +2565,10 @@ a.phone_header_desktop {
 	}
 	
 	}
+	
+	
+	
+
 	
 
 
