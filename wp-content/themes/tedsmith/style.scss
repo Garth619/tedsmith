@@ -1217,7 +1217,7 @@ footer {
 	}
 	p {
 		font-size:17px;
-		line-height:1.5;
+		line-height:1.9;
 		margin-bottom:45px;
 	}
 	a {
@@ -1231,6 +1231,7 @@ footer {
 	ul, ol {
 		margin-left:25px;
 		margin-bottom:45px;
+		line-height: 1.9;
 	}
 	ul {
 		list-style: disc;
@@ -2368,6 +2369,7 @@ span.mybutton:hover {
 							&:hover {
 								color:$purple;
 							}
+							
 						}
 						ul {
 							padding:14px 0 9px;
@@ -2381,7 +2383,16 @@ span.mybutton:hover {
 							}
 						}
 					}
-					li.open > a {
+					li.menu-item-has-children:before  {
+						content:"";
+						background:url(images/small-imgs/sidebar-arrowdrop.png) top left no-repeat;
+						width:27px;
+						height:18px;
+						display: inline-block;
+						float:right;
+						margin-top: 18px;
+					}
+					li.menu-item-has-children a.open {
 						color:$purple;
 					}
 					li.current-menu-item {

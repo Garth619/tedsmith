@@ -70,7 +70,7 @@ jQuery('.read_more').click(function(){
 		jQuery('.sidebar_menu_wrapper li.menu-item-has-children a').click(function(){
 			
 			jQuery(this).next('.sidebar_menu_wrapper li.menu-item-has-children ul.sub-menu').slideToggle(200);
-			jQuery('.sidebar_menu_wrapper  li.menu-item-has-children > ul.sub-menu').toggleClass('open');
+			jQuery(this,'.sidebar_menu_wrapper li.menu-item-has-children a').toggleClass('open');
 			
 			
 		});
