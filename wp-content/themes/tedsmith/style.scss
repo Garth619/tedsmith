@@ -1173,6 +1173,7 @@ footer {
 
 .main {
 	padding:60px 0;
+	background:#f2f2f2;
 	.gradient_divider {
 		
 		width:100%;
@@ -1281,6 +1282,58 @@ footer {
 		}
 	}
 } 
+
+
+/* Meet Attorneys */
+
+
+ 
+ 
+.content {
+	img {
+		 max-width:100%;
+		 height:auto;
+		 display: block;
+	 }
+	 	.attorneys_wrapper {
+		
+		 margin: 0 auto;
+		 a {
+			 text-decoration: none;
+		 }
+	 	.attorneys_single_wrapper {
+		 	text-align: left;
+		 	margin:0 auto 25px;
+		 	max-width:524px;
+		 .attorneys_title {
+			 background:#fff;
+			 padding:16px;
+		 		span.attorneys_name {
+		 			color:$teal;
+		 			font-size: 28px;
+		 			font-family:$utopiabolditalic;
+		 			font-weight: 300;
+		 			letter-spacing:2px;
+		 			display: block;
+				}
+				span.attorneys_position {
+					font-family: $proximareg;
+					text-transform: uppercase;
+					font-size: 16px;
+					letter-spacing:2px;
+					margin-top:5px;
+					display: inline-block;
+					color:$black;
+				}
+				.arrow {
+					float:right;
+					margin-top:-15px;
+				}
+		 }
+	 }
+ 	}
+ 
+}
 
 
 
@@ -2357,14 +2410,45 @@ span.mybutton:hover {
 			}
 		}
 	}
-} 
+}
+
+
+
+/* Meet Attorneys */
+
+
+.content {
+	.attorneys_wrapper {
+		overflow: hidden;
+		text-align: center;
+		 .attorneys_single_wrapper {
+		 		margin:0 10px 20px;
+		 		width:50%;
+		 		display: inline-block;
+		 		a {
+			 		text-decoration: none;
+		 		}
+		 		.attorneys_title {
+		 			span.attorneys_name {
+		 				font-size: 28px;
+		 			}
+		 			span.attorneys_position {
+						font-size: 16px;
+					}
+					.arrow {
+						float:right;
+						margin-top:-15px;
+					}
+		 		}
+	 		}
+ 		}
+   }
+
  
 
 
  	
-	
-	
-} /* Media Query */
+	} /* Media Query */
 
 
 
@@ -2588,6 +2672,34 @@ nav.desktop_menu {
 	
 	
 	
+	/* Meet Attorneys */
+
+
+.content {
+	.attorneys_wrapper {
+		.attorneys_single_wrapper {
+				margin:0 10px 20px;
+		 		width:31%;
+		 		.attorneys_title {
+		 			span.attorneys_name {
+		 				font-size: 28px;
+		 			}
+		 			span.attorneys_position {
+						font-size: 16px;
+					}
+					.arrow {
+						float:right;
+						margin-top:-15px;
+					}
+		 		}
+	 		}
+ 		}
+   }
+	
+	
+	
+	
+	
 } /* Media Query */
 
 
@@ -2767,7 +2879,9 @@ a.phone_header_desktop {
 		-moz-column-gap:65px;
 		column-gap:65px	
   }
-	
+  
+  
+  	
 
 
 	

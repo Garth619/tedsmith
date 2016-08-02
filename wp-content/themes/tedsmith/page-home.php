@@ -623,7 +623,7 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				
 			</div><!-- attorneys_wrapper -->
 			
-			</div><!-- attornies_mobile -->
+			</div><!-- attornies_desktop-->
 			
 			
 			
