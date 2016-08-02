@@ -180,10 +180,19 @@ jQuery('.read_more').click(function(){
 	
  
 	jQuery('.social_icon_wrapper').slick({
-			slidesToShow: 2,
-			slidesToScroll: 2,
+			slidesToShow: 6,
+			slidesToScroll: 6,
 			dots: true,
 			responsive: [
+			  {
+			    breakpoint: 1100,
+			    settings: {
+			      slidesToShow: 2,
+			      slidesToScroll: 2,
+			      infinite: true,
+			      dots: true
+			    }
+			  },
 			  {
 			    breakpoint: 755,
 			    settings: {
@@ -193,6 +202,7 @@ jQuery('.read_more').click(function(){
 			      dots: true
 			    }
 			  }
+			  
 			]
 		});
 

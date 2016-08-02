@@ -996,6 +996,11 @@ nav.desktop_menu {
 	 }
  }
  
+ .gform_wrapper {
+	 max-width: 1200px;
+	 margin:0 auto;
+ }
+ 
 input.gform_button {
 	font-size:25px;
 	font-family: $utopiabolditalic;
@@ -1691,6 +1696,63 @@ footer {
 } /* Media Query */
 
 
+@media screen and (min-width: 1100px) {
+
+
+/* Office */
+
+
+.office {
+	text-align: left;
+	padding:105px 65px;
+	.office_col1, .office_col2, .office_col3 {
+		float:left;
+	}
+	.office_col1 {
+		width:40%;
+	}
+	.office_col2 {
+		width:35%;
+	}
+	.office_col3 {
+		width:25%;
+	}
+	span {}
+		.office_titles {
+			margin-bottom:22px;
+		}
+		.sub_office_titles {
+			text-align: left;
+			margin: 0 0 44px;
+		}
+		.fax_margin {
+			margin-top:45px;
+		}
+		.payment {
+			margin: 0 0 40px;
+		}
+		.payment:first-of-type {
+			margin-top:68px;
+		}
+
+
+.gradient_divider {
+	
+	display: none;
+	width:100%;
+	height:2px;
+	margin:55px 0 35px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
+	background: #0abcba; /* Old browsers */
+	background: -moz-linear-gradient(left,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #0abcba 0%,#5b45c1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #0abcba 0%,#5b45c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=1 ); /* IE6-9 */
+}
+
+} /* Media Query */
+
+
 @media screen and (min-width: 1200px) {
 	
 
@@ -2333,49 +2395,6 @@ a.phone_header_desktop {
 	}
 	
 	
-/* Office */
-
-
-.office {
-	text-align: left;
-	padding:105px 65px;
-	.office_col1, .office_col2, .office_col3 {
-		float:left;
-	}
-	.office_col1 {
-		width:45%;
-	}
-	.office_col2 {
-		width:35%;
-	}
-	.office_col3 {
-		width:20%;
-	}
-	span {}
-		.office_titles {}
-		.sub_office_titles {
-			text-align: left;
-			margin: 0 0 30px;
-		}
-		.fax_margin {}
-		.payment {
-			margin: 0 0 40px;
-		}
-
-
-.gradient_divider {
-	
-	display: none;
-	width:100%;
-	height:2px;
-	margin:55px 0 35px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
-	background: #0abcba; /* Old browsers */
-	background: -moz-linear-gradient(left,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  #0abcba 0%,#5b45c1 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  #0abcba 0%,#5b45c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=1 ); /* IE6-9 */
-}
 
 
 
