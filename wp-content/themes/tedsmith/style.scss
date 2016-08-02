@@ -170,6 +170,12 @@ ul.slick-dots {
 	display:none !important;
 }
 
+/* Inner Pages */
+
+.banner {
+	display: none;
+}
+
 /* Header */
 
 
@@ -1162,7 +1168,7 @@ footer {
 
 
 .main {
-	padding:60px 20px;
+	padding:60px 0;
 	.gradient_divider {
 		
 		width:100%;
@@ -1185,6 +1191,7 @@ footer {
 	font-family: $utopiareg;
 	font-weight:300;
 	color: $black;
+	padding:0 20px;
 	h1 {
 		font-family: $proximareg;
 		font-weight:300;
@@ -1766,6 +1773,20 @@ nav.mobile_menu {
 footer {
 	padding-top:60px;
 }
+
+
+/* Inner Pages */
+
+
+.main {
+	padding-top:215px;
+}
+
+
+/* About Us */
+
+
+
  
 
 	
@@ -2474,13 +2495,62 @@ a.phone_header_desktop {
     float:right;
 	}
 	
+	}
 	
-
-
-
-
-
-}
+	
+	
+	
+	
+	/* Inner Pages */
+	
+	
+	.main {
+		padding-top:153px;
+	}
+	
+	.banner {
+		background: url(images/main-image-internals.jpg) top left no-repeat;
+		background-size:cover;
+		width:100%;
+		height:500px;
+		text-align: center;
+		color: #fff;
+		padding:0 15%;
+		display: block;
+		margin-bottom: 92px;
+		.banner_vertical_align {
+			margin: 0 auto;
+			max-width: 570px;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			.banner_header {
+				font-family: $utopiabolditalic;
+				font-size:55px;
+				display: block;
+				letter-spacing: 2px;
+				margin-bottom: 20px;
+				line-height: 1.1;
+			}
+			.banner_sub_header {
+				font-family: $proximalight;
+				font-size:22px;
+				display: block;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				margin-bottom: 40px;
+				line-height: 1.2;
+			}
+		}
+	}
+	
+	#content {
+		max-width:1000px;
+		margin:0 auto;
+	}
+	
+	
+	/* About Us */
 
 
 

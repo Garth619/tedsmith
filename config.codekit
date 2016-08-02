@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/readme.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/readme.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-activate.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10500,6 +10509,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/mailgun_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86845,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/mailgun_icon.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/mailgun_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/mailgun_icon1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10518,6 +10538,17 @@
 		"initialSize": 86845,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/mailgun_icon2.png",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/mailgun_icon2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/rackspace_logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45426,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/rackspace_logo.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/gfmailgun\/vendor\/mailgun\/mailgun-php\/tests\/Mailgun\/Tests\/TestAssets\/rackspace_logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -29993,7 +30024,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "garrett cullen",
+"lastSavedByUser": "Garret",
 "manualImportLinks": {
 	},
 "projectAttributes": {
