@@ -1212,11 +1212,11 @@ footer {
 		font-size:19px;
 		text-align: center;
 		letter-spacing:2px;
-		margin-bottom:40px;
+		margin-bottom:20px;
 		line-height: 1.2;
 	}
 	p {
-		font-size:16px;
+		font-size:17px;
 		line-height:1.5;
 		margin-bottom:45px;
 	}
@@ -2319,18 +2319,18 @@ span.mybutton:hover {
 	
 	
 	#sidebar_content_wrapper {
-		max-width:1300px;
+		max-width:1400px;
 		margin: 0 auto;
 		
 		.content.sidebar_template {
 			float:left;
-			width:72%;
+			width:78%;
 			padding-left:7%;
 		}
 		#sidebar {
 			display: block;
 			float: left;
-			width:28%;
+			width:22%;
 			height:1000px;
 			margin-top:102px;
 			.gradient_divider {
@@ -2357,6 +2357,7 @@ span.mybutton:hover {
 						margin-bottom:5px;
 						font-size:17px;
 						letter-spacing: 1.5px;
+						cursor: pointer;
 						a {
 							border-bottom:1px solid #cbcbcb;
 							display: block;
@@ -2364,16 +2365,27 @@ span.mybutton:hover {
 							color:$black;
 							text-decoration: none;
 							padding:15px 0;
+							&:hover {
+								color:$purple;
+							}
 						}
 						ul {
 							padding:14px 0 9px;
 							border-bottom:1px solid #cbcbcb;
+// 							display: none;
 							li {
 								a {
 									border-bottom:none;
 									padding:4px 0;
 								}
 							}
+						}
+					}
+					li.current-menu-item {
+						a {
+							border:none;
+							background:none;
+							color:$purple;
 						}
 					}
 				}

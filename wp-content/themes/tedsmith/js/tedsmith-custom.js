@@ -64,6 +64,17 @@ jQuery('.read_more').click(function(){
   	
 	});
 	
+	// Sidebar Toggle
+
+
+		jQuery('.sidebar_menu_wrapper  li.menu-item-has-children').click(function(){
+			
+			jQuery(this).children('.sidebar_menu_wrapper  li.menu-item-has-children ul.sub-menu').slideToggle(200);
+			
+			
+			
+		});
+	
 	
 	// Slick Slideshow 
 	
