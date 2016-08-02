@@ -1336,6 +1336,35 @@ footer {
 }
 
 
+/* Attornies Singe Bio page */
+
+
+.content {
+	.attorneys_bio {
+		img {
+			margin: 0 auto;
+		}
+	}
+	.attorneys_bio_wrapper {
+		max-width: 524px;
+		margin:0 auto;
+		a.bio_info {
+			display: block;
+			color:$black;
+			font-family: $proximalight;
+			letter-spacing: 2px;
+			font-size:25px;
+			text-transform: uppercase;
+			font-weight: 300;
+			span {
+				color:$blue;
+				line-height: 1.4;
+			}
+		}
+	}
+}
+
+
 
 @media screen and (min-width: 755px) {
 	
