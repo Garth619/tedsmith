@@ -67,10 +67,10 @@ jQuery('.read_more').click(function(){
 	// Sidebar Toggle
 
 
-		jQuery('.sidebar_menu_wrapper  li.menu-item-has-children').click(function(){
+		jQuery('.sidebar_menu_wrapper li.menu-item-has-children a').click(function(){
 			
-			jQuery(this).children('.sidebar_menu_wrapper  li.menu-item-has-children ul.sub-menu').slideToggle(200);
-			
+			jQuery(this).next('.sidebar_menu_wrapper li.menu-item-has-children ul.sub-menu').slideToggle(200);
+			jQuery('.sidebar_menu_wrapper  li.menu-item-has-children > ul.sub-menu').toggleClass('open');
 			
 			
 		});

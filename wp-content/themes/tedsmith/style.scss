@@ -2372,7 +2372,7 @@ span.mybutton:hover {
 						ul {
 							padding:14px 0 9px;
 							border-bottom:1px solid #cbcbcb;
-// 							display: none;
+							display: none;
 							li {
 								a {
 									border-bottom:none;
@@ -2380,6 +2380,9 @@ span.mybutton:hover {
 								}
 							}
 						}
+					}
+					li.open > a {
+						color:$purple;
 					}
 					li.current-menu-item {
 						a {
