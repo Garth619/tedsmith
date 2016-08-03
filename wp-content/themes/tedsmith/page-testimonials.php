@@ -17,51 +17,31 @@ get_header(); ?>
 		
 		<div class="testimonial_wrapper">
 			
-			<div class="single_testimonial">
+			
 				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
-			
-				<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
-			
-				<span class="client_subheader">Personal Injury Client</span>
-				<span class="client_lowerheader">client direct review</span>
-			
-			</div><!-- single_testimonial -->
-			
-			<div class="single_testimonial">
 				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
-			
-				<p>“Mr. Smith took my case and won. I'm very grateful with Mr. Smith. He took the time to review all my files and explain to me what he was doing and our chances. 
-His very professional at what he do. I recommend Mr. Smith to anyone who needs legal&nbsp;help.”</p>
-			
-				<span class="client_subheader">Juan</span>
-				<span class="client_lowerheader">avvo.com review</span>
-			
-			</div><!-- single_testimonial -->
-			
-			<div class="single_testimonial">
+				<?php if(get_field('testimonials')): ?>
+ 
+						<?php while(has_sub_field('testimonials')): ?>
+						
+						
+							<div class="single_testimonial">
 				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
+								<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-				<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
+								<p><?php the_sub_field('testimonial');?></p>
 			
-				<span class="client_subheader">Personal Injury Client</span>
-				<span class="client_lowerheader">client direct review</span>
+								<span class="client_subheader"><?php the_sub_field('testimonial_name');?></span>
+								<span class="client_lowerheader"><?php the_sub_field('testimonial_source');?></span>
 			
-			</div><!-- single_testimonial -->
-			
-			<div class="single_testimonial">
+							</div><!-- single_testimonial -->
+						
+ 
+						<?php endwhile; ?>
+ 
+					<?php endif; ?>
 				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
-			
-				<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
-			
-				<span class="client_subheader">Personal Injury Client</span>
-				<span class="client_lowerheader">client direct review</span>
-			
-			</div><!-- single_testimonial -->
-			
+							
 		</div><!-- testimonial_wrapper -->
 
 	</div><!-- content -->

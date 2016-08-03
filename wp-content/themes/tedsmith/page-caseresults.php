@@ -18,7 +18,7 @@ get_header(); ?>
 		<div class="case_results_wrapper">
 			
 			
-			<?php if(get_field('case_results')): ?>
+				<?php if(get_field('case_results')): ?>
  
 						<?php while(has_sub_field('case_results')): ?>
 						
