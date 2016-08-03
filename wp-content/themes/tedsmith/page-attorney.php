@@ -43,7 +43,7 @@ get_header(); ?>
 				<?php endif;?>
 				
 				<?php if(get_field('attorney_fax')):?>
-					<a href="tel:<?php the_field('attorney_fax');?>" class="bio_info"><span>Fax</span>   &nbsp;<?php the_field('attorney_fax');?></a>
+					<span class="bio_info"><span>Fax</span>   &nbsp;<?php the_field('attorney_fax');?></span>
 				<?php endif;?>
 				<a href="mailto:<?php the_field('attorney_email');?>" class="bio_info"><span>Email</span>  &nbsp;<?php the_field('attorney_email');?></a>
 				
