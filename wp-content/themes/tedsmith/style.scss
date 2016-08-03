@@ -2897,6 +2897,16 @@ nav.desktop_menu {
 		 	max-width:1585px;
 		 	margin:0 auto;
 		 	overflow: hidden;
+		 	.attorneys_single_wrapper:hover .attorneys_title  {
+		 		background: $black;
+ 			}
+ 			.attorneys_single_wrapper:hover .attorneys_title .attorneys_name, 
+ 			.attorneys_single_wrapper:hover .attorneys_title .attorneys_position {
+ 				color: $offwhite;
+ 			}
+ 			.attorneys_single_wrapper:hover .attorneys_title .arrow {
+ 				display: none;
+ 			}
 	 		.attorneys_single_wrapper {
 				width:32.9%;
 				float:left;
@@ -2909,9 +2919,7 @@ nav.desktop_menu {
 					span.attorneys_position {
 					
 					}
-					.arrow {
 					
-					}
 		 		}
 		 	}
 	 	}
