@@ -1342,12 +1342,11 @@ footer {
 .content {
 	.attorneys_bio {
 		img {
-			margin: 0 auto;
+			margin:0 auto;
 		}
 	}
 	.attorneys_bio_wrapper {
-		max-width: 524px;
-		margin:0 auto;
+		margin:0;
 		.bio_title {
 			font-family: $proximareg;
 			font-weight:300;
@@ -1369,10 +1368,14 @@ footer {
 			text-transform: uppercase;
 			font-weight: 300;
 			text-decoration: none;
+			text-align: left;
 			span {
 				color:$blue;
 				line-height: 1.4;
 			}
+		}
+		.sidebar_stats {
+			margin-top:35px;
 		}
 	}
 }
@@ -1988,6 +1991,37 @@ footer {
 
 
 @media screen and (min-width: 1100px) {
+
+
+
+/* Attornies Singe Bio page */
+
+
+.content {
+	overflow: hidden;
+	.attorneys_bio {
+		width:30%;
+		float:left;
+		margin-top: 12px;
+	}
+	.attorneys_bio_wrapper {
+		margin:0;
+		a.bio_info {
+			text-align: left;
+		}
+	}
+}
+
+
+.attorneys_content {
+	width:70%;
+	float:left;
+	padding-left:5%;
+	
+}
+
+
+
 
 
 /* Office */
