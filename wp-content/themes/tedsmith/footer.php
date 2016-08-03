@@ -16,98 +16,108 @@
 	
 	<section class="office">
 		
-		<div class="office_col1">
+		<div class="office_col_wrapper">
+		
+			<div class="office_col1">
+				
+				<span class="office_titles">office</span>
+				<span class="sub_office_titles">660 West FM 2410 Harker Heights, Tx&nbsp;76548</span>
 			
-			<span class="office_titles">office</span>
-			<span class="sub_office_titles">660 West FM 2410 Harker Heights, Tx&nbsp;76548</span>
+				<div class="gradient_button"><a href="">Get Directions</a></div><!-- gradient_button -->
+			
+				<div class="gradient_divider"></div><!-- gradient_divider -->
+			
+			</div><!-- office_col1 -->
+			
+			<div class="office_col2">
+			
+				<span class="office_titles">phone</span>
+				<a href="tel:2546905688" class="sub_office_titles">254.690.5688</a>
+			
+				<span class="office_titles fax_margin">fax</span>
+				<a href="tel:2546905685" class="sub_office_titles">254.690.5685</a>
+			
+				<div class="gradient_divider"></div><!-- gradient_divider -->
+			
+			</div><!-- office_col2 -->
+			
+			<div class="office_col3">
+			
+			<span class="office_titles">we accept</span>
+			
+			<img class="payment" src="<?php bloginfo('template_directory');?>/images/small-imgs/paypal.png"/>
+			
+			<img class="payment" src="<?php bloginfo('template_directory');?>/images/small-imgs/creditcards.png"/>
+			
+			</div><!-- office_col3 -->
 		
-			<div class="gradient_button"><a href="">Get Directions</a></div><!-- gradient_button -->
-		
-			<div class="gradient_divider"></div><!-- gradient_divider -->
-		
-		</div><!-- office_col1 -->
-		
-		<div class="office_col2">
-		
-			<span class="office_titles">phone</span>
-			<a href="tel:2546905688" class="sub_office_titles">254.690.5688</a>
-		
-			<span class="office_titles fax_margin">fax</span>
-			<a href="tel:2546905685" class="sub_office_titles">254.690.5685</a>
-		
-			<div class="gradient_divider"></div><!-- gradient_divider -->
-		
-		</div><!-- office_col2 -->
-		
-		<div class="office_col3">
-		
-		<span class="office_titles">we accept</span>
-		
-		<img class="payment" src="<?php bloginfo('template_directory');?>/images/small-imgs/paypal.png"/>
-		
-		<img class="payment" src="<?php bloginfo('template_directory');?>/images/small-imgs/creditcards.png"/>
-		
-		</div><!-- office_col3 -->
+		</div><!-- office_col_wrapper -->
 		
 	</section><!-- office -->
 	
 	<section class="social_icons">
 		
-		<div class="social_icon_wrapper">
-			
-			<div class="single_social_wrapper">
-				<a href="">
-					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-twitter.png"/>
-					<span>Twitter</span>
-				</a>
-			</div>
-			
-			<div class="single_social_wrapper">
-				<a href="">
-					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-linkedin.png"/>
-					<span>LinkedIn</span>
-				</a>
-			</div>
-			
-			<div class="single_social_wrapper">
-				<a href="">
-					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-goggle.png"/>
-					<span>Google+</span>
-				</a>
-			</div>
-			
-			<div class="single_social_wrapper">
-				<a href="">
-					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-fb.png"/>
-					<span>Facebook</span>
-				</a>
-			</div>
-			
-			<div class="single_social_wrapper">
-				<a href="">
-					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-bbb.png"/>
-					<span>BBB</span>
-				</a>
-			</div>
-			
-			<div class="single_social_wrapper">
-				<a href="">
-					<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-youtube.png"/>
-					<span>Youtube</span>
-				</a>
-			</div>
-			
-		</div><!-- social_icon_wrapper -->
+		<div class="social_icons_max_width">
+		
+			<div class="social_icon_wrapper">
+				
+				<div class="single_social_wrapper">
+					<a href="">
+						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-twitter.png"/>
+						<span>Twitter</span>
+					</a>
+				</div>
+				
+				<div class="single_social_wrapper">
+					<a href="">
+						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-linkedin.png"/>
+						<span>LinkedIn</span>
+					</a>
+				</div>
+				
+				<div class="single_social_wrapper">
+					<a href="">
+						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-goggle.png"/>
+						<span>Google+</span>
+					</a>
+				</div>
+				
+				<div class="single_social_wrapper">
+					<a href="">
+						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-fb.png"/>
+						<span>Facebook</span>
+					</a>
+				</div>
+				
+				<div class="single_social_wrapper">
+					<a href="">
+						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-bbb.png"/>
+						<span>BBB</span>
+					</a>
+				</div>
+				
+				<div class="single_social_wrapper">
+					<a href="">
+						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-youtube.png"/>
+						<span>Youtube</span>
+					</a>
+				</div>
+				
+			</div><!-- social_icon_wrapper -->
+		
+		</div><!-- social_icons_max_width -->
 		
 		
 	</section><!-- social_icons -->
 	
 	<footer>
 		
+		<div class="footer_inner">
 		
-		<span class="copyright">Copyright &copy; ted smith law group 2016 | <a href="">disclaimer</a> | <a href="">sitemap</a></span>
-		<a href="http://ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/small-imgs/ilawyer-logo.png"/></a>
+			<span class="copyright">Copyright &copy; ted smith law group 2016 | <a href="">disclaimer</a> | <a href="">sitemap</a></span>
+			<a href="http://ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/small-imgs/ilawyer-logo.png"/></a>
 		
+		</div><!-- footer_inner -->
 		
 	</footer>
 	</div><!-- wrap -->

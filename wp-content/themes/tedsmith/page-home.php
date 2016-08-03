@@ -643,23 +643,28 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 	
 	<section class="awards">
 		
-		<div class="logo_wrapper">
-			
-			<div class="single_logo">
-				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-1.png"/>
-			</div><!-- single_logo -->
-			<div class="single_logo">
-				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-2.png"/>
-			</div><!-- single_logo -->
-			<div class="single_logo">
-				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-3.png"/>
-			</div><!-- single_logo -->
-			<div class="single_logo">
-				<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-4.png"/>
-			</div><!-- single_logo -->
-			
-			
-		</div><!-- logo_wrapper -->
+		<div class="logo_max_width">
+		
+			<div class="logo_wrapper">
+				
+				
+				<div class="single_logo">
+					<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-1.png"/>
+				</div><!-- single_logo -->
+				<div class="single_logo">
+					<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-2.png"/>
+				</div><!-- single_logo -->
+				<div class="single_logo">
+					<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-3.png"/>
+				</div><!-- single_logo -->
+				<div class="single_logo">
+					<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-4.png"/>
+				</div><!-- single_logo -->
+				
+				
+			</div><!-- logo_wrapper -->
+		
+		</div><!-- logo_max_width -->
 		
 	</section><!-- awards -->
 	
