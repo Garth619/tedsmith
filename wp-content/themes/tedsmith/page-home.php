@@ -276,9 +276,11 @@ get_header(); ?>
 	<section class="areas_of_service">
 		
 		<div class="areas_of_service_inner">
-		
+		<div class="short_line_large"></div> <!-- short_line -->
 			<span class="aos_header">our areas of practice</span>
-			<div class="short_line"></div><!-- short_line -->
+			
+			<div class="short_line"></div> <!-- short_line -->
+
 			
 			<div class="aos_box_wrapper">
 				

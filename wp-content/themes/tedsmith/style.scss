@@ -1676,7 +1676,7 @@ nav.mobile_menu {
 		position:relative;
 		.process_single_box {
 			padding:95px 5px 35px;
-			margin:0px 10px 30px;
+			margin:0px 10px 0px;
 			height:425px;
 			span.process_title {
 				font-size:3.5vw;
@@ -2519,17 +2519,24 @@ span.mybutton:hover {
 	position: relative;
 	padding:120px 0 180px;
 	.areas_of_service_inner {
-		max-width: 2000px;
+		overflow: hidden;
 		margin: 0 auto;
 		span.aos_header {
 			text-align: left;
-			padding-left:9%;
+			width:79%;
+			float:left;
+		}
+		.short_line_large {
+			width:20%;
+			height:1px;
+			background:#fff;
+			float:left;
+			display: inline-block;
+			margin-top:15px;
+			margin-right:1%;
 		}
 		.short_line {
-			left: 0;
-			position: absolute;
-			top: 136px;
-			width: 8%;
+			display: none;
 		}
 	}
 }
@@ -2537,8 +2544,10 @@ span.mybutton:hover {
 
 
 .aos_box_wrapper {
-	padding:0;
-	overflow: hidden;
+	margin: 0 auto;
+  max-width: 1600px;
+//   overflow: hidden;
+  padding: 0;
 	a {
 		.aos_single_box_wrapper {
 			margin:0 0.2%;
@@ -2985,7 +2994,7 @@ nav.desktop_menu {
 		ul {
 			font-size:17px;
 			> li {
-					margin:0 1% 0 0;
+					margin:0 .7% 0 0;
 					> a {
 							padding:41px 5.2px;
 						}
