@@ -40,11 +40,11 @@ get_header(); ?>
 			
 			</div><!-- single_contact -->
 			
-			
+			<div class="map">
 				
 				<div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3417.22313636178!2d-97.68085619347792!3d31.0757196210423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8645499eb0ffb583%3A0xc3c3f6cbbde19987!2s660+W+FM+2410+Rd%2C+Harker+Heights%2C+TX+76548!5e0!3m2!1sen!2sus!4v1470229763672' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>
 				
-			
+			</div><!-- map -->
 			
 		</div><!-- contact_wrapper -->
 

@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div class="main">
+<div class="main attorneys_main">
 	
 	<?php include('banner.php');?>
 	
