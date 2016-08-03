@@ -1230,7 +1230,7 @@ footer {
 		text-decoration: underline;
 	}
 	ul, ol {
-		margin-left:25px;
+		margin-left:15px;
 		margin-bottom:45px;
 		line-height: 1.9;
 	}
@@ -1348,6 +1348,18 @@ footer {
 	.attorneys_bio_wrapper {
 		max-width: 524px;
 		margin:0 auto;
+		.bio_title {
+			font-family: $proximareg;
+			font-weight:300;
+			letter-spacing: 2px;
+			font-size:24px;
+			text-transform: uppercase;
+			margin:35px 0 30px;
+			text-align: center;
+		}
+		.gradient_divider  {
+			margin-bottom:30px;
+		}
 		a.bio_info {
 			display: block;
 			color:$black;
@@ -1356,6 +1368,7 @@ footer {
 			font-size:25px;
 			text-transform: uppercase;
 			font-weight: 300;
+			text-decoration: none;
 			span {
 				color:$blue;
 				line-height: 1.4;
