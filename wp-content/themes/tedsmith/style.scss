@@ -1676,7 +1676,7 @@ nav.mobile_menu {
 		position:relative;
 		.process_single_box {
 			padding:95px 5px 35px;
-			margin:0px 10px 0px;
+			margin:0px 10px 35px;
 			height:425px;
 			span.process_title {
 				font-size:3.5vw;
@@ -2813,6 +2813,7 @@ span.mybutton:hover {
 	}
 	.process_single_box_wrapper {
 		.process_single_box {
+			margin-bottom:0;
 			span.process_title {
 				font-size:35px;
 			}
