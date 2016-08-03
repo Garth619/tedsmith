@@ -660,6 +660,10 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				<div class="single_logo">
 					<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-4.png"/>
 				</div><!-- single_logo -->
+				<div class="single_logo">
+					<img src="<?php bloginfo('template_directory');?>/images/small-imgs/award-5.png"/>
+				</div><!-- single_logo -->
+
 				
 				
 			</div><!-- logo_wrapper -->

@@ -162,8 +162,8 @@ jQuery('.read_more').click(function(){
 		
 		
 	 	jQuery('.logo_wrapper').slick({
-			slidesToShow: 4,
-			slidesToScroll: 2,
+			slidesToShow: 5,
+			slidesToScroll: 5,
 			responsive: [
 			  {
 			    breakpoint: 1400,

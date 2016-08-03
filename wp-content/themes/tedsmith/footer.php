@@ -63,43 +63,55 @@
 				
 				<div class="single_social_wrapper">
 					<a href="">
-						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-twitter.png"/>
+
+						<div class="twitter_hover social_icon"></div><!-- twitter_hover -->
 						<span>Twitter</span>
+					
 					</a>
 				</div>
 				
 				<div class="single_social_wrapper">
 					<a href="">
-						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-linkedin.png"/>
+						
+						<div class="linkedin_hover social_icon"></div><!-- linkedin_hover -->
 						<span>LinkedIn</span>
+					
 					</a>
 				</div>
 				
 				<div class="single_social_wrapper">
 					<a href="">
-						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-goggle.png"/>
+						
+						<div class="google_hover social_icon"></div><!-- google_hover -->
 						<span>Google+</span>
+					
 					</a>
 				</div>
 				
 				<div class="single_social_wrapper">
 					<a href="">
-						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-fb.png"/>
+						
+						<div class="facebook_hover social_icon"></div><!-- facebook_hover -->
 						<span>Facebook</span>
+					
 					</a>
 				</div>
 				
 				<div class="single_social_wrapper">
 					<a href="">
-						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-bbb.png"/>
+						
+						<div class="bbb_hover social_icon"></div><!-- bbb_hover -->
 						<span>BBB</span>
+					
 					</a>
 				</div>
 				
 				<div class="single_social_wrapper">
 					<a href="">
-						<img class="social_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/social-youtube.png"/>
+						
+						<div class="youtube_hover social_icon"></div><!-- youtube_hover -->
 						<span>Youtube</span>
+						
 					</a>
 				</div>
 				

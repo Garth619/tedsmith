@@ -925,9 +925,10 @@ nav.desktop_menu {
 		 margin-bottom:40px;
 		 display: inline-block;
 	 		img {
-		 		display: inline-block;
 		 		margin:0 auto;
-		 		vertical-align: middle;
+		 		position: relative;
+		 		top: 50%;
+		 		transform: translateY(-50%)
 		 	}
 		}
  }
@@ -1123,18 +1124,50 @@ input.gform_button {
 		}
 		.single_social_wrapper {
 			margin-bottom:75px;
-			.social_img {
-				display: block;
-				margin:0 auto 40px;
+			.social_icon {
+				height:48px;
+				margin:0 auto 35px;
+			}
+			.twitter_hover {
+				width:57px;
+				background:url(images/small-imgs/new-t.png) top left no-repeat;
+				transition:all .5s ease-in-out;
+			}
+			.linkedin_hover {
+				width:50px;
+				background:url(images/small-imgs/new-li.png) top left no-repeat;
+				transition:all .5s ease-in-out;
+			}
+			.google_hover {
+				width:77px;
+				background:url(images/small-imgs/new-g.png) top left no-repeat;
+				transition:all .5s ease-in-out;
+			}
+			.facebook_hover {
+				width:23px;
+				background:url(images/small-imgs/new-fb.png) top left no-repeat;
+				transition:all .5s ease-in-out;
+			}
+			.bbb_hover {
+				width:31px;
+				background:url(images/small-imgs/new-bbb.png) top left no-repeat;
+				transition:all .5s ease-in-out;
+			}
+			.youtube_hover {
+				width:40px;
+				background:url(images/small-imgs/new-yt.png) top left no-repeat;
+				transition:all .5s ease-in-out;
 			}
 			a {
 				text-decoration: none;
 				font-family: $proximalight;
 				text-transform: uppercase;
-				letter-spacing:1.5px;
-				color:#fff;
+				letter-spacing:2px;
+				color:#343434;
+				font-size:14px;
+				transition:all .5s ease-in-out;
 			}
-	}		
+		}		
 	}
 	.slick-dotted.slick-slider {
     margin-bottom: 25px !important;
@@ -1913,6 +1946,7 @@ nav.mobile_menu {
 	 		.single_logo {
 	 			margin-bottom:0px;
 	 			padding:65px 0;
+	 			height:255px;
 	 		}
 	 		.single_logo:nth-of-type(n + 1) {
 	 			border-right:1px solid #d4d4d4;
@@ -2002,10 +2036,9 @@ nav.mobile_menu {
 			.single_social_wrapper {
 				margin-bottom:0;
 				padding:60px 0;
-			}
-			.single_social_wrapper:nth-of-type(2n + 1) {
 				border-right:1px solid #343434;
-			}		
+			}
+			
 		}
 	}
 }
@@ -2294,7 +2327,13 @@ nav.desktop_menu {
 			text-transform: uppercase;
 			font-size:15px;
 			letter-spacing: 1.7px;
-			
+			li.current-menu-ancestor {
+				background:$greylight;
+				border-top:6px solid $blue;
+				&:hover {
+					border:0;
+				}
+			}
 			li.current-menu-parent {
 				background:$greylight;
 				border-top:6px solid $blue;
@@ -2338,8 +2377,10 @@ nav.desktop_menu {
 						opacity: 0;
 						visibility: hidden;
 
-
 						transition:all .3s ease;
+						li.current-menu-ancestor {
+							border:none;
+						}
 						li.current-menu-item {
 							a {
 								border:0;
@@ -2368,7 +2409,7 @@ nav.desktop_menu {
 							}
 							ul.sub-menu {
 								position:absolute;
-								top:1px;
+								top:0px;
 								left:350px;
 								max-width:350px;
 								li {
@@ -2972,6 +3013,57 @@ nav.desktop_menu {
 	 	}
  	}
 }
+
+
+
+
+/* Social Icons */
+
+.social_icons {
+	.social_icon_wrapper {
+		.single_social_wrapper {
+			.twitter_hover:hover {
+				width:57px;
+				background:url(images/small-imgs/new-t.png) top left no-repeat;
+				background-position: 0 -48px;
+			}
+			.linkedin_hover:hover {
+				width:50px;
+				background:url(images/small-imgs/new-li.png) top left no-repeat;
+				background-position: 0px -48px;
+			}
+			.google_hover:hover {
+				width:77px;
+				background:url(images/small-imgs/new-g.png) top left no-repeat;
+				background-position: 0px -48px;
+			}
+			.facebook_hover:hover {
+				width:23px;
+				background:url(images/small-imgs/new-fb.png) top left no-repeat;
+				background-position: 2px -48px;
+			}
+			.bbb_hover:hover {
+				width:31px;
+				background:url(images/small-imgs/new-bbb.png) top left no-repeat;
+				background-position: 0px -48px;
+			}
+			.youtube_hover:hover {
+				width:40px;
+				background:url(images/small-imgs/new-yt.png) top left no-repeat;
+				background-position: 0px -48px;
+			}
+			a:hover {
+				color:#fff;
+			}
+		}		
+	}
+	.slick-dotted.slick-slider {
+    margin-bottom: 25px !important;
+}
+}
+
+
+
 
 /* Inner Pages */
 	
