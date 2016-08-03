@@ -25,9 +25,7 @@ get_header(); ?>
  
 						<?php while(has_sub_field('attorneys_directory')): ?>
 						
-						
-						
-							<div class="attorneys_single_wrapper">
+						<div class="attorneys_single_wrapper">
 								
 								<a href="<?php the_sub_field('page');?>">
 									
