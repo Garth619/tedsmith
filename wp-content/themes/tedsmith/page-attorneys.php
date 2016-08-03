@@ -18,8 +18,41 @@ get_header(); ?>
 		<div class="attorneys_wrapper">
 				
 				
-				<div class="attorneys_single_wrapper">
 				
+				
+					
+					<?php if(get_field('attorneys_directory')): ?>
+ 
+						<?php while(has_sub_field('attorneys_directory')): ?>
+						
+						
+						
+							<div class="attorneys_single_wrapper">
+								
+								<a href="<?php the_sub_field('page');?>">
+									
+									<?php $attorneyspic = wp_get_attachment_image_src(get_sub_field('attorneys_image'), 'attorneybio'); ?>
+									<img src="<?php echo $attorneyspic[0]; ?>"/>
+								
+									<div class="attorneys_title">
+										<span class="attorneys_name"><?php the_sub_field('name');?></span>
+										<span class="attorneys_position"><?php the_sub_field('position');?></span>
+										<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+									</div><!-- attorneys_title -->
+								</a>
+							
+							</div><!-- attorneys_single_wrapper -->
+							
+						
+ 
+						<?php endwhile; ?>
+ 
+					<?php endif; ?>
+					
+					
+					
+					<div class="attorneys_single_wrapper">
+					
 					<a href="">
 						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
 					
