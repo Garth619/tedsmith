@@ -1381,6 +1381,39 @@ footer {
 }
 
 
+/* Case Results Page */
+
+
+.case_results_wrapper {
+	.single_case_result {
+		text-align: center;
+		span.case_number {
+			font-family: $utopiabold;
+			font-size: 45px;
+			letter-spacing: 2px;
+			
+			margin-bottom:15px;
+			display: block;
+		}
+		span.case_subheader {
+			color: $blue;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-family: $proximareg;
+			display: block;
+			border-bottom:1px solid #cbcbcb;
+			padding-bottom:15px;
+			margin-bottom:30px;
+			
+
+		}
+		p {
+			line-height: 1.5;
+		}
+	}
+}
+
+
 
 @media screen and (min-width: 755px) {
 	
