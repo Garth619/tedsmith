@@ -1334,6 +1334,23 @@ footer {
 		 height:auto;
 		 display: block;
 	 }
+	 .attorneys_intro {
+		 font-size:18px;
+		 text-align: center;
+		 max-width:950px;
+		 margin:0 auto;
+			.attorney_intro_header, i {
+				font-family: $utopiabold;
+				letter-spacing: 1.5px;
+			}
+			.att_learn_more {
+				color:$blue;
+				font-family: $proximalight;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				font-size:22px;
+			}
+		}
 	 	.attorneys_wrapper {
 		
 		 margin: 0 auto;
