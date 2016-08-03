@@ -2605,7 +2605,7 @@ span.mybutton:hover {
 }
 
 
-/* Meet Attornies */
+/* Meet Attorneys */
 
 
 	.meet_attorneys {
@@ -2627,6 +2627,36 @@ span.mybutton:hover {
 	 	bottom:-60px !important;
 	}
  }
+ 
+ 
+ /* Footer */
+
+footer {
+	padding-top:30px;
+	.footer_inner {
+		max-width:2000px;
+		margin:0 auto;
+		
+		span.copyright {
+			padding:0 25px;
+			display: block;
+			margin-bottom:15px;
+			line-height:1.2;
+			float:left;
+			margin-left:5%;
+		}
+		a {
+			color:#fff;
+			text-decoration: none;
+		}
+		img {
+			margin-bottom:35px;
+			float:right;
+			margin-right:10%;
+		}
+	}
+}
+
  
  
  
