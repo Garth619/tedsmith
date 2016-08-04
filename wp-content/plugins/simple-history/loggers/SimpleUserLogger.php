@@ -103,7 +103,9 @@ class SimpleUserLogger extends SimpleLogger {
 		add_action("wp_authenticate_user", array($this, "on_wp_authenticate_user"), 10, 2);
 
 		// Failed to login to user that did not exist (perhaps brute force)
-		add_filter('authenticate', array($this, "on_authenticate"), 10, 3);
+		// run this later than 10 because wordpress own email login check is done with prio 20
+		// so if we run at 10 we just get null
+		add_filter('authenticate', array($this, "on_authenticate"), 30, 3);
 
 		// User is changed
 		#add_action("profile_update", array($this, "on_profile_update"), 10, 2);
@@ -731,31 +733,35 @@ class SimpleUserLogger extends SimpleLogger {
 	/**
 	 * Attempt to login to user that does not exist
 	 *
-	 * @param $user (null or WP_User or WP_Error) (required) null indicates no process has authenticated the user yet. A WP_Error object indicates another process has failed the authentication. A WP_User object indicates another process has authenticated the user.
-	 * @param $username The user's username.
+	 * @param $user (null or WP_User or WP_Error) (required)
+	 *		  null indicates no process has authenticated the user yet.
+	 * 		  A WP_Error object indicates another process has failed the authentication.
+	 * 		  A WP_User object indicates another process has authenticated the user.
+	 * @param $username The user's username. since 4.5.0 `$username` now accepts an email address.
 	 * @param $password The user's password (encrypted)
 	 */
-	function on_authenticate($user, $username, $password) {
+	function on_authenticate( $user, $username, $password ) {
 
 		// Don't log empty usernames
-		if ( ! trim($username) ) {
+		if ( ! trim( $username ) ) {
 			return $user;
 		}
 
-		// If already auth ok
-		if ( is_a( $user, 'WP_User' ) ) {
-
-			$wp_user = $user;
-
-		} else {
-
-			// If username is not a user in the system then this
-			// is consideraded a failed login attempt
-			$wp_user = get_user_by("login", $username);
-
+		// If null then no auth done yet. Wierd. But what can we do.
+		if ( is_null( $user ) ) {
+			return $user;
 		}
 
-		if (false === $wp_user) {
+		// If auth ok then $user is a wp_user object
+		if ( is_a( $user, 'WP_User' ) ) {
+			return $user;
+		}
+
+		// If user is a WP_Error object then auth failed
+		// Error codes can be:
+		// "incorrect_password" | "empty_password" | "invalid_email" | "invalid_username"
+		// We only act on invalid emails and invalid usernames
+		if ( is_a( $user, 'WP_Error' ) && ( $user->get_error_code() == "invalid_username" || $user->get_error_code() == "invalid_email" ) ) {
 
 			$context = array(
 				"_initiator" => SimpleLoggerLogInitiators::WEB_USER,
