@@ -18,15 +18,7 @@ get_header(); ?>
 		
 <div class="attorneys_intro">
 
-	<p class="attorney_intro_header">Integrity, Strength, Results — Not Just Words At Ted Smith Law Group</p>
-	
-	<p>Our Texas attorneys strive to provide you the best legal services available. Their knowledge, work ethic and high level of professionalism allow you to put your trust in our team as we address any legal issues that concern you. We have the resources and skill necessary to address personal injury claims, family law disputes, criminal defense cases, real estate matters and everything in between. Ted Smith has more than 40 years of legal experience, and he wants that experience to benefit you. Jeremy Brewer, Elizabeth Shehan bring to your team a willingness to provide you with an energetic approach to solving your legal difficulties.</p>
-	
-	<p><i>"I love how they give back to the community and really go above and beyond to make sure their clients are entirely taken care of. I am a huge fan of that. Very happy with working with them."</i></p>
-	
-	 <p>Client Ryan Anderson | June 2013</p>
-	
-	<p class="att_learn_more">learn more about our legal team by clicking on the profiles below</p>
+	<?php the_field('attorneys_intro');?>
 
 </div><!-- attorneys_intro -->
 		
