@@ -183,6 +183,15 @@ ul.slick-dots {
 	display:none !important;
 }
 
+
+.preload {
+	width:0px;
+	height:0px;
+	position:absolute;
+	top:0;
+	z-index:-5;
+}
+
 /* Inner Pages */
 
 .banner {
