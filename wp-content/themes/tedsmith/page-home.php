@@ -21,9 +21,18 @@ get_header(); ?>
 		
 		
 		
+<!--
 			<a class="mybutton" href="#free-consultation">
 				click for a free consultation
-			</a><!-- button_consultation -->
+			</a>
+--><!-- button_consultation -->
+			
+			
+			<div class="new_button">
+				
+				<div class="new_button_inner"><a href="#free-consultation">click for a free consultation</a></div><!-- new_button_inner -->
+				
+			</div><!-- new_button -->
 		
 		</div><!-- home_banner_content -->
 		
