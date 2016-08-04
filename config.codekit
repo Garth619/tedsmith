@@ -21223,6 +21223,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-fb-h.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1665,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-fb-h.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-fb-h.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/tedsmith\/images\/small-imgs\/social-fb.png": {
 		"fileType": 32768,
 		"ignore": 0,

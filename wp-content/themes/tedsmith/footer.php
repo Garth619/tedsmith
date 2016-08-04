@@ -22,8 +22,10 @@
 		
 			<div class="office_col1">
 				
+				<div class="gradient_divider_vertical"></div><!-- gradient_divider -->
+				
 				<span class="office_titles">office</span>
-				<span class="sub_office_titles">660 West FM 2410 Harker Heights, Tx&nbsp;76548</span>
+				<span class="sub_office_titles">660 West FM 2410<br/>Harker Heights, Tx&nbsp;76548</span>
 			
 				<div class="gradient_button"><a href="">Get Directions</a></div><!-- gradient_button -->
 			
@@ -33,6 +35,8 @@
 			
 			<div class="office_col2">
 			
+				<div class="gradient_divider_vertical"></div><!-- gradient_divider -->
+				
 				<span class="office_titles">phone</span>
 				<a href="tel:2546905688" class="sub_office_titles">254.690.5688</a>
 			
@@ -44,12 +48,14 @@
 			</div><!-- office_col2 -->
 			
 			<div class="office_col3">
+				
+				<div class="gradient_divider_vertical"></div><!-- gradient_divider -->
 			
 			<span class="office_titles">we accept</span>
 			
 			<img class="payment" src="<?php bloginfo('template_directory');?>/images/small-imgs/paypal.png"/>
 			
-			<img class="payment" src="<?php bloginfo('template_directory');?>/images/small-imgs/creditcards.png"/>
+			<img class="payment cards" src="<?php bloginfo('template_directory');?>/images/small-imgs/creditcards.png"/>
 			
 			</div><!-- office_col3 -->
 		

@@ -1133,37 +1133,41 @@ input.gform_button {
 		.single_social_wrapper {
 			margin-bottom:75px;
 			.social_icon {
-				height:48px;
 				margin:0 auto 35px;
 			}
 			.twitter_hover {
-				width:57px;
-				background:url(images/small-imgs/new-t.png) top left no-repeat;
-				
+				width:59px;
+				height:75px;
+				background:url(images/small-imgs/social-twitter.png) top left no-repeat;
 			}
 			.linkedin_hover {
-				width:50px;
-				background:url(images/small-imgs/new-li.png) top left no-repeat;
+				width:56px;
+				height:75px;
+				background:url(images/small-imgs/social-linkedin.png) top left no-repeat;
 				
 			}
 			.google_hover {
-				width:77px;
-				background:url(images/small-imgs/new-g.png) top left no-repeat;
-				
+				width:74px;
+				height:47px;
+				background:url(images/small-imgs/social-goggle.png) top left no-repeat;
+				margin:18px auto 45px;
 			}
 			.facebook_hover {
 				width:23px;
-				background:url(images/small-imgs/new-fb.png) top left no-repeat;
+				height:75px;
+				background:url(images/small-imgs/social-fb.png) top left no-repeat;
 				
 			}
 			.bbb_hover {
-				width:31px;
-				background:url(images/small-imgs/new-bbb.png) top left no-repeat;
+				width:48px;
+				height:75px;
+				background:url(images/small-imgs/social-bbb.png) top left no-repeat;
 				
 			}
 			.youtube_hover {
-				width:40px;
-				background:url(images/small-imgs/new-yt.png) top left no-repeat;
+				width:44px;
+				height:75px;
+				background:url(images/small-imgs/social-youtube.png) top left no-repeat;
 				
 			}
 			a {
@@ -1171,7 +1175,7 @@ input.gform_button {
 				font-family: $proximalight;
 				text-transform: uppercase;
 				letter-spacing:2px;
-				color:#343434;
+				color:#fff;
 				font-size:14px;
 				transition:all .5s ease-in-out;
 			}
@@ -2310,6 +2314,21 @@ footer {
 	}
 	.office_col1, .office_col2, .office_col3 {
 		float:left;
+		
+		.gradient_divider_vertical {
+			width:2px;
+			height:250px;
+			margin:0;	
+			margin-right:4%;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
+			background: #0abcba; /* Old browsers */
+			background: -moz-linear-gradient(top,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #0abcba 0%,#5b45c1 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #0abcba 0%,#5b45c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=0 ); /* IE6-9 */
+			float:left;
+		
+		}
 	}
 	.office_col1 {
 		width:40%;
@@ -2319,6 +2338,10 @@ footer {
 	}
 	.office_col3 {
 		width:25%;
+		img {
+			max-width:95%;
+			height:auto;
+		}
 	}
 	span {}
 		.office_titles {
@@ -3193,37 +3216,22 @@ nav.desktop_menu {
 	.social_icon_wrapper {
 		.single_social_wrapper {
 			.twitter_hover:hover {
-				width:57px;
-				background:url(images/small-imgs/new-t.png) top left no-repeat;
-				background-position: 0 -48px;
+				background:url(images/small-imgs/social-twitter-h.png) top left no-repeat;
 			}
 			.linkedin_hover:hover {
-				width:50px;
-				background:url(images/small-imgs/new-li.png) top left no-repeat;
-				background-position: 0px -48px;
-			}
+				background:url(images/small-imgs/social-linkedin-h.png) top left no-repeat;
+				}
 			.google_hover:hover {
-				width:77px;
-				background:url(images/small-imgs/new-g.png) top left no-repeat;
-				background-position: 0px -48px;
+				background:url(images/small-imgs/social-goggle-h.png) top left no-repeat;
 			}
 			.facebook_hover:hover {
-				width:23px;
-				background:url(images/small-imgs/new-fb.png) top left no-repeat;
-				background-position: 2px -48px;
+				background:url(images/small-imgs/social-fb-h.png) top left no-repeat;
 			}
 			.bbb_hover:hover {
-				width:31px;
-				background:url(images/small-imgs/new-bbb.png) top left no-repeat;
-				background-position: 0px -48px;
+				background:url(images/small-imgs/social-bbb-h.png) top left no-repeat;
 			}
 			.youtube_hover:hover {
-				width:40px;
-				background:url(images/small-imgs/new-yt.png) top left no-repeat;
-				background-position: 0px -48px;
-			}
-			a:hover {
-				color:#fff;
+				background:url(images/small-imgs/social-youtube-h.png) top left no-repeat;
 			}
 		}		
 	}
