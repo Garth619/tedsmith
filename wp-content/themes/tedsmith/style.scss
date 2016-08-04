@@ -54,7 +54,19 @@ body {
 	font-family:$utopiareg;
 	line-height:1;
 	color:#323233;
+	opacity: 0;
+	transition:all .5s ease;
 }
+
+body.fadein {
+	opacity: 1;
+}
+
+
+body.admin-bar header {
+	top:32px;
+}
+
 
 section, footer {
 	width:100%;
@@ -66,7 +78,7 @@ header,section,nav,footer {
 	display:block;
 }
 
-span.mybutton {
+a.mybutton {
 	color:$purple;
 	background:#fff;
 	font-family: $utopiabold;
@@ -83,6 +95,7 @@ span.mybutton {
 	letter-spacing: 1.2px;
 	cursor: pointer;
 	transition:all .3s ease;
+	text-decoration: none;
 }
 
 span.mybutton.testimonials_button {
@@ -404,12 +417,14 @@ nav.desktop_menu {
 	color:$offwhite;
 	font-family:$utopiabold;
 	.play_button {
+		a {
 		margin-bottom: 40px;
 		width:101px;
 		height:101px;
 		background: url(images/small-imgs/play.png) top left no-repeat;
 		background-position: 0 0;
 		display: inline-block;
+		}
 	}
 	span.serving {
 		font-family: $utopiabolditalic;
@@ -430,6 +445,9 @@ nav.desktop_menu {
 		margin-bottom:40px;
 		padding:0px 25px;
 		display: block;
+	}
+	.scroll_wrapper {
+		display: none;
 	}
 }
 
@@ -844,16 +862,19 @@ nav.desktop_menu {
 	 	.attorneys_single_wrapper {
 		 	text-align: left;
 		 	margin:0 0px 60px;
+		 	a {
+			 	text-decoration: none;
+		 	}
 		 .attorneys_title {
 			 background:#fff;
 			 padding:16px;
 		 		span.attorneys_name {
 		 			color:$teal;
-		 			font-size: 28px;
+		 			font-size: 26px;
 		 			font-family:$utopiabolditalic;
 		 			font-weight: 300;
 		 			letter-spacing:2px;
-		 			display: inline-block;
+		 			display: block;
 				}
 				span.attorneys_position {
 					font-family: $proximareg;
@@ -887,20 +908,6 @@ nav.desktop_menu {
  	
  }
  
-/*
-.attorneys_wrapper .attorneys_single_wrapper:hover .attorneys_title  {
-	 background: $black;
- }
- 
- .attorneys_wrapper .attorneys_single_wrapper:hover .attorneys_title h2, 
- .attorneys_wrapper .attorneys_single_wrapper:hover .attorneys_title h3 {
-	 color: $offwhite;
- }
- 
- .attorneys_wrapper .attorneys_single_wrapper:hover .attorneys_title .arrow {
-	 display: none
- }
-*/
  
  
  /* Awards */
@@ -924,6 +931,7 @@ nav.desktop_menu {
 	 .single_logo {
 		 margin-bottom:40px;
 		 display: inline-block;
+		 height:240px;
 	 		img {
 		 		margin:0 auto;
 		 		position: relative;
@@ -1723,13 +1731,15 @@ nav.mobile_menu {
 .home_banner {
 	margin-top: 153px;
 	background: url(images/main-image-tablet.jpg) no-repeat top center;
-	padding: 166px 0 60px;
+	padding: 166px 0 0px;
 	.home_banner_content {
 		max-width: 900px;
 		margin:0 auto;
 		.play_button {
-			margin:0 0 40px 15%;
-			float:left;
+			a {
+				margin:0 0 40px 15%;
+				float:left;
+			}
 		}
 		span.serving {
 			font-size:75px;
@@ -2564,23 +2574,62 @@ nav.desktop_menu div.menu-header ul#menu-mainnav-1.menu li:hover > ul.sub-menu {
 /* Home Banner */
 
 
+
+
+@-webkit-keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(50px);}
+}
+@-moz-keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(50px);}
+}
+@keyframes myscroll {
+  0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;transform: translateY(50px);}
+}
+
+
+
+
 .home_banner {
 	margin-top:93px;
 	background:url(images/main-image-desk.jpg) top center no-repeat;
 	background-size:cover;
-	padding:175px 6% 190px;
+	padding:200px 6% 90px;
 	.home_banner_content {
 		.play_button {
-			display: inline-block;
-			float:none;
-			margin-left:0;
-			margin-right:0;
+			a {
+				display: inline-block;
+				float:none;
+				margin-left:0;
+				margin-right:0;
+			}
 		}
-		.play_button:hover {
+		.play_button a:hover {
 			background: url(images/small-imgs/play.png) top left no-repeat;
 			background-position: 0 -103px;
 		}
 	}
+	.scroll_wrapper {
+		display:block;
+		overflow: hidden;
+		width:100%;
+		height:66px;
+		img {
+			
+			-webkit-animation: 3s ease 0s normal none infinite running myscroll;
+			-moz-animation: 3s ease 0s normal none infinite running myscroll;
+			animation: 3s ease 0s normal none infinite running myscroll;
+			
+			
+		}
+		
+	}
+	
 }
 	
 .home_banner.fixed {
@@ -3628,10 +3677,6 @@ nav.desktop_menu {
 
 /* Home Banner */
 
-.home_banner_inner {
-	max-width:2000px;
-	margin:0 auto;
-}
 
 
 
@@ -3639,9 +3684,11 @@ nav.desktop_menu {
 	.home_banner_inner {
 		max-width:2000px;
 		margin:0 auto;
+		
 		.home_banner_content {
    		margin: 0 0 0 75px;
 	 		max-width: 780px;
+	 		overflow: hidden;
 		}
 	}
 }

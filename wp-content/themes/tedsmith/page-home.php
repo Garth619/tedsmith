@@ -13,18 +13,17 @@ get_header(); ?>
 		<div class="home_banner_content">
 		
 			
-			
+			<script src="//fast.wistia.com/embed/medias/14oizzbrxp.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="play_button"><span class="wistia_embed wistia_async_14oizzbrxp popover=true popoverContent=link" style="display:inline"><a href="#"></a></span></div>
 
-			<div class="play_button"></div><!-- play_button -->
 		
 			<span class="serving">Serving the citizens of Texas since&nbsp;1976</span>
 			<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>
 		
 		
 		
-			<span class="mybutton">
+			<a class="mybutton" href="#free-consultation">
 				click for a free consultation
-			</span><!-- button_consultation -->
+			</a><!-- button_consultation -->
 		
 		</div><!-- home_banner_content -->
 		
@@ -55,11 +54,18 @@ get_header(); ?>
 				</div><!-- review_single_wrapper -->
 				
 				</div><!-- review_stars_maxwidth for desktop -->
+				
+				
 			
-		</div><!-- home_banner_inner -->
-	
+		</div><!-- review_stars_wrapper -->
 		
-	</div><!-- review_stars_wrapper -->
+		<div class="scroll_wrapper">
+		
+			<img src="<?php bloginfo('template_directory');?>/images/small-imgs/scroll-downarrow.png"/>
+		
+		</div><!-- scroll_wrapper  -->
+		
+	</div><!-- home_banner_inner -->
 		
 		
 </section><!-- home_banner -->
@@ -455,8 +461,8 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				
 				<div class="attorneys_single_wrapper">
 				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					<a href="<?php bloginfo('url');?>/attorneys/ted-smith/">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-ted-desktop.jpg"/>
 					
 						<div class="attorneys_title">
 							<span class="attorneys_name">Ted Smith</span>
@@ -469,12 +475,40 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				
 				<div class="attorneys_single_wrapper">
 				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					<a href="<?php bloginfo('url');?>/attorneys/grace-a-wilhem/">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-grace-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith2</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
+							<span class="attorneys_name">Grace A. Wilhem</span>
+							<span class="attorneys_position">Attorney</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="<?php bloginfo('url');?>/attorneys/richard-l-king/">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-richard-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Richard Lee King</span>
+							<span class="attorneys_position">Attorney</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="<?php bloginfo('url');?>/attorneys/nicholas-r-smith/">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-nicholas-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Nicholas R. Smith</span>
+							<span class="attorneys_position">Attorney</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
@@ -484,11 +518,11 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				<div class="attorneys_single_wrapper">
 				
 					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-needname-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith3</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
+							<span class="attorneys_name">Name</span>
+							<span class="attorneys_position">Position</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
@@ -498,44 +532,18 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				<div class="attorneys_single_wrapper">
 				
 					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith4</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
+							<span class="attorneys_name">Name</span>
+							<span class="attorneys_position">Position</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
 				
 				</div><!-- attorneys_single_wrapper -->
 				
-				<div class="attorneys_single_wrapper">
 				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith5</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith6</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
 				
 			</div><!-- attorneys_wrapper -->
 			
@@ -550,7 +558,7 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				
 				<div class="attorneys_single_wrapper">
 				
-					<a href="">
+					<a href="<?php bloginfo('url');?>/attorneys/ted-smith/">
 						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-ted-desktop.jpg"/>
 					
 						<div class="attorneys_title">
@@ -564,12 +572,40 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				
 				<div class="attorneys_single_wrapper">
 				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+					<a href="<?php bloginfo('url');?>/attorneys/grace-a-wilhem/">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-grace-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith2</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
+							<span class="attorneys_name">Grace A. Wilhem</span>
+							<span class="attorneys_position">Attorney</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="<?php bloginfo('url');?>/attorneys/richard-l-king/">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-richard-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Richard Lee King</span>
+							<span class="attorneys_position">Attorney</span>
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+						</div><!-- attorneys_title -->
+					</a>
+				
+				</div><!-- attorneys_single_wrapper -->
+				
+				<div class="attorneys_single_wrapper">
+				
+					<a href="<?php bloginfo('url');?>/attorneys/nicholas-r-smith/">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-nicholas-desk.jpg"/>
+					
+						<div class="attorneys_title">
+							<span class="attorneys_name">Nicholas R. Smith</span>
+							<span class="attorneys_position">Attorney</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
@@ -579,11 +615,11 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				<div class="attorneys_single_wrapper">
 				
 					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-needname-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith3</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
+							<span class="attorneys_name">Name</span>
+							<span class="attorneys_position">Position</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
@@ -593,39 +629,11 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				<div class="attorneys_single_wrapper">
 				
 					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith4</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith5</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith6</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
+							<span class="attorneys_name">Name</span>
+							<span class="attorneys_position">Position</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
