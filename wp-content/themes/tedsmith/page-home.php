@@ -548,7 +548,7 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				<div class="attorneys_single_wrapper">
 				
 					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-1-desk.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-ted-desktop.jpg"/>
 					
 						<div class="attorneys_title">
 							<span class="attorneys_name">Ted Smith</span>

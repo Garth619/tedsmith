@@ -20783,6 +20783,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-grace-desk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21883,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-grace-desk.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-grace-desk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-needname-desk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34567,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-needname-desk.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-needname-desk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-nicholas-desk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26371,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-nicholas-desk.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-nicholas-desk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-psoon-desk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15095,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-psoon-desk.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-psoon-desk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-richard-desk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27970,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-richard-desk.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-richard-desk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-ted-desktop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25321,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-ted-desktop.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/attorneys\/attorney-ted-desktop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/tedsmith\/images\/consult-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
