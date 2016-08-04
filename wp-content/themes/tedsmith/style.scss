@@ -2276,7 +2276,7 @@ footer {
 }
 
  .banner {
-		background: url(images/main-image-internals.jpg) top left no-repeat;
+		background: url(images/main-image-tablet.jpg) top left no-repeat;
 		background-size:cover;
 		width:100%;
 		height:500px;
@@ -2991,6 +2991,18 @@ footer {
  .main {
 	 padding-top:103px;
  }
+ 
+ 
+ 
+ .banner {
+		background: url(images/main-image-internals.jpg) top center no-repeat;
+		.banner_vertical_align {
+			margin:0;
+		}
+	}
+ 
+ 
+ 
  
  /* Testimonials Page Page */
 
