@@ -2943,6 +2943,14 @@ footer {
 					font-family: $proximareg;
 					text-transform: uppercase;
 					font-weight: 400;
+					li.current-menu-parent {
+						> a {
+							color:$purple
+						}
+						ul.sub-menu {
+							display: block;
+						}
+					}
 					li {
 						margin-bottom:5px;
 						font-size:17px;
