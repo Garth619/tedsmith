@@ -304,7 +304,7 @@ get_header(); ?>
 			
 			<div class="aos_box_wrapper">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/personal-injury/">
 				
 				<div class="aos_single_box_wrapper">
 					
@@ -334,7 +334,7 @@ who 	can level the playing field against the insurance carriers and their massiv
 				</a>
 				
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/family-law">
 				<div class="aos_single_box_wrapper">
 					
 					<div class="aos_single_box">
@@ -361,7 +361,7 @@ who 	can level the playing field against the insurance carriers and their massiv
 				</div><!-- aos_single_box_wrapper -->
 				</a>
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/social-security-disability">
 				<div class="aos_single_box_wrapper">
 					
 					<div class="aos_single_box">
@@ -401,7 +401,7 @@ who 	can level the playing field against the insurance carriers and their massiv
 			<div class="new_button_testimonial">
 				
 				<div class="new_button_inner_testmonial">
-					<a href="#free-consultation">view more testimonials</a>
+					<a href="<?php bloginfo('url');?>/testimonials/">view more testimonials</a>
 				</div><!-- new_button_inner -->
 				
 			</div><!-- new_button -->
