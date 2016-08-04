@@ -35,7 +35,7 @@ get_header(); ?>
 				<div class="gradient_divider"></div><!-- gradient_divider -->
 				
 				<?php if(get_field('location')):?>
-					<span>Location</span> &nbsp;<?php the_field('location');?></span>
+					<span class="bio_blue">Location</span> <span>&nbsp;<?php the_field('location');?></span>
 				<?php endif;?>
 				
 				<?php if(get_field('attorney_phone')):?>
@@ -43,7 +43,7 @@ get_header(); ?>
 				<?php endif;?>
 				
 				<?php if(get_field('attorney_fax')):?>
-					<span class="bio_info"><span>Fax</span>   &nbsp;<?php the_field('attorney_fax');?></span>
+					<span class="bio_blue">Fax</span>   <span>&nbsp;<?php the_field('attorney_fax');?></span></span>
 				<?php endif;?>
 				<a href="mailto:<?php the_field('attorney_email');?>" class="bio_info"><span>Email</span>  &nbsp;<?php the_field('attorney_email');?></a>
 				

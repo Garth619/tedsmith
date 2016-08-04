@@ -36,7 +36,7 @@ get_header(); ?>
 			<div class="single_contact" style="border-right:none;">
 			
 				<span class="contact_header">fax</span>
-				<span class="contact_sub_header"><?php the_field('contact_fax');?></span>
+				<a class="contact_sub_header" href="tel:<?php the_field('contact_fax');?>"><?php the_field('contact_fax');?></a>
 			
 			</div><!-- single_contact -->
 			
