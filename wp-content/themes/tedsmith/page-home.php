@@ -397,10 +397,20 @@ who 	can level the playing field against the insurance carriers and their massiv
 		<div class="client_header_wrapper">
 		
 			<span class="client_header">client testimonials</span>
+			
+			<div class="new_button_testimonial">
+				
+				<div class="new_button_inner_testmonial">
+					<a href="#free-consultation">view more testimonials</a>
+				</div><!-- new_button_inner -->
+				
+			</div><!-- new_button -->
 		
+<!--
 			<span class="mybutton testimonials_button">
 				view more testimonials
-			</span><!-- button_consultation -->
+			</span>
+--><!-- button_consultation -->
 		
 		</div><!-- client_header_wrapper -->
 		
