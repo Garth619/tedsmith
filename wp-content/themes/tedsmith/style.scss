@@ -1079,10 +1079,7 @@ nav.desktop_menu {
 	 background: $black;
 	 padding:85px 10px;
 	 overflow:hidden;
-	 .desktop_break {
-		 display: none;
-	 }
-	 span.description {
+	 span.description, .gform_confirmation_message {
 		 color:$blue;
 		 letter-spacing:2px;
 		 font-size: 30px;
@@ -1090,9 +1087,6 @@ nav.desktop_menu {
 		 font-weight:300;
 		 display: block;
 		 font-family: $utopiabold;
-		 max-width:900px;
-		 margin: 0 auto;
-		 padding:0 20px;
 	 }
 	 span.sub_description {
 		 color:$offwhite;
@@ -1180,6 +1174,9 @@ input.gform_button {
 	margin:4px 0 0 12px;
 }
 
+.gform_confirmation_message {
+	margin:0 10%;
+}
 
 
 /* Office */
@@ -1423,8 +1420,7 @@ footer {
 			max-width:800px;
 			margin:0 auto 100px;
 			.testimonial_stars {
-				margin:0 auto 35px;
-				
+				margin-bottom: 35px;
 			}
 			p {
 				font-size:17px;
@@ -2200,7 +2196,9 @@ nav.mobile_menu {
  
  .form_wrapper {
 	 padding:85px 30px 120px;
-	 
+	 span.description, .gform_confirmation_message {
+		margin: 0 10%;
+	 }
 	 span.sub_description {
 	 	padding-bottom:20px;
 	 	margin-bottom:65px;
@@ -2227,7 +2225,9 @@ nav.mobile_menu {
 				width:100%;
 			}
 	 }
-	 
+	 .gform_confirmation_message {
+		margin:0 15%;
+	}
  }
  
  
@@ -2925,7 +2925,6 @@ span.mybutton:hover {
 					max-width: 80%;
 					margin: 0 auto;
 					text-transform: capitalize;
-					
 				}
 				span.blue_headers {
 					color:$blue;
@@ -3032,8 +3031,7 @@ footer {
 			float:left;
 			padding:0 2%;
 			.testimonial_stars {
-				margin-left:0;
-				margin-right:0;
+				
 			}
 			p {
 				
@@ -3513,60 +3511,19 @@ a.phone_header_desktop {
 /* Process */
 
 .process {
-	
 	.process_single_box_wrapper {
-		
-		
-		
 		.process_single_box {
 			padding:65px 40px 35px;
 			margin:0px 10px 35px;
 			height:425px;
-			span.process_title {
-				font-size:3.5vw;
 			}
-			img.process_icons {
-				margin-bottom: 50px;
-				display: inline-block;
-			}
-			img.process_arrow {
-				margin-top: 60px;
-				display: inline-block;
-			}
-			
-		}
 		.process_single_box:nth-of-type(3) {
 			span.process_title {
 				
 			}
 		}
-		
-		.process_hover_wrapper {
-				
-			
-			
-			
-			
-			
-
-		}
-		.process_hover_wrapper.open {
-			
-		}
 	}
-	ul.slick-dots {
-		li {
-			button:before {
-				
-			}
-			button:focus:before {
-				
-			}
-		}
-		li.slick-active button:before {
-			
-		}
-	}
+	
 }
 
 
@@ -3650,18 +3607,27 @@ a.phone_header_desktop {
  .form_wrapper {
 	 float:left;
 	 width:63%;
-	 padding: 130px 7% 120px;
+	 padding: 130px 0 120px;
 	 height: 945px;
-	 .desktop_break {
-		 display: inline-block;
-	 }
 	 span.description, .gform_confirmation_message {
 		text-align: left;
 		margin:0;
-		padding:0px;
+		padding:0 7%;
 	 }
 	 span.sub_description {
 	 		text-align: left;
+	 		padding:0 0 0 7%;
+	 		border:0;
+	 		width:27%;
+	 		display: block;
+	 		float:left;
+		}
+		.white_line {
+			width:73%;
+			height:1px;
+			background:#fff;
+			float:left;
+			margin-top:38px;
 		}
 	 }
  
@@ -3670,6 +3636,12 @@ a.phone_header_desktop {
     float:right;
 	}
 	
+}
+	
+	
+	.gform_wrapper {
+		margin:0 7%;
+		clear:both;
 	}
 	
 	

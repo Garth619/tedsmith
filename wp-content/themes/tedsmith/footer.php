@@ -12,6 +12,7 @@
 			
 			<span class="description">Fill out the form to schedule a free consultation.<br class="desktop_break">We will contact you within 24 hours about your case.</span>
 			<span class="sub_description">*All fields required</span>
+			<span class="white_line"></span><!-- white_line -->
 			
 			<?php gravity_form(1, false, true, false, '', true, 12);?>
 			

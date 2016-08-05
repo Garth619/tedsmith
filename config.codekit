@@ -19816,23 +19816,23 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-145.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-145.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-145-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script.min.js": {
+	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-145.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script.min.js",
-		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script.min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/script-145.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/js\/min\/script-145.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
