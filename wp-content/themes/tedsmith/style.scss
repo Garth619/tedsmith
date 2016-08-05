@@ -3631,6 +3631,11 @@ a.phone_header_desktop {
  
  input.gform_button {
     float:right;
+    transition:all .3s ease-in-out;
+    &:hover {
+	    background:#fff;
+	    color:$blue;
+    }
 	}
 	
 }
