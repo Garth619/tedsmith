@@ -19,16 +19,7 @@ get_header(); ?>
 			<span class="serving">Serving the citizens of Texas since&nbsp;1976</span>
 			<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>
 		
-		
-		
-<!--
-			<a class="mybutton" href="#free-consultation">
-				click for a free consultation
-			</a>
---><!-- button_consultation -->
-			
-			
-			<div class="new_button">
+		<div class="new_button">
 				
 				<div class="new_button_inner"><a href="#free-consultation">click for a free consultation</a></div><!-- new_button_inner -->
 				
@@ -227,7 +218,7 @@ get_header(); ?>
 		
 			<h1>Central Texas area&nbsp;Lawyers</h1>
 			
-			<h2>serving Fort Hood, Bell, Coryell&nbsp;counties</h2>
+			<h2 class="demo1">serving Fort Hood, Bell, Coryell&nbsp;counties</h2>
 			
 			<div class="about_columns_wrapper">
 			
