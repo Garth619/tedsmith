@@ -1079,6 +1079,10 @@ nav.desktop_menu {
 	 }
  }
  
+ .desktop_request_break {
+	 display: none;
+ }
+ 
  .form_wrapper {
 	 background: $black;
 	 padding:85px 10px;
@@ -3621,23 +3625,9 @@ a.phone_header_desktop {
 }
 
 
-/* Request Consultation */
- 
- .request {
-	 width:37%;
-	 float:left;
-	 padding:0;
-	 height: 945px;
-	 span.request_header {
-		 text-align: left;
-		 border-left:1px solid #fff;
-		 padding:0 0 70px 25px;
-		 position: relative;
-		 top: 50%;
-		 transform: translateY(-50%);
-		 font-size:90px;
-		}
-	}
+
+	
+	
  
  .form_wrapper {
 	 float:left;
@@ -3718,6 +3708,9 @@ a.phone_header_desktop {
 
 
 
+
+
+
 @media screen and (min-width: 1690px) {
 	
 	
@@ -3789,6 +3782,10 @@ a.phone_header_desktop {
 }
 
 
+
+
+
+
 /* Inner Pages */
 
 
@@ -3802,10 +3799,27 @@ a.phone_header_desktop {
 
 
 
+
+
 @media screen and (min-width: 1775px) {
 	
 
-/* Home Banner */
+/* Nav */
+
+	nav.desktop_menu {
+    padding: 0 0 0 2%;
+    width: 60%;
+	}
+	
+	
+	
+	a.phone_header_desktop {
+		font-size: 29px;
+	}
+	
+	
+	
+	/* Home Banner */
 	
 	.home_banner {
 		background:url(images/main-image-desk.jpg) top center no-repeat;
@@ -3832,27 +3846,50 @@ a.phone_header_desktop {
 	
 	
 	
-} /* Media Query */
-
-@media screen and (min-width: 1775px) {
-	
-
-/* Nav */
-
-	nav.desktop_menu {
-    padding: 0 0 0 2%;
-    width: 60%;
+	/* Request Consultation */
+ 
+ .request {
+	 width:37%;
+	 float:left;
+	 padding:0;
+	 height: 945px;
+	 span.request_header {
+		 text-align: left;
+		 border-left:1px solid #fff;
+		 padding:0 0 70px 25px;
+		 position: relative;
+		 top: 50%;
+		 transform: translateY(-50%);
+		 font-size:70px;
+		}
 	}
 	
 	
-	
-	a.phone_header_desktop {
-		font-size: 29px;
-	}
 
-	
-	
 } /* Media Query */
+
+
+
+@media screen and (min-width: 1800px) {
+
+
+/* Request Consultation */
+ 
+ .request {
+	 
+	 span.request_header {
+		 
+		 font-size:90px;
+		}
+	}
+	
+	.desktop_request_break {
+	 	display: inline-block;
+ 	}
+
+
+} /* Media Query */
+
 
 
 @media screen and (min-width: 1870px) {
@@ -3877,7 +3914,9 @@ a.phone_header_desktop {
 		font-size: 37px;
 		margin-top:55px;
 	}
-
+	
+	
+	
 	
 	
 } /* Media Query */
