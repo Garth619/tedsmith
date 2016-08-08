@@ -3136,7 +3136,13 @@ footer {
 			display: block;
 			float: left;
 			width:22%;
-			height:500px;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
+				background: #0abcba; /* Old browsers */
+				background: -moz-linear-gradient(top,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #0abcba 0%,#5b45c1 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #0abcba 0%,#5b45c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=0 ); /* IE6-9 */
+
 			margin-top:102px;
 			.gradient_divider {
 				width:3px;
@@ -3151,13 +3157,16 @@ footer {
 				float:left;
 			}
 			.sidebar_menu_wrapper {
-				margin-left:18px;
+				margin-left:3px;
+				padding-left:15px;
+				background: #fff;
 				ul {
 					list-style: none;
 					margin:0;
 					font-family: $proximareg;
 					text-transform: uppercase;
 					font-weight: 400;
+					
 					li.current-menu-parent {
 						> a {
 							color:$purple
@@ -3166,8 +3175,14 @@ footer {
 							display: block;
 						}
 					}
+					li:first-child {
+						margin-top: 0;
+						a {
+							padding-top:0;
+						}
+					}
 					li {
-						margin-bottom:5px;
+						margin-top:5px;
 						font-size:17px;
 						letter-spacing: 1.5px;
 						cursor: pointer;

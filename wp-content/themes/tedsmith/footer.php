@@ -159,6 +159,7 @@
 <?php wp_footer(); ?>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/tedsmith-custom-min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/match-height.js"></script>
 
 <!-- <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/modernizr.js"></script> -->
 <!--

@@ -32,10 +32,7 @@ jQuery('.desktop .process_single_box_wrapper').mouseleave(function() {
   	
 	});
 	
-	
-
-	
-	
+		
 	
 // Consultation Scroll 
 
