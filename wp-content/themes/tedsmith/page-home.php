@@ -218,7 +218,11 @@ get_header(); ?>
 		
 			<h1>Central Texas area&nbsp;Lawyers</h1>
 			
-			<h2 class="demo1">serving Fort Hood, Bell, Coryell&nbsp;counties</h2>
+			<h2 class="demo1">serving Fort Hood, Bell, Coryell counties</h2>
+			
+			
+			<div class="about_lower_content">
+			
 			
 			<div class="about_columns_wrapper">
 			
@@ -232,7 +236,7 @@ get_header(); ?>
 				<div class="about_columns">
 					
 					<span class="about_headers blue">former JAG officer</span>
-					<p class="large_paragraph second">mr. smith served as a jag officer at fort hood before opening his private&nbsp;practice.</p>
+					<p class="large_paragraph second">mr. smith served as a jag officer at fort hood before opening his private practice.</p>
 				
 				</div><!-- about_columns -->
 			
@@ -275,6 +279,8 @@ get_header(); ?>
 			
 			
 			</div><!-- about_main_content_wrapper -->
+			
+			</div><!-- about_lower_content -->
 		
 		
 		</div><!-- about_inner -->
@@ -422,8 +428,18 @@ who 	can level the playing field against the insurance carriers and their massiv
 				
 				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-				<p>“Mr. Smith took my case and won. I'm very grateful with Mr. Smith. He took the time to review all my files and explain to me what he was doing and our chances. 
-His very professional at what he do. I recommend Mr. Smith to anyone who needs legal&nbsp;help.”</p>
+				<p>“Thanks to my Attorney Grace Wilhelm and Paralegal Mallory Strength this process was smooth and painless. They were both extremely reassuring, knowledgable, kept me informed and were more than willing to work around my hectic schedule.”</p>
+			
+				<span class="client_subheader">julie boatwrite</span>
+				<span class="client_lowerheader">google+ review</span>
+			
+			</div><!-- single_testimonial -->
+			
+			<div class="single_testimonial">
+				
+				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
+			
+				<p>“Mr. Smith took my case and won. I'm very grateful with Mr. Smith. He took the time to review all my files and explain to me what he was doing and our chances. His very professional at what he do. I recommend Mr. Smith to anyone who needs legal help.”</p>
 			
 				<span class="client_subheader">Juan</span>
 				<span class="client_lowerheader">avvo.com review</span>
@@ -434,21 +450,10 @@ His very professional at what he do. I recommend Mr. Smith to anyone who needs l
 				
 				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-				<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
+				<p>“Mr. Ted Smith & Mrs. Dawn  represented me on my child support case with the upmost professionalism. They kept me posted and informed me of the status at all times. I really needed them to act fast while I was on a short time period and they SUPER EXCEEDED in doing so. I can't say thank you enough for everything.”</p>
 			
-				<span class="client_subheader">Personal Injury Client</span>
-				<span class="client_lowerheader">client direct review</span>
-			
-			</div><!-- single_testimonial -->
-			
-			<div class="single_testimonial">
-				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
-			
-				<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
-			
-				<span class="client_subheader">Personal Injury Client</span>
-				<span class="client_lowerheader">client direct review</span>
+				<span class="client_subheader">K.C.</span>
+				<span class="client_lowerheader">BBB review</span>
 			
 			</div><!-- single_testimonial -->
 			

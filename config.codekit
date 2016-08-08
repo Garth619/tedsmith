@@ -20965,6 +20965,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/tedsmith\/images\/main-image-tablet-new.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 107890,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-tablet-new.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-tablet-new.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/tedsmith\/images\/main-image-tablet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

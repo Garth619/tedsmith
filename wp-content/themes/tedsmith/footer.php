@@ -2,7 +2,7 @@
 		
 		<div class="request">
 			
-			<span class="request_header">request a free consultation</span>
+			<span class="request_header">request <br/>a free consultation</span>
 			<a name="free-consultation"/>
 			
 		</div><!-- request -->
@@ -10,7 +10,7 @@
 		
 		<div class="form_wrapper">
 			
-			<span class="description">Fill out the form to schedule a free consultation.<br class="desktop_break">We will contact you within 24 hours about your case.</span>
+			<span class="description">Fill out the form to schedule a free consultation. We will contact you within 24 hours about your case.</span>
 			<span class="sub_description">*All fields required</span>
 			<span class="white_line"></span><!-- white_line -->
 			
