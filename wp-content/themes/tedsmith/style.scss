@@ -3625,9 +3625,28 @@ a.phone_header_desktop {
 }
 
 
-
+/* Request Consultation */
+ 
+ .request {
+	 width:37%;
+	 float:left;
+	 padding:0;
+	 height: 945px;
+	 span.request_header {
+		 text-align: left;
+		 border-left:1px solid #fff;
+		 padding:0 0 70px 25px;
+		 position: relative;
+		 top: 50%;
+		 transform: translateY(-50%);
+		 font-size:70px;
+		 margin-right:0;
+		}
+	}
 	
-	
+	.desktop_request_break {
+	 	display: inline-block;
+ 	}
  
  .form_wrapper {
 	 float:left;
@@ -3846,23 +3865,7 @@ a.phone_header_desktop {
 	
 	
 	
-	/* Request Consultation */
- 
- .request {
-	 width:37%;
-	 float:left;
-	 padding:0;
-	 height: 945px;
-	 span.request_header {
-		 text-align: left;
-		 border-left:1px solid #fff;
-		 padding:0 0 70px 25px;
-		 position: relative;
-		 top: 50%;
-		 transform: translateY(-50%);
-		 font-size:70px;
-		}
-	}
+	
 	
 	
 
@@ -3883,9 +3886,7 @@ a.phone_header_desktop {
 		}
 	}
 	
-	.desktop_request_break {
-	 	display: inline-block;
- 	}
+	
 
 
 } /* Media Query */
