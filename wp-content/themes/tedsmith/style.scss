@@ -645,7 +645,7 @@ nav.desktop_menu {
 				span.process_title {
 					font-family: $utopiabolditalic;
 					font-weight:300;
-					letter-spacing: 2px;
+					letter-spacing: 1px;
 					font-size:30px;
 					display: block;
 					line-height:1.1;
@@ -3224,7 +3224,7 @@ footer {
 }
 
 .process.desktop {
-	padding:20px;
+	padding:20px 10px;
 	display: block;
 	.process_single_box_wrapper {
 		
@@ -3234,7 +3234,7 @@ footer {
 			.single_box_initial_content {
 				border:1px solid $blue;
 				width:100%;
-				padding:40px 20px;
+				padding:40px 12%;
 				cursor: pointer;
 				height:368px;
 				position:relative;
@@ -3246,8 +3246,8 @@ footer {
 				.process_title {
 					font-family: $utopiabolditalic;
 					font-weight:300;
-					letter-spacing: 2px;
-					font-size:35px;
+					letter-spacing: 1px;
+					font-size:30px;
 					display: block;
 					line-height:1.1;
 				}
@@ -3835,6 +3835,34 @@ a.phone_header_desktop {
 	}
 }
 
+/* Process */
+
+
+
+.process.desktop {
+	
+	.process_single_box_wrapper {
+		
+		.process_single_box {
+			
+			.single_box_initial_content {
+				padding: 40px 3%;
+				height:424px;
+				img.process_icons {
+					
+				}
+				.process_title {
+					
+					font-size:43px;
+					
+				}
+				
+			}
+		}
+		
+		
+	}
+}
 
 
 

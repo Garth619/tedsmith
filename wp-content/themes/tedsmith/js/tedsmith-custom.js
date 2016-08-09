@@ -11,10 +11,11 @@ jQuery('body').delay(600).queue(function(){
 
 
 
-// Process Desktop Hover
+// Process Hover and Click
 
 
 
+/*
 jQuery('.process.desktop .process_single_box').mouseenter(function() {
   	
   	jQuery(this).children('.process_hover_wrapper').addClass('open');
@@ -24,10 +25,6 @@ jQuery('.process.desktop .process_single_box').mouseenter(function() {
 jQuery('.process.desktop .process_single_box').mouseleave(function() {
   	jQuery(this).children('.process_hover_wrapper').removeClass('open');
  });
-
-
-
-
 
 
 jQuery('.process.mobile .single_box_initial_content').click(function() {
@@ -41,33 +38,8 @@ jQuery('.process.mobile .process_hover_wrapper').click(function() {
   jQuery(this).removeClass('open');
   	
 });
-
-
-
-
-
-/*
-jQuery('.mobile .process_single_box_wrapper').click(function() {
-  	
-  	jQuery('.process_hover_wrapper').toggleClass('open');
-  	
-	});
-	
-	
-jQuery('.desktop .process_single_box_wrapper').mouseenter(function() {
-  	
-  	jQuery('.process_hover_wrapper').addClass('open');
-  	
-	});
-	
-jQuery('.desktop .process_single_box_wrapper').mouseleave(function() {
-  	
-  	jQuery('.process_hover_wrapper').removeClass('open');
-  	
-	});
-	
 */
-	
+
 
 // Gradient Text
 

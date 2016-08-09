@@ -82,7 +82,7 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon1.png"/>
-				<span class="process_title">honest evaluations</span>
+				<span class="process_title">honest<br/>evaluations</span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
@@ -101,7 +101,7 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
-				<span class="process_title">expect personal attention</span>
+				<span class="process_title">expect personal<br/>attention</span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
@@ -119,7 +119,7 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon3.png"/>
-				<span class="process_title">we love helping people</span>
+				<span class="process_title">we love<br/>helping people</span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
@@ -138,7 +138,7 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon4.png"/>
-				<span class="process_title">affordable & knowledgeable</span>
+				<span class="process_title">affordable &<br/>knowledgeable</span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
@@ -168,7 +168,7 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon1.png"/>
-				<span class="process_title">honest evaluations</span>
+				<span class="process_title">honest<br/>evaluations</span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
@@ -208,7 +208,7 @@ get_header(); ?>
 				<div class="single_box_initial_content">
 			
 					<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon3.png"/>
-					<span class="process_title">we love helping people</span>
+					<span class="process_title">we love<br/>helping people</span>
 					<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 				</div><!-- single_box_initial_content -->
@@ -227,7 +227,7 @@ get_header(); ?>
 				<div class="single_box_initial_content">
 			
 					<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon4.png"/>
-					<span class="process_title">affordable & knowledgeable</span>
+					<span class="process_title">affordable &<br/>knowledgeable</span>
 					<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 				</div><!-- single_box_initial_content -->
