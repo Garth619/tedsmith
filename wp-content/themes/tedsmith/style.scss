@@ -638,7 +638,7 @@ nav.desktop_menu {
 			.single_box_initial_content {
 				border:1px solid $blue;
 				width:100%;
-				padding:40px 35px;
+				padding:40px 0px;
 				cursor: pointer;
 				position: relative;
 				height:368px;
@@ -646,7 +646,7 @@ nav.desktop_menu {
 					font-family: $utopiabolditalic;
 					font-weight:300;
 					letter-spacing: 1px;
-					font-size:30px;
+					font-size:35px;
 					display: block;
 					line-height:1.1;
 				}
@@ -3859,7 +3859,9 @@ a.phone_header_desktop {
 				
 			}
 		}
-		
+		.process_hover_wrapper {
+			height:424px;
+		}
 		
 	}
 }

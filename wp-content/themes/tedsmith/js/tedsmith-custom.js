@@ -15,7 +15,6 @@ jQuery('body').delay(600).queue(function(){
 
 
 
-/*
 jQuery('.process.desktop .process_single_box').mouseenter(function() {
   	
   	jQuery(this).children('.process_hover_wrapper').addClass('open');
@@ -38,7 +37,6 @@ jQuery('.process.mobile .process_hover_wrapper').click(function() {
   jQuery(this).removeClass('open');
   	
 });
-*/
 
 
 // Gradient Text
