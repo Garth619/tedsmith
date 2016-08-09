@@ -1967,16 +1967,39 @@ nav.mobile_menu {
 
 /* Process */
 
-/* Needs Arrows */
-
-
 .process.mobile {
+	position: relative;
+	.prev,.next {
+		position:absolute;
+		top:40%;
+		cursor: pointer;
+		z-index:500000;
+	}
+	.prev {
+		width:13px;
+		height:23px;
+		background:url(images/small-imgs/tab-sp-arrow-right.png) top left no-repeat;
+		left:2%;
+	}
+	.next {
+		width:13px;
+		height:23px;
+		background:url(images/small-imgs/tab-sp-arrow-left.png) top left no-repeat;
+		right:2%;
+	}
 	.process_single_box_wrapper {
+		margin:0 20px;
 		.process_single_box {
-			margin:0 10px;
+			margin:0 10px 35px;
+			width:100%;
 		}
 	}
+	ul.slick-dots {
+		margin-bottom:15px;
+	}
 }
+
+
 
 
 /* About Us */

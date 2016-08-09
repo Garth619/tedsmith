@@ -72,6 +72,9 @@ get_header(); ?>
 
 <section class="process mobile">
 	
+	<div class="prev"></div><!-- prev -->
+	<div class="next"></div><!-- next -->
+	
 	<div class="process_single_box_wrapper">
 		
 		<div class="process_single_box">
@@ -156,8 +159,7 @@ get_header(); ?>
 	
 	<section class="process desktop">
 		
-	<div class="prev"></div><!-- prev -->
-	<div class="next"></div><!-- next -->
+
 	
 	<div class="process_single_box_wrapper">
 		

@@ -173,9 +173,9 @@ jQuery('.read_more').click(function(){
 			    breakpoint: 755,
 			    settings: {
 			      dots:true,
-	    slidesToShow: 1,
-	    slidesToScroll: 1,
-	    infinite: true
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						infinite: true
 			    }
 			  }
 			]
@@ -208,23 +208,9 @@ jQuery('.read_more').click(function(){
 	    slidesToShow: 4,
 	    slidesToScroll: 1,
 	    infinite: true,
-	    arrows:true,
-	    prevArrow: ".prev",
-			nextArrow: ".next",
-	    responsive: [
-			  {
-			    breakpoint: 1300,
-			    settings: {
-			      slidesToShow: 2,
-			      slidesToScroll: 2,
-			      infinite: true,
-			      dots: true,
-			      prevArrow: ".prev",
-						nextArrow: ".next",
-						arrows:true
-			    }
-			  }
-			]
+	   
+	   
+	   
 		});
 		
 		
