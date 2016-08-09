@@ -11,8 +11,42 @@ jQuery('body').delay(600).queue(function(){
 
 
 
-// Process Mobile CLick
+// Process Desktop Hover
 
+
+
+jQuery('.process.desktop .process_single_box').mouseenter(function() {
+  	
+  	jQuery(this).children('.process_hover_wrapper').addClass('open');
+ });
+ 
+
+jQuery('.process.desktop .process_single_box').mouseleave(function() {
+  	jQuery(this).children('.process_hover_wrapper').removeClass('open');
+ });
+
+
+
+
+
+
+jQuery('.process.mobile .single_box_initial_content').click(function() {
+  	
+  	jQuery(this).next('.process_hover_wrapper').addClass('open');
+  	
+	});
+	
+jQuery('.process.mobile .process_hover_wrapper').click(function() {
+  	
+  jQuery(this).removeClass('open');
+  	
+});
+
+
+
+
+
+/*
 jQuery('.mobile .process_single_box_wrapper').click(function() {
   	
   	jQuery('.process_hover_wrapper').toggleClass('open');
@@ -32,6 +66,7 @@ jQuery('.desktop .process_single_box_wrapper').mouseleave(function() {
   	
 	});
 	
+*/
 	
 
 // Gradient Text

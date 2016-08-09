@@ -620,76 +620,82 @@ nav.desktop_menu {
 
 /* Process */
 
+
 .process {
 	padding:20px;
 	.process_single_box_wrapper {
-	
+		position: relative;
+		z-index:0;
 		.process_single_box {
-			margin:0 10px 35px;
-				position:relative;
-			.single_box_initial_content {
-				border:1px solid $blue;
-				width:100%;
-				padding:40px 20px;
-				cursor: pointer;
-				position: relative;
-				height:368px;
-				span.process_title {
-					font-family: $utopiabolditalic;
-					font-weight:300;
-					letter-spacing: 2px;
-					font-size:35px;
-					display: block;
-					line-height:1.1;
-				}
-				img.process_icons {
-					margin-bottom: 25px;
-					display: inline-block;
-					margin-top: 32px;
-				}
-				img.process_arrow {
-					bottom: 34px;
-					display: inline-block;
-					margin-top: 40px;
-					position: absolute;
-				}
+			border:1px solid $blue;
+			width:100%;
+			padding:40px 20px;
+			cursor: pointer;
+			margin:0 0px 35px;
+			height:368px;
+			position: relative;
+			span.process_title {
+				font-family: $utopiabolditalic;
+				font-weight:300;
+				letter-spacing: 2px;
+				font-size:35px;
+				display: block;
+				line-height:1.1;
+			}
+			img.process_icons {
+				margin-bottom: 25px;
+				display: inline-block;
+				margin-top: 32px;
+			}
+			img.process_arrow {
+				bottom: 34px;
+				display: inline-block;
+				margin-top: 40px;
+				position: absolute;
 			}
 			
 		}
 		
-		
 		.process_hover_wrapper {
-			position: absolute;
+			position:absolute;
+			display:none;
+			z-index:1;
+			opacity:0;
+			visibility: hidden;
 			top:0;
 			left:0;
-			height:368px;
+			width:100%;
 			color:$offwhite;
 			font-family: $proximareg;
 			text-transform: uppercase;
 			font-size: 25px;
 			font-weight:300;
-			letter-spacing: 1px;
+			letter-spacing: 2px;
 			line-height:1.5;
 			padding:40px;
-			opacity: 0;
-			visibility: hidden;
 			transition:all .3s ease;
+			height:100%;			
+			
+			
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
 			background: #0abcba; /* Old browsers */
 			background: -moz-linear-gradient(top,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
 			background: -webkit-linear-gradient(top,  #0abcba 0%,#5b45c1 100%); /* Chrome10-25,Safari5.1-6 */
 			background: linear-gradient(to bottom,  #0abcba 0%,#5b45c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=0 ); /* IE6-9 */
+			
 			span {
 				display:block;
 				position: relative;
 				top: 50%;
 				transform: translateY(-50%);
 			}
+
 		}
 		.process_hover_wrapper.open {
-			opacity: 1;
+			opacity:1;
 			visibility: visible;
+			transition:all .3s ease;
 		}
 	}
 	ul.slick-dots {
@@ -706,9 +712,6 @@ nav.desktop_menu {
 		}
 	}
 }
-
-
-
 
 /* About Us */
 
@@ -1959,6 +1962,109 @@ nav.mobile_menu {
 
 /* Process */
 
+.process {
+	padding:20px 60px;
+	position: relative;
+	.prev,.next {
+		position:absolute;
+		top:40%;
+		cursor: pointer;
+	}
+	.prev {
+		width:13px;
+		height:23px;
+		background:url(images/small-imgs/tab-sp-arrow-right.png) top left no-repeat;
+		left:2%;
+	}
+	.next {
+		width:13px;
+		height:23px;
+		background:url(images/small-imgs/tab-sp-arrow-left.png) top left no-repeat;
+		right:2%;
+	}
+	.process_single_box_wrapper {
+		position:relative;
+		
+		
+		.process_single_box {
+			padding:65px 2% 35px;
+			margin:0px 10px 35px;
+			height:425px;
+			span.process_title {
+				font-size:3.5vw;
+			}
+			img.process_icons {
+				margin-bottom: 50px;
+				display: inline-block;
+			}
+			img.process_arrow {
+				margin-top: 60px;
+				display: inline-block;
+			}
+			
+		}
+		.process_single_box:nth-of-type(3) {
+			span.process_title {
+				margin-top:17px;
+			}
+		}
+		
+		.process_hover_wrapper {
+			position:absolute;
+			display:none;
+			z-index:1;
+			opacity:0;
+			visibility: hidden;
+			top:0;
+			left:0;
+			width:100%;
+			color:$offwhite;
+			font-family: $proximareg;
+			text-transform: uppercase;
+			font-size: 25px;
+			font-weight:300;
+			letter-spacing: 2px;
+			line-height:1.5;
+			padding:40px;
+			transition:all .3s ease;
+			height:100%;			
+			
+			
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
+			background: #0abcba; /* Old browsers */
+			background: -moz-linear-gradient(top,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #0abcba 0%,#5b45c1 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #0abcba 0%,#5b45c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=0 ); /* IE6-9 */
+			
+			span {
+				display:block;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+		}
+		.process_hover_wrapper.open {
+			opacity:1;
+			visibility: visible;
+			transition:all .3s ease;
+		}
+	}
+	ul.slick-dots {
+		li {
+			button:before {
+				background:#000;
+			}
+			button:focus:before {
+				background:$blue;
+			}
+		}
+		li.slick-active button:before {
+			background:$blue;
+		}
+	}
+}
 
 
 
@@ -3176,79 +3282,19 @@ footer {
 
 @media screen and (min-width: 1300px) {
 	
-.process.mobile {
-	display: none;
-}
 
 .process.desktop {
-	padding:20px;
-	display: block;
+	padding:20px 10px;
+	position: relative;
+	.prev,.next {
+		display: none
+	}
 	.process_single_box_wrapper {
-		
 		.process_single_box {
-			position: relative;
-			margin:0 10px;
-			.single_box_initial_content {
-				border:1px solid $blue;
-				width:100%;
-				padding:40px 20px;
-				cursor: pointer;
-				height:368px;
-				position:relative;
-				img.process_icons {
-					margin-bottom: 25px;
-					display: inline-block;
-					margin-top: 32px;
-				}
-				.process_title {
-					font-family: $utopiabolditalic;
-					font-weight:300;
-					letter-spacing: 2px;
-					font-size:35px;
-					display: block;
-					line-height:1.1;
-				}
-				.process_arrow {
-					bottom: 34px;
-					display: inline-block;
-					margin-top: 40px;
-					position: absolute;
-				}
+			margin-bottom:0;
+			span.process_title {
+				font-size:35px;
 			}
-		}
-		.process_hover_wrapper {
-			position: absolute;
-			top:0;
-			left:0;
-			opacity: 0;
-			visibility: hidden;
-			height:368px;
-			width:100%;
-			color:$offwhite;
-			font-family: $proximareg;
-			text-transform: uppercase;
-			font-size: 25px;
-			font-weight:300;
-			letter-spacing: 1px;
-			line-height:1.5;
-			padding:40px;
-			transition: all .3s ease;
-			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
-			background: #0abcba; /* Old browsers */
-			background: -moz-linear-gradient(top,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
-			background: -webkit-linear-gradient(top,  #0abcba 0%,#5b45c1 100%); /* Chrome10-25,Safari5.1-6 */
-			background: linear-gradient(to bottom,  #0abcba 0%,#5b45c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0abcba', endColorstr='#5b45c1',GradientType=0 ); /* IE6-9 */
-			span {
-				display:block;
-				position: relative;
-				top: 50%;
-				transform: translateY(-50%);
-			}
-		}
-		.process_hover_wrapper.open {
-			opacity: 1;
-			visibility: visible;
 		}
 	}
 }
@@ -3556,6 +3602,21 @@ a.phone_header_desktop {
 
 /* Process */
 
+.process {
+	.process_single_box_wrapper {
+		.process_single_box {
+			padding:65px 40px 35px;
+			margin:0px 10px 35px;
+			height:425px;
+			}
+		.process_single_box:nth-of-type(3) {
+			span.process_title {
+				
+			}
+		}
+	}
+	
+}
 
 
 
@@ -3976,7 +4037,12 @@ nav.desktop_menu {
 
 /* Process */
 
-
+.process {
+	.process_single_box_wrapper {
+		max-width:2000px;
+		margin:0 auto;
+	}
+}
 
 
 /* About */
