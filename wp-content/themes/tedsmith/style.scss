@@ -135,6 +135,9 @@ header,section,nav,footer {
 	background:rgba(255, 255, 255, 0.2);
 	height:80px;
 	width:320px;
+	position: relative;
+    right: -40px;
+    width: 320px;
 	.new_button_inner_testmonial {
 		background: #fff none repeat scroll 0 0;
     border-radius: 5px;
@@ -147,11 +150,11 @@ header,section,nav,footer {
 		transition: all .3s ease-in-out;
 		a {
 			color:$blue;
-			padding: 23px 5px;
+			padding: 19px 5px;
 			text-decoration: none;
 			display: block;
-			font-size:17px;
-			letter-spacing: 2px;
+			font-size:22px;
+			letter-spacing: 1px;
 			font-family: $utopiabold;
 			
 		}
@@ -290,8 +293,12 @@ ul.slick-dots {
 
 
 .preload {
-	width:0px;
-	height:0px;
+
+/*
+	width:1px;
+	height:1px;
+*/
+
 	position:absolute;
 	top:0;
 	z-index:-5;
@@ -1258,16 +1265,24 @@ input.gform_button {
 			 	background:$blue;
 			 }
 		}
+		
+		
+		
+		
+		.twitter_hover {
+			width:59px;
+			height:75px;
+			background:url(images/small-imgs/social-twitter.png) top left no-repeat;
+		}
+		
 		.single_social_wrapper {
 			margin-bottom:75px;
+			
 			.social_icon {
 				margin:0 auto 35px;
+				
 			}
-			.twitter_hover {
-				width:59px;
-				height:75px;
-				background:url(images/small-imgs/social-twitter.png) top left no-repeat;
-			}
+			
 			.linkedin_hover {
 				width:56px;
 				height:75px;
@@ -1350,7 +1365,7 @@ footer {
 
 .main {
 	padding:60px 0;
-	
+	background:#f2f2f2;
 	.gradient_divider {
 		
 		width:100%;
@@ -1384,12 +1399,12 @@ footer {
 	}
 	h2 {
 		color:$blue;
-		font-family: $proximareg;
+		font-family: $proximalight;
 		font-weight:300;
 		text-transform: uppercase;
-		font-size:19px;
+		font-size:24px;
 		text-align: center;
-		letter-spacing:2px;
+		letter-spacing:1px;
 		margin-bottom:20px;
 		line-height: 1.2;
 	}
@@ -1685,10 +1700,14 @@ footer {
 			line-height: 1.4;
 		}
 		.contact_sub_header {
-			font-family: $proximareg;
+			font-family: $proximalight;
 			text-transform: uppercase;
-			letter-spacing: 2px;
+			letter-spacing: 1px;
 			line-height: 1.2;
+			font-size:26px;
+			display: block;
+			max-width:334px;
+			margin: 0 auto;
 		}
 		a.contact_directions {
 			color:$purple;
@@ -1701,6 +1720,9 @@ footer {
 		a {
 			color: $black;
 			text-decoration: none;
+			font-weight:300;
+			font-size:26px;
+			display: block;
 		}
 		a:hover {
 			text-decoration: none;
@@ -1708,7 +1730,23 @@ footer {
 	}
 }
 
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+/*
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; } 
+	
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	
+	}
+*/
 
 
 /* Video Library */
@@ -2346,7 +2384,7 @@ footer {
 	margin:0 auto;
 	padding:85px 40px;
 	h1 {
-		font-size:50px;
+		font-size:48px;
 	}
 }
 
@@ -2393,10 +2431,10 @@ footer {
 		border-right: 1px solid #cbcbcb;
 		padding:20px 0;
 		max-width:auto;
-		margin:0 0 45px;
+		margin:0 0 65px;
 		width:33.3333%;
 		float: left;
-		min-height: 210px;
+		min-height: 267px;
 		.contact_header {
 		
 		}
@@ -2411,8 +2449,12 @@ footer {
 	}
 	.map {
 		clear:both;
-// 		height:300px;
+		//height:300px;
+		iframe {
+			width:100%;
+		}
 	}
+	
 	
 	
 }
@@ -3157,7 +3199,7 @@ footer {
 			.sidebar_menu_wrapper {
 				margin-left:3px;
 				padding-left:15px;
-				background: #fff;
+				background: #f2f2f2;
 				ul {
 					list-style: none;
 					margin:0;
@@ -3370,27 +3412,38 @@ nav.desktop_menu {
 
 .social_icons {
 	.social_icon_wrapper {
-		.single_social_wrapper {
-			.twitter_hover:hover {
-				background:url(images/small-imgs/social-twitter-h.png) top left no-repeat;
-			}
-			.linkedin_hover:hover {
-				background:url(images/small-imgs/social-linkedin-h.png) top left no-repeat;
+		
+		.single_social_wrapper:hover {
+			
+			.twitter_hover {
+					background:url(images/small-imgs/social-twitter-h.png) top left no-repeat;
 				}
-			.google_hover:hover {
+				
+			.linkedin_hover {
+				background:url(images/small-imgs/social-linkedin-h.png) top left no-repeat;
+			}
+			.google_hover {
 				background:url(images/small-imgs/social-goggle-h.png) top left no-repeat;
 			}
-			.facebook_hover:hover {
+			.facebook_hover {
 				background:url(images/small-imgs/social-fb-h.png) top left no-repeat;
 			}
-			.bbb_hover:hover {
+			.bbb_hover {
 				background:url(images/small-imgs/social-bbb-h.png) top left no-repeat;
 			}
-			.youtube_hover:hover {
+			.youtube_hover {
 				background:url(images/small-imgs/social-youtube-h.png) top left no-repeat;
 			}
-		}		
-	}
+				
+				
+				
+			}
+			
+			
+			
+		}
+		
+		
 	.slick-dotted.slick-slider {
     margin-bottom: 25px !important;
 }
@@ -3418,7 +3471,7 @@ nav.desktop_menu {
 	.content {
 		padding:120px 0px 90px;
 		h1 {
-			font-size:60px;
+// 			font-size:60px;
 		}
 	}
 	

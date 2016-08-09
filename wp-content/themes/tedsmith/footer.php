@@ -31,7 +31,7 @@
 				<span class="office_titles">office</span>
 				<span class="sub_office_titles">660 West FM 2410<br/>Harker Heights, Tx&nbsp;76548</span>
 			
-				<div class="gradient_button"><a href="">Get Directions</a></div><!-- gradient_button -->
+				<div class="gradient_button"><a href="https://www.google.com/maps?ll=31.075339,-97.681015&z=17&t=m&hl=en-US&gl=US&mapclient=embed&q=660+W+FM+2410+Rd+Harker+Heights,+TX+76548" target="_blank">Get Directions</a></div><!-- gradient_button -->
 			
 				<div class="gradient_divider"></div><!-- gradient_divider -->
 			
@@ -160,6 +160,7 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/tedsmith-custom-min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/text-gradient/pxgradient-1.0.3.min.js"></script>
+
 
 <!-- <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/modernizr.js"></script> -->
 

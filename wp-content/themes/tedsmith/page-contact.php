@@ -44,6 +44,8 @@ get_header(); ?>
 				
 				<?php the_field('google_map');?>
 				
+			
+				
 			</div><!-- map -->
 			
 		</div><!-- contact_wrapper -->

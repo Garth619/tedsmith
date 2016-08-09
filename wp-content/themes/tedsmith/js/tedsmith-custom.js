@@ -261,6 +261,12 @@ jQuery('.read_more').click(function(){
 			  
 			]
 		});
+		
+
+		
+		
+		
+		
 
 	  
 	
