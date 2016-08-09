@@ -161,10 +161,24 @@ jQuery('.read_more').click(function(){
 
 	
 	  jQuery('.process.mobile .process_single_box_wrapper').slick({
-	    dots:true,
+	    slidesToShow: 2,
+			slidesToScroll: 2,
+			infinite: true,
+			dots: true,
+			prevArrow: ".prev",
+			nextArrow: ".next",
+			arrows:true,
+			responsive: [
+			  {
+			    breakpoint: 755,
+			    settings: {
+			      dots:true,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
 	    infinite: true
+			    }
+			  }
+			]
 	   });
 	   
 	   

@@ -278,6 +278,7 @@ ul.slick-dots {
 	}
 }
 
+/*
 .mobile {
 	display:block;
 }
@@ -285,6 +286,7 @@ ul.slick-dots {
 .desktop {
 	display:none;
 }
+*/
 
 
 .slick-prev, .slick-next {
@@ -620,17 +622,23 @@ nav.desktop_menu {
 
 /* Process */
 
-.process {
+
+.process.desktop {
+	display: none;
+}
+
+.process.mobile {
 	padding:20px;
+	display: block;
 	.process_single_box_wrapper {
 	
 		.process_single_box {
-			margin:0 10px 35px;
+			margin:0 0px 35px;
 				position:relative;
 			.single_box_initial_content {
 				border:1px solid $blue;
 				width:100%;
-				padding:40px 20px;
+				padding:40px 35px;
 				cursor: pointer;
 				position: relative;
 				height:368px;
@@ -638,7 +646,7 @@ nav.desktop_menu {
 					font-family: $utopiabolditalic;
 					font-weight:300;
 					letter-spacing: 2px;
-					font-size:35px;
+					font-size:30px;
 					display: block;
 					line-height:1.1;
 				}
@@ -1959,7 +1967,16 @@ nav.mobile_menu {
 
 /* Process */
 
+/* Needs Arrows */
 
+
+.process.mobile {
+	.process_single_box_wrapper {
+		.process_single_box {
+			margin:0 10px;
+		}
+	}
+}
 
 
 /* About Us */
@@ -3176,6 +3193,9 @@ footer {
 
 @media screen and (min-width: 1300px) {
 	
+
+/* Process */
+
 .process.mobile {
 	display: none;
 }
