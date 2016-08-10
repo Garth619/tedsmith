@@ -39,17 +39,6 @@ jQuery('.process.mobile .process_hover_wrapper').click(function() {
 });
 
 
-// Gradient Text
-
-jQuery(".demo1").pxgradient({
-
-	  step: 10, // Step Color. The smaller the number, the greater the load. Default: 10
-
-	  colors: ["#6535ce","#3c7ddf","#0bbbbb"], // an array of hex colors.
-
-	  dir: "x" // gradient direction. "x" - horizontal,  "y" - vertical
-
-	});
 	
 		
 	

@@ -11331,7 +11331,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 222,
+		"initialSize": 15347,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/images\/active0.png",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/images\/active0.png",
 		"outputPathIsOutsideProject": 0,
@@ -11342,7 +11342,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 219,
+		"initialSize": 15369,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/images\/active1.png",
 		"outputAbbreviatedPath": "\/wp-content\/plugins\/gravityforms\/images\/active1.png",
 		"outputPathIsOutsideProject": 0,
@@ -20910,11 +20910,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/main-image-desk.jpg": {
+	"\/wp-content\/themes\/tedsmith\/images\/main-image-desk-old.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 136122,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-desk-old.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-desk-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/main-image-desk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160514,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-desk.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-desk.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -20976,11 +20987,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/tedsmith\/images\/main-image-tablet.jpg": {
+	"\/wp-content\/themes\/tedsmith\/images\/main-image-tablet-old.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 96046,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-tablet-old.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-tablet-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/tedsmith\/images\/main-image-tablet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111266,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-tablet.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/tedsmith\/images\/main-image-tablet.jpg",
 		"outputPathIsOutsideProject": 0,

@@ -90,7 +90,7 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-				<span>1We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
 			
 			</div><!-- process_hover_wrapper -->
 
@@ -108,7 +108,7 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-				<span>2We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
 			
 			</div><!-- process_hover_wrapper -->
 			
@@ -127,7 +127,7 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-				<span>3We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
 			
 			</div><!-- process_hover_wrapper -->
 
@@ -146,7 +146,7 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-				<span>4We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
 			
 			</div><!-- process_hover_wrapper -->
 
@@ -252,7 +252,7 @@ get_header(); ?>
 		
 			<h1>Central Texas area&nbsp;Lawyers</h1>
 			
-			<h2 class="demo1">serving Fort Hood, Bell, Coryell counties</h2>
+			<h2>serving Fort Hood, Bell, Coryell counties</h2>
 			
 			
 			<div class="about_lower_content">
