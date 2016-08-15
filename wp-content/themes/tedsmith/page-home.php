@@ -192,7 +192,7 @@ get_header(); ?>
 					<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			
-				</div><!-- single_box_initial_content -->
+				</div> <!-- single_box_initial_content -->
 				
 				<div class="process_hover_wrapper">
 			
@@ -524,11 +524,11 @@ who 	can level the playing field against the insurance carriers and their massiv
 				
 				<div class="attorneys_single_wrapper">
 				
-					<a href="<?php bloginfo('url');?>/attorneys/grace-a-wilhem/">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-grace-desk.jpg"/>
+					<a href="<?php bloginfo('url');?>/#">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Grace A. Wilhem</span>
+							<span class="attorneys_name">Coming Soon</span>
 							<span class="attorneys_position">Attorney</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
@@ -566,12 +566,12 @@ who 	can level the playing field against the insurance carriers and their massiv
 				
 				<div class="attorneys_single_wrapper">
 				
-					<a href="">
+					<a href="<?php bloginfo('url');?>/attorneys/nancy-perry-eaton">
 						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-needname-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Name</span>
-							<span class="attorneys_position">Position</span>
+							<span class="attorneys_name">Nancy Perry Eaton</span>
+							<span class="attorneys_position">Attorney</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
@@ -584,8 +584,8 @@ who 	can level the playing field against the insurance carriers and their massiv
 						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Name</span>
-							<span class="attorneys_position">Position</span>
+							<span class="attorneys_name">Coming Soon</span>
+							<span class="attorneys_position">Attorney</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
@@ -621,11 +621,11 @@ who 	can level the playing field against the insurance carriers and their massiv
 				
 				<div class="attorneys_single_wrapper">
 				
-					<a href="<?php bloginfo('url');?>/attorneys/grace-a-wilhem/">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-grace-desk.jpg"/>
+					<a href="<?php bloginfo('url');?>/#">
+						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Grace A. Wilhem</span>
+							<span class="attorneys_name">Coming Soon</span>
 							<span class="attorneys_position">Attorney</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
@@ -663,12 +663,12 @@ who 	can level the playing field against the insurance carriers and their massiv
 				
 				<div class="attorneys_single_wrapper">
 				
-					<a href="">
+					<a href="<?php bloginfo('url');?>/attorneys/nancy-perry-eaton">
 						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-needname-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Name</span>
-							<span class="attorneys_position">Position</span>
+							<span class="attorneys_name">Nancy Perry Eaton</span>
+							<span class="attorneys_position">Attorney</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
@@ -681,8 +681,8 @@ who 	can level the playing field against the insurance carriers and their massiv
 						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
 					
 						<div class="attorneys_title">
-							<span class="attorneys_name">Name</span>
-							<span class="attorneys_position">Position</span>
+							<span class="attorneys_name">Coming Soon</span>
+							<span class="attorneys_position">Attorney</span>
 							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 						</div><!-- attorneys_title -->
 					</a>
