@@ -12,10 +12,15 @@ get_header(); ?>
 	
 		<div class="home_banner_content">
 		
-			
-			<script src="//fast.wistia.com/embed/medias/14oizzbrxp.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="play_button"><span class="wistia_embed wistia_async_14oizzbrxp popover=true popoverContent=link" style="display:inline"><a href="#"></a></span></div>
-
-		
+				<script src="//fast.wistia.com/embed/medias/vll8k9jdb5.jsonp" async></script>
+					<script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+					
+						<div class="play_button">
+							<span class="wistia_embed wistia_async_vll8k9jdb5 popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline">
+								<a href="#"></a>
+							</span>
+						</div>
+						
 			<span class="serving">Serving the citizens of Texas since&nbsp;1976</span>
 			<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>
 		
@@ -278,12 +283,12 @@ get_header(); ?>
 			
 				<div class="about_main_content_wrapper">
 				
-					<p class="sub_paragraph first_intro"><strong>Welcome to Nelson & Smith, Attorneys at Law. We serve clients in Macon, Georgia and the surrounding cities, including Dublin and Hawkinsville. When you make an appointment with us, we make sure you receive the individual attention and expert legal counsel you&nbsp;deserve.</strong></p>
+					<p class="sub_paragraph first_intro"><strong>Welcome to Ted Smith Law Group, PLLC. We serve clients in in Fort Hood, Bell, and Coryell counties. When you make an appointment with us, we make sure you receive the individual attention and expert legal counsel you&nbsp;deserve.</strong></p>
 					
 					
-					<span class="about_sub_headers">Your Experience Matters</span><!-- about_headers -->
+					<span class="about_sub_headers">Turn To Our Firm With Confidence</span><!-- about_headers -->
 					
-					<p class="sub_paragraph">Welcome to Nelson & Smith, Attorneys at Law. We serve clients in Macon, Georgia and the surrounding cities, including Dublin and Hawkinsville. When you make an appointment with us, we make sure you receive the individual attention and expert legal counsel you&nbsp;deserve.</p>
+					<p class="sub_paragraph">At the Ted Smith Law Group, our knowledgeable attorneys find efficient solutions to serve the various legal issues our clients encounter. Whether you have been hurt by someone else's negligence, face criminal charges, need to file for divorce, find yourself in financial distress, require help with an immigration issue or need proven legal representation for any other type of civil or criminal matter in Texas, let our local attorneys help&nbsp;you.</p>
 					
 					
 					
@@ -294,20 +299,9 @@ get_header(); ?>
 					
 					<div class="toggle_text">
 					
-						<span class="about_sub_headers">Our Experience Matters</span><!-- about_headers -->
+						<span class="about_sub_headers">Proudly Serving Clients In The Harker Heights, Fort Hood And Killeen Area.</span><!-- about_headers -->
 					
-						<p class="sub_paragraph">Of course, you cannot restore your quality of life if your attorneys don’t have the experience to win your case. The team at Nelson 
-& Smith has years of such experience. We have recovered millions of dollars for clients in all kinds of compensation cases. Whether your case involves a work-related injury, a vehicle accident, or a defective product, rest assured that we will hold the right parties&nbsp;accountable.</p>
-
-					<p class="sub_paragraph">Our attorneys are skilled mediators. Ideally, settlement talks should yield satisfactory results for everyone involved. However, sometimes, responsible parties, such as companies that sell defective products, are not prepared to be reasonable. In those cases, we do not want you to walk away feeling defeated. We will fight for you, ensuring you get just&nbsp;compensation.</p>
-					
-					<span class="about_sub_headers">our practice areas</span><!-- about_headers -->
-					
-					<p class="sub_paragraph">Nelson & Smith is one of the most versatile firms in Middle Georgia. We handle accidents related to almost all vehicles, including cars, trucks, ATVs, and motorcycles. Since the type of injury you received also influences your case, we are prepared to handle a plethora of those as well. These include spinal injuries, broken bones, brain injuries, burns, and dog&nbsp;bites.</p>
-					
-					<p class="sub_paragraph">Finally, we pride ourselves on expertly handling all kinds of workplace injuries. Whether you or a loved one was injured at a construction site or a daycare, we can build an expert case that leads to full compensation and helps you get back to the life you&nbsp;love.</p>
-					
-					<p class="sub_paragraph">Feel free to contact us by phone or fax any time, and speak to one of the expert injury attorneys on our team. We look forward to working with&nbsp;you.</p>
+						<p class="sub_paragraph">We are exceptionally proud to be a part of the communities we serve, and our commitment to our friends and neighbors extends beyond the effective legal services we provide. We engage in many different community outreach programs, and firm founder Ted Smith was presented with the Fort Hood Good Neighbor award in 2013 for his efforts to improve the quality of life for Fort Hood soldiers and their families.</p>
 			
 			</div><!-- toggle_text -->
 			

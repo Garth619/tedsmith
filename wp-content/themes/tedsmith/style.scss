@@ -50,6 +50,11 @@ html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
 
 /* Global */
 
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-479 {
+	display:none;
+}
+
 body {
 	font-family:$utopiareg;
 	line-height:1;
@@ -149,20 +154,6 @@ header,section,nav,footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 a.mybutton {
 	color:$purple;
 	background:#fff;
@@ -210,7 +201,7 @@ span.mybutton.testimonials_button {
 		border-radius: 10px;
 		color:$black;
 		text-decoration: none;
-//transition:all .3s ease;
+
   	
   	background-image: -webkit-linear-gradient(top, $purple 0%, $teal 100%), -webkit-linear-gradient(top, $purple 0%, $teal 100%);
   	background-image: -moz-linear-gradient(top, $purple 0%, $teal 100%), -moz-linear-gradient(top, $purple 0%, $teal 100%);
@@ -224,7 +215,7 @@ span.mybutton.testimonials_button {
 		border:none;
 		padding:15px 34px;
 		color:#fff;
-// 		transition:all .3s ease;
+
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0abcba+0,5b45c1+100 */
 		background: #0abcba; /* Old browsers */
 		background: -moz-linear-gradient(left,  #0abcba 0%, #5b45c1 100%); /* FF3.6-15 */
@@ -255,15 +246,7 @@ ul.slick-dots {
 	}
 }
 
-/*
-.mobile {
-	display:block;
-}
 
-.desktop {
-	display:none;
-}
-*/
 
 
 .slick-prev, .slick-next {
@@ -273,10 +256,7 @@ ul.slick-dots {
 
 .preload {
 
-/*
-	width:1px;
-	height:1px;
-*/
+
 
 	position:absolute;
 	top:0;

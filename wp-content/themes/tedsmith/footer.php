@@ -74,7 +74,7 @@
 			<div class="social_icon_wrapper">
 				
 				<div class="single_social_wrapper">
-					<a href="">
+					<a href="https://twitter.com/TedSmithLaw" target="_blank">
 
 						<div class="twitter_hover social_icon"></div><!-- twitter_hover -->
 						<span>Twitter</span>
@@ -83,7 +83,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="">
+					<a href="http://www.linkedin.com/in/tedsmithlawgroup" target="_blank">
 						
 						<div class="linkedin_hover social_icon"></div><!-- linkedin_hover -->
 						<span>LinkedIn</span>
@@ -92,7 +92,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="">
+					<a href="https://plus.google.com/+Tedsmithlawgroup/posts" target="_blank">
 						
 						<div class="google_hover social_icon"></div><!-- google_hover -->
 						<span>Google+</span>
@@ -101,7 +101,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="">
+					<a href="https://www.facebook.com/pages/Ted-Smith-Law-Group-PLLC/180524278679399" target="_blank">
 						
 						<div class="facebook_hover social_icon"></div><!-- facebook_hover -->
 						<span>Facebook</span>
@@ -110,7 +110,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="">
+					<a href="http://www.bbb.org/central-texas/business-reviews/attorneys-and-lawyers-personal-injury-and-property-damage/ted-smith-law-group-pllc-in-harker-heights-tx-90098778/" target="_blank">
 						
 						<div class="bbb_hover social_icon"></div><!-- bbb_hover -->
 						<span>BBB</span>
@@ -119,7 +119,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="">
+					<a href="https://www.youtube.com/channel/UC8UOMg9yp4O9XBPFBvOijdQ" target="_blank">
 						
 						<div class="youtube_hover social_icon"></div><!-- youtube_hover -->
 						<span>Youtube</span>
@@ -138,7 +138,7 @@
 		
 		<div class="footer_inner">
 		
-			<span class="copyright">Copyright &copy; ted smith law group 2016 | <a href="">disclaimer</a> | <a href="">sitemap</a></span>
+			<span class="copyright">Copyright &copy; ted smith law group 2016 | <a href="<?php bloginfo('url');?>/disclaimer">disclaimer</a> | <a href="<?php bloginfo('url');?>/practice-areas">sitemap</a></span>
 			<a href="http://ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/small-imgs/ilawyer-logo.png"/></a>
 		
 		</div><!-- footer_inner -->
