@@ -17,9 +17,6 @@ get_header(); ?>
 		
 		<div class="testimonial_wrapper">
 			
-			
-				
-				
 				<?php if(get_field('testimonials')): ?>
  
 						<?php while(has_sub_field('testimonials')): ?>

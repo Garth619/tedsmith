@@ -437,59 +437,46 @@ who 	can level the playing field against the insurance carriers and their massiv
 				
 			</div><!-- new_button -->
 		
-<!--
-			<span class="mybutton testimonials_button">
-				view more testimonials
-			</span>
---><!-- button_consultation -->
-		
 		</div><!-- client_header_wrapper -->
 		
 		<div class="testimonial_wrapper">
 			
-			<div class="single_testimonial">
+			
+			
+			
+			<?php if( have_rows('testimonials', 269) ): ?>
+
+					<?php while( have_rows('testimonials', 269) ): the_row(); ?>
+
+						
+						<div class="single_testimonial">
 				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
+							<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-				<p>"The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty. In my opinion, if you want the best, you cannot go wrong with this&nbsp;group."</p>
+							<p><?php the_sub_field('testimonial');?></p>
 			
-				<span class="client_subheader">Personal Injury Client</span>
-				<span class="client_lowerheader">client direct review</span>
+							<span class="client_subheader"><?php the_sub_field('testimonial_name');?></span>
+							<span class="client_lowerheader"><?php the_sub_field('testimonial_source');?></span>
 			
-			</div><!-- single_testimonial -->
+						</div><!-- single_testimonial -->
+					
+					
+					<?php endwhile; ?>
+
+				<?php endif; ?>
 			
-			<div class="single_testimonial">
-				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-				<p>“Thanks to my Attorney Grace Wilhelm and Paralegal Mallory Strength this process was smooth and painless. They were both extremely reassuring, knowledgable, kept me informed and were more than willing to work around my hectic schedule.”</p>
 			
-				<span class="client_subheader">julie boatwrite</span>
-				<span class="client_lowerheader">google+ review</span>
 			
-			</div><!-- single_testimonial -->
 			
-			<div class="single_testimonial">
-				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-				<p>“Mr. Smith took my case and won. I'm very grateful with Mr. Smith. He took the time to review all my files and explain to me what he was doing and our chances. His very professional at what he do. I recommend Mr. Smith to anyone who needs legal help.”</p>
 			
-				<span class="client_subheader">Juan</span>
-				<span class="client_lowerheader">avvo.com review</span>
 			
-			</div><!-- single_testimonial -->
 			
-			<div class="single_testimonial">
-				
-				<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-				<p>“Mr. Ted Smith & Mrs. Dawn  represented me on my child support case with the upmost professionalism. They kept me posted and informed me of the status at all times. I really needed them to act fast while I was on a short time period and they SUPER EXCEEDED in doing so. I can't say thank you enough for everything.”</p>
 			
-				<span class="client_subheader">K.C.</span>
-				<span class="client_lowerheader">BBB review</span>
 			
-			</div><!-- single_testimonial -->
+			
 			
 		</div><!-- testimonial_wrapper -->
 		
@@ -508,93 +495,35 @@ who 	can level the playing field against the insurance carriers and their massiv
 			<div class="attorneys_wrapper attornies_slideshow">
 				
 				
-				<div class="attorneys_single_wrapper">
 				
-					<a href="<?php bloginfo('url');?>/attorneys/ted-smith/">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-ted-desktop.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="<?php bloginfo('url');?>/#">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Coming Soon</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="<?php bloginfo('url');?>/attorneys/richard-l-king/">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-richard-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Richard Lee King</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="<?php bloginfo('url');?>/attorneys/nicholas-r-smith/">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-nicholas-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Nicholas R. Smith</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="<?php bloginfo('url');?>/attorneys/nancy-perry-eaton">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-needname-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Nancy Perry Eaton</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Coming Soon</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
+				<?php if( have_rows('attorneys_directory', 108) ): ?>
+
+					<?php while( have_rows('attorneys_directory', 108) ): the_row(); ?>
+
+						<div class="attorneys_single_wrapper">
+						
+							<a href="<?php the_sub_field('page'); ?>">
+								
+								<?php $attorneyspic = wp_get_attachment_image_src(get_sub_field('attorneys_image'), 'attorneybio'); ?>
+								<img src="<?php echo $attorneyspic[0]; ?>"/>
+								
+								
+							<div class="attorneys_title">
+									<span class="attorneys_name"><?php the_sub_field('name');?></span>
+									<span class="attorneys_position"><?php the_sub_field('position');?></span>
+									<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+								</div><!-- attorneys_title -->
+							</a>
+						
+						</div><!-- attorneys_single_wrapper -->
+
+
+						<?php endwhile; ?>
+
+				<?php endif; ?>
 				
 				
-				
-			</div><!-- attorneys_wrapper -->
+				</div><!-- attorneys_wrapper -->
 			
 			</div><!-- attornies_mobile -->
 			
@@ -602,101 +531,38 @@ who 	can level the playing field against the insurance carriers and their massiv
 			
 			<div class="attornies_desktop">
 		
-			<div class="attorneys_wrapper">
-				
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="<?php bloginfo('url');?>/attorneys/ted-smith/">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-ted-desktop.jpg"/>
+				<div class="attorneys_wrapper">
 					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Ted Smith</span>
-							<span class="attorneys_position">Founder / Senior Partner</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="<?php bloginfo('url');?>/#">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
 					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Coming Soon</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
+					<?php if( have_rows('attorneys_directory', 108) ): ?>
 				
-				</div><!-- attorneys_single_wrapper -->
+						<?php while( have_rows('attorneys_directory', 108) ): the_row(); ?>
 				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="<?php bloginfo('url');?>/attorneys/richard-l-king/">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-richard-desk.jpg"/>
+					<div class="attorneys_single_wrapper">
 					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Richard Lee King</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="<?php bloginfo('url');?>/attorneys/nicholas-r-smith/">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-nicholas-desk.jpg"/>
+						<a href="<?php the_sub_field('page');?>">
+							<?php $attorneyspic = wp_get_attachment_image_src(get_sub_field('attorneys_image'), 'attorneybio'); ?>
+							<img src="<?php echo $attorneyspic[0]; ?>"/>
+						
+							<div class="attorneys_title">
+								<span class="attorneys_name"><?php the_sub_field('name');?></span>
+								<span class="attorneys_position"><?php the_sub_field('position');?></span>
+								<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
+							</div><!-- attorneys_title -->
+						</a>
 					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Nicholas R. Smith</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
+					</div><!-- attorneys_single_wrapper -->
 				
-				</div><!-- attorneys_single_wrapper -->
 				
-				<div class="attorneys_single_wrapper">
+							<?php endwhile; ?>
 				
-					<a href="<?php bloginfo('url');?>/attorneys/nancy-perry-eaton">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-needname-desk.jpg"/>
+					<?php endif; ?>
 					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Nancy Perry Eaton</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-				<div class="attorneys_single_wrapper">
-				
-					<a href="">
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/attorney-psoon-desk.jpg"/>
-					
-						<div class="attorneys_title">
-							<span class="attorneys_name">Coming Soon</span>
-							<span class="attorneys_position">Attorney</span>
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
-						</div><!-- attorneys_title -->
-					</a>
-				
-				</div><!-- attorneys_single_wrapper -->
-				
-			</div><!-- attorneys_wrapper -->
+					</div><!-- attorneys_wrapper -->
 			
 			</div><!-- attornies_desktop-->
 			
-			
-			
-		
-	</section><!-- meet_attorneys -->
+		</section><!-- meet_attorneys -->
 	
 	
 	
