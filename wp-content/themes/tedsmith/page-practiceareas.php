@@ -17,8 +17,7 @@ get_header(); ?>
 		
 		<div class="practice_wrapper">
 			
-			
-						<div class="pa_col">
+			<div class="pa_col">
 							
 							<ul>
 								<li><a href="">personal injury</a></li>
@@ -28,13 +27,11 @@ get_header(); ?>
 								<li><a href="">child custody</a></li>
 								<li><a href="">child custody</a></li>
 								<li><a href="">social security disability</a></li>
-							</ul>
-							
-						</div><!-- pa_col -->
 						
-						<div class="pa_col">
 							
-							<ul>
+					
+							
+							
 								<li><a href="">personal injury</a></li>
 								<li><a href="">family law</a></li>
 								<li><a href="">overview</a></li>
@@ -42,27 +39,23 @@ get_header(); ?>
 								<li><a href="">child custody</a></li>
 								<li><a href="">child custody</a></li>
 								<li><a href="">social security disability</a></li>
-							</ul>
-							
-						</div><!-- pa_col -->
 						
-						<div class="pa_col">
 							
-							<ul>
-								<li><a href="">personal injury</a></li>
-								<li><a href="">family law</a></li>
-								<li><a href="">overview</a></li>
-								<li><a href="">divorce</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">social security disability</a></li>
-							</ul>
-							
-						</div><!-- pa_col -->
 						
-						<div class="pa_col">
 							
-							<ul>
+							
+								<li><a href="">personal injury</a></li>
+								<li><a href="">family law</a></li>
+								<li><a href="">overview</a></li>
+								<li><a href="">divorce</a></li>
+								<li><a href="">child custody</a></li>
+								<li><a href="">child custody</a></li>
+								<li><a href="">social security disability</a></li>
+							
+							
+						
+							
+							
 								<li><a href="">personal injury</a></li>
 								<li><a href="">family law</a></li>
 								<li><a href="">overview</a></li>
@@ -72,7 +65,7 @@ get_header(); ?>
 								<li><a href="">social security disability</a></li>
 							</ul>
 							
-						</div><!-- pa_col -->	
+					
 			
 			
 			
