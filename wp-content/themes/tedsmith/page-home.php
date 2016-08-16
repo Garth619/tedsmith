@@ -274,7 +274,7 @@ get_header(); ?>
 				
 				<div class="about_columns">
 					
-					<span class="about_headers blue">former JAG officer</span>
+					<span class="about_headers teal">former JAG officer</span>
 					<p class="large_paragraph second">mr. smith served as a jag officer at fort hood before opening his private practice.</p>
 				
 				</div><!-- about_columns -->
@@ -283,7 +283,7 @@ get_header(); ?>
 			
 				<div class="about_main_content_wrapper">
 				
-					<p class="sub_paragraph first_intro"><strong>Welcome to Ted Smith Law Group, PLLC. We serve clients in in Fort Hood, Bell, and Coryell counties. When you make an appointment with us, we make sure you receive the individual attention and expert legal counsel you&nbsp;deserve.</strong></p>
+<!-- 					<p class="sub_paragraph first_intro"><strong>Welcome to Ted Smith Law Group, PLLC. We serve clients in in Fort Hood, Bell, and Coryell counties. When you make an appointment with us, we make sure you receive the individual attention and expert legal counsel you&nbsp;deserve.</strong></p> -->
 					
 					
 					<span class="about_sub_headers">Turn To Our Firm With Confidence</span><!-- about_headers -->

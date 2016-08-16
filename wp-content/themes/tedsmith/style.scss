@@ -690,7 +690,7 @@ nav.desktop_menu {
 	}
 	h2 {
 		font-size:30px;
-		color:$purple;
+		color:$blue;
 		font-family: $utopiabolditalic;
 		font-weight:300;
 		letter-spacing:2.9px;
@@ -717,9 +717,9 @@ nav.desktop_menu {
 		color:$purple;
 		border-bottom: 1px solid $purple;
 	}
-	span.blue {
-		color:$blue;
-		border-bottom: 1px solid $blue;
+	span.teal {
+		color:$teal;
+		border-bottom: 1px solid $teal;
 	}
 	p.large_paragraph {
 		font-family: $proximalight;
@@ -2004,7 +2004,7 @@ nav.mobile_menu {
 		span.purple {
 			border-bottom: none;
 		}
-		span.blue {
+		span.teal {
 			border-bottom: none;
 		}
 		p.large_paragraph {
@@ -2015,7 +2015,7 @@ nav.mobile_menu {
 			border-left: 1px solid $purple;
 		}
 		p.large_paragraph.second {
-			border-left: 1px solid $blue;
+			border-left: 1px solid $teal;
 		}
 		.read_more {
 			color:$blue;
@@ -2767,10 +2767,13 @@ span.mybutton:hover {
 /* About Us */
 
 .about {
-	 padding: 140px 95px;
+	 padding: 160px 95px;
 	 .about_inner {
 		 overflow: hidden;
 	 }
+	 p.sub_paragraph {
+			font-size:18px;
+		}
 	h1 {
 		font-size:80px;
 		margin: 0 0% 0px;
@@ -2779,19 +2782,22 @@ span.mybutton:hover {
 	h2 {
 		margin: 0 0% 56px 0%;
 		text-align: center;
-		color:$teal;
+// 		color:$teal;
 	}
 	.about_columns {
-				p.large_paragraph {
+		p.large_paragraph {
 			line-height:1.4;
 			padding-bottom:50px;
 		}
+		
 		span.about_headers {
 			padding-bottom:30px;
 		}
 	}
 	span.about_sub_headers {
 		text-align: left;
+		font-size:25px;
+		margin-bottom:52px;
 	}
 	
 	.read_more {
@@ -3499,13 +3505,17 @@ nav.desktop_menu {
 .about_main_content_wrapper {
 	float:left;
 	width:69%;
+/*
 	-webkit-column-count:2;
   -moz-column-count:2;
   column-count:2;
+*/
   padding-left:4%;
+/*
   -webkit-column-gap:65px;
   -moz-column-gap:65px;
   column-gap:65px
+*/
 }
 
 	
