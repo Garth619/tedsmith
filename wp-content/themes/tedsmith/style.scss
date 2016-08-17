@@ -1518,6 +1518,7 @@ footer {
 		margin-bottom:70px;
 		h2.pa_subheader {
 			text-align: center;
+			margin-bottom:40px;
 		}
 		ul {
 			list-style: none;
@@ -2289,7 +2290,9 @@ footer {
 	}
 	
 	
-	
+	body.page-template-page-practiceareas .content {
+		max-width:1000px;
+	}
 	
 	
 .content {
