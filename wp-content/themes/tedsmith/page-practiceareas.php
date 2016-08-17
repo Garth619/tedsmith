@@ -17,61 +17,30 @@ get_header(); ?>
 		
 		<div class="practice_wrapper">
 			
-			<div class="pa_col">
-							
-							<ul>
-								<li><a href="">personal injury</a></li>
-								<li><a href="">family law</a></li>
-								<li><a href="">overview</a></li>
-								<li><a href="">divorce</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">social security disability</a></li>
-						
-							
+				<?php 
+
+					$posts = get_field('practice_areas_directory');
+
+					if( $posts ): ?>
 					
-							
-							
-								<li><a href="">personal injury</a></li>
-								<li><a href="">family law</a></li>
-								<li><a href="">overview</a></li>
-								<li><a href="">divorce</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">social security disability</a></li>
-						
-							
-						
-							
-							
-								<li><a href="">personal injury</a></li>
-								<li><a href="">family law</a></li>
-								<li><a href="">overview</a></li>
-								<li><a href="">divorce</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">social security disability</a></li>
-							
-							
-						
-							
-							
-								<li><a href="">personal injury</a></li>
-								<li><a href="">family law</a></li>
-								<li><a href="">overview</a></li>
-								<li><a href="">divorce</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">child custody</a></li>
-								<li><a href="">social security disability</a></li>
-							</ul>
-							
+					<ul>
+    
+						<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+						<?php setup_postdata($post); ?>
 					
-			
-			
-			
-			
-			
-		</div><!-- practice_wrapper -->
+						<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+						
+					
+						</li>
+					
+						<?php endforeach; ?>
+    			</ul>
+    			
+						<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					
+					<?php endif; ?>
+							
+			</div><!-- practice_wrapper -->
 		
 
 	</div><!-- content -->
