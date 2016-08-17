@@ -3174,7 +3174,8 @@ footer {
 					
 					li.current-menu-parent {
 						> a {
-							color:$purple
+							color:$purple;
+							
 						}
 						ul.sub-menu {
 							display: block;
@@ -3228,9 +3229,10 @@ footer {
 					}
 					li.current-menu-item {
 						a {
-							border:none;
+							border-bottom:1px solid #cbcbcb;
 							background:none;
 							color:$purple;
+							border-top:0;
 						}
 					}
 				}
