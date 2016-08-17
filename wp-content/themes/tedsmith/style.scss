@@ -1513,7 +1513,12 @@ footer {
 
 .practice_wrapper {
 	text-align: center;
-	
+	overflow: hidden;
+	.pa_col {
+		margin-bottom:70px;
+		h2.pa_subheader {
+			text-align: center;
+		}
 		ul {
 			list-style: none;
 			margin:0;
@@ -1537,7 +1542,7 @@ footer {
 			}
 		}
 	
-
+	}
 }
 
 
@@ -2302,25 +2307,25 @@ footer {
 /* Practie Areas Page */
 
 .practice_wrapper {
-	
-	
-	
-	
-	
-	
-// 	overflow: hidden;
-/*
 	.pa_col {
-		width:50%;
-		float:left;
-		padding:0 3%;
+		ul {
+			-webkit-column-count:2;
+			-moz-column-count:2;
+			column-count:2;
+			-webkit-column-gap:65px;
+			-moz-column-gap:65px;
+			column-gap:65px
+		}
 	}
-*/
+
+
+
 /*
 	.pa_col:nth-of-type(1n + 3) {
 		margin-bottom:0;
 	}
 */
+
 }
 
 
@@ -2336,14 +2341,6 @@ footer {
 @media screen and (min-width: 900px) {
 	
 	
-.practice_wrapper {
-	-webkit-column-count:2;
-  -moz-column-count:2;
-  column-count:2;
-	-webkit-column-gap:65px;
-  -moz-column-gap:65px;
-  column-gap:65px
-}
 
 
 /* Contact Us Page */
@@ -2384,6 +2381,23 @@ footer {
 	
 	
 	
+}
+
+
+
+
+
+.practice_wrapper {
+	.pa_col {
+		ul {
+			-webkit-column-count:4;
+			-moz-column-count:4;
+			column-count:4;
+			-webkit-column-gap:65px;
+			-moz-column-gap:65px;
+			column-gap:65px
+		}
+	}
 }
 
 	
@@ -3755,14 +3769,8 @@ a.phone_header_desktop {
   
   	
 
-.practice_wrapper {
-	-webkit-column-count:4;
-  -moz-column-count:4;
-  column-count:4;
-	-webkit-column-gap:65px;
-  -moz-column-gap:65px;
-  column-gap:65px
-}
+
+
 
 
 

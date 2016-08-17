@@ -17,28 +17,64 @@ get_header(); ?>
 		
 		<div class="practice_wrapper">
 			
-				<?php 
-
-					$posts = get_field('practice_areas_directory');
-
-					if( $posts ): ?>
+			<?php if(get_field('practice_areas_directory')): ?>
+ 
+			
+ 
+				<?php while(has_sub_field('practice_areas_directory')): ?>
+ 
+				<div class="pa_col">
+ 
+				<h2 class="pa_subheader"><?php the_sub_field('section_title');?></h2>
+				
+				
+				
+				
+				
+				<?php if(get_sub_field('practice_areas_section')): ?>
+ 
+			
+ 
+				
+				<ul>
+				
+				
+				
+				<?php while(has_sub_field('practice_areas_section')): ?>
+				
+				
+				
+				<li><a href="<?php the_sub_field('page_link');?>"><?php the_sub_field('page_title');?></a></li>
+ 
+				
+ 
+				<?php endwhile; ?>
+ 
+			
+ 
+				</ul>
+			
+			
+			
+			
+			<?php endif; ?>
+				
+				
+				
+				
+				</div>
 					
-					<ul>
-    
-						<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
-						<?php setup_postdata($post); ?>
-					
-						<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-						
-					
-						</li>
-					
-						<?php endforeach; ?>
-    			</ul>
-    			
-						<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
-					
-					<?php endif; ?>
+				
+				
+				
+				
+				
+				
+				<?php endwhile; ?>
+ 
+			
+ 
+			<?php endif; ?>
 							
 			</div><!-- practice_wrapper -->
 		
