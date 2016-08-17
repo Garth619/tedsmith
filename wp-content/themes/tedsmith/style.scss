@@ -2562,6 +2562,24 @@ header {
 /* Nav */
 
 
+
+
+body.page-template-default {
+	nav.desktop_menu {
+		.menu-header {
+			ul {
+				li.menu-item-177 {
+					background:$greylight;
+					border-top:6px solid $blue;
+					&:hover {
+						border:0;
+					}
+				}
+			}
+		}
+	}
+}
+
 nav.mobile_menu {
 	display:none;
 }
