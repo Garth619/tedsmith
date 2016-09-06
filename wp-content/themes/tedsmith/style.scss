@@ -2586,7 +2586,8 @@ nav.mobile_menu {
 
 nav.desktop_menu {
 	display:block;
-	padding: 0 0 0 1.5%;
+	padding: 0 2% 0 1.5%;
+ 
 	float:left;
 	width:78%;
 	.menu-header {
@@ -2596,7 +2597,7 @@ nav.desktop_menu {
 			margin:0;
 			font-family: $proximareg;
 			text-transform: uppercase;
-			font-size:15px;
+			font-size:17px;
 			letter-spacing: 1.7px;
 			li.current-menu-ancestor {
 				background:$greylight;
@@ -2623,9 +2624,10 @@ nav.desktop_menu {
 			}
 			> li {
 				display: inline-block;
-				margin:0 .8% 0 0;
+				margin:0 2% 0 0;
 				color:#323233;
 				cursor:pointer;
+		
 				> a {
 					display:block;
 					width:100%;
@@ -3356,9 +3358,9 @@ nav.desktop_menu {
 	float:right;
 	.menu-header {
 		ul {
-			font-size:17px;
+// 			font-size:17px;
 			> li {
-					margin:0 1% 0 0;
+					margin:0 2.5% 0 0;
 					> a {
 							padding:41px 5.2px;
 						}
@@ -3601,14 +3603,14 @@ nav.desktop_menu {
 /* Nav */
 
 nav.desktop_menu {
-	padding: 0 0 0 1.5%;
+	padding: 0 0 0 4.5%;
 	width:65%;
 	float:left;
 	.menu-header {
 		ul {
 			font-size:17px;
 			> li {
-					margin:0 .7% 0 0;
+					margin:0 2.3% 0 0;
 					> a {
 							padding:41px 5.2px;
 						}
@@ -3830,7 +3832,7 @@ a.phone_header_desktop {
 /* Nav */
 
 nav.desktop_menu {
-	padding: 0 0 0 1.5%;
+	padding: 0 0 0 4.5%;
 	width:62%;
 	.menu-header {
 		ul {
@@ -3933,7 +3935,7 @@ a.phone_header_desktop {
 /* Nav */
 
 	nav.desktop_menu {
-    padding: 0 0 0 2%;
+    padding: 0 0 0 7%;
     width: 60%;
 	}
 	
@@ -4014,7 +4016,7 @@ a.phone_header_desktop {
 	
 	
 	nav.desktop_menu {
-    padding: 0 0 0 2%;
+    padding: 0 0 0 3%;
     width: 60%;
 	}
 	
@@ -4048,21 +4050,21 @@ header {
 
 a.phone_header_desktop {
 	font-size: 45px;
-	margin-top:55px;
+	margin-top:52px;
 }
 
 
 /* Nav */
 
 nav.desktop_menu {
-  padding: 0%;
+  padding: 0% 0 0 6%;
   width: 58%;
   .menu-header {
     margin-left:55px;
     ul {
 			font-size:17px;
 			> li {
-					margin: 0 .4% 0 0;
+					margin: 0 1% 0 0;
 					> a {
 							padding:63px 12.2px;
 						}
