@@ -87,7 +87,7 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon1.png"/>
-				<span class="process_title">honest<br/>evaluations</span>
+				<span class="process_title"><?php the_field('selling_point_1');?></span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
@@ -95,7 +95,7 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span><?php the_field('selling_point_1_hover_text');?></span>
 			
 			</div><!-- process_hover_wrapper -->
 
@@ -106,14 +106,14 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
-				<span class="process_title">expect personal<br/>attention</span>
+				<span class="process_title"><?php the_field('selling_point_2');?></span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
 			
 			<div class="process_hover_wrapper">
 			
-				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span><?php the_field('selling_point_2_hover_text');?></span>
 			
 			</div><!-- process_hover_wrapper -->
 			
@@ -124,7 +124,7 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon3.png"/>
-				<span class="process_title">we love<br/>helping people</span>
+				<span class="process_title"><?php the_field('selling_point_3');?></span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
@@ -132,7 +132,7 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span><?php the_field('selling_point_3_hover_text');?></span>
 			
 			</div><!-- process_hover_wrapper -->
 
@@ -143,7 +143,7 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon4.png"/>
-				<span class="process_title">affordable &<br/>knowledgeable</span>
+				<span class="process_title"><?php the_field('selling_point_4');?></span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
@@ -151,7 +151,7 @@ get_header(); ?>
 			
 			<div class="process_hover_wrapper">
 			
-				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span><?php the_field('selling_point_4_hover_text');?></span>
 			
 			</div><!-- process_hover_wrapper -->
 
@@ -173,14 +173,14 @@ get_header(); ?>
 			<div class="single_box_initial_content">
 			
 				<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon1.png"/>
-				<span class="process_title">honest<br/>evaluations</span>
+				<span class="process_title"><?php the_field('selling_point_1');?></span>
 				<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			</div><!-- single_box_initial_content -->
 			
 			<div class="process_hover_wrapper">
 			
-				<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+				<span><?php the_field('selling_point_1_hover_text');?></span>
 			
 			</div><!-- process_hover_wrapper -->
 			
@@ -193,7 +193,7 @@ get_header(); ?>
 				<div class="single_box_initial_content">
 			
 					<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon2.png"/>
-					<span class="process_title">expect personal attention</span>
+					<span class="process_title"><?php the_field('selling_point_2');?></span>
 					<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 			
@@ -201,7 +201,7 @@ get_header(); ?>
 				
 				<div class="process_hover_wrapper">
 			
-					<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+					<span><?php the_field('selling_point_2_hover_text');?></span>
 			
 				</div><!-- process_hover_wrapper -->
 			
@@ -213,14 +213,14 @@ get_header(); ?>
 				<div class="single_box_initial_content">
 			
 					<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon3.png"/>
-					<span class="process_title">we love<br/>helping people</span>
+					<span class="process_title"><?php the_field('selling_point_3');?></span>
 					<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 				</div><!-- single_box_initial_content -->
 				
 				<div class="process_hover_wrapper">
 			
-					<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+					<span><?php the_field('selling_point_3_hover_text');?></span>
 			
 				</div><!-- process_hover_wrapper -->
 			
@@ -232,14 +232,14 @@ get_header(); ?>
 				<div class="single_box_initial_content">
 			
 					<img class="process_icons"  src="<?php bloginfo('template_directory');?>/images/small-imgs/sp-icon4.png"/>
-					<span class="process_title">affordable &<br/>knowledgeable</span>
+					<span class="process_title"><?php the_field('selling_point_4');?></span>
 					<img class="process_arrow"  src="<?php bloginfo('template_directory');?>/images/small-imgs/process-arrow.png"/>
 			
 				</div><!-- single_box_initial_content -->
 				
 				<div class="process_hover_wrapper">
 			
-					<span>We take a limited number of cases, so we can give every client the personal attention they&nbsp;deserve.</span>
+					<span><?php the_field('selling_point_4_hover_text');?></span>
 			
 				</div><!-- process_hover_wrapper -->
 			
@@ -255,9 +255,9 @@ get_header(); ?>
 		
 		<div class="about_inner">
 		
-			<h1>Central Texas area&nbsp;Lawyers</h1>
+			<h1><?php the_field('about_section_title');?></h1>
 			
-			<h2>serving Fort Hood, Bell, Coryell counties</h2>
+			<h2><?php the_field('about_section_sub_title');?></h2>
 			
 			
 			<div class="about_lower_content">
@@ -267,15 +267,15 @@ get_header(); ?>
 			
 				<div class="about_columns">
 					
-					<span class="about_headers purple">experience matters</span>
-					<p class="large_paragraph">Texans have been represented by the Ted Smith Law Group for over 43&nbsp;years.</p>
+					<span class="about_headers purple"><?php the_field('experience_matters_title');?></span>
+					<p class="large_paragraph"><?php the_field('experience_matters_textbox');?></p>
 				
 				</div><!-- about_columns -->
 				
 				<div class="about_columns">
 					
-					<span class="about_headers teal">former JAG officer</span>
-					<p class="large_paragraph second">mr. smith served as a jag officer at fort hood before opening his private practice.</p>
+					<span class="about_headers teal"><?php the_field('former_jag_title');?></span>
+					<p class="large_paragraph second"><?php the_field('former_jag_textbox');?></p>
 				
 				</div><!-- about_columns -->
 			
@@ -283,10 +283,12 @@ get_header(); ?>
 			
 				<div class="about_main_content_wrapper">
 				
-<!-- 					<p class="sub_paragraph first_intro"><strong>Welcome to Ted Smith Law Group, PLLC. We serve clients in in Fort Hood, Bell, and Coryell counties. When you make an appointment with us, we make sure you receive the individual attention and expert legal counsel you&nbsp;deserve.</strong></p> -->
-					
-					
-					<span class="about_sub_headers">Turn To Our Firm With Confidence</span><!-- about_headers -->
+				
+				<?php the_field('about_main_content');?>
+				
+				
+<!--
+					<span class="about_sub_headers">Turn To Our Firm With Confidence</span>
 					
 					<p class="sub_paragraph">At the Ted Smith Law Group, our knowledgeable attorneys find efficient solutions to serve the various legal issues our clients encounter. Whether you have been hurt by someone else's negligence, face criminal charges, need to file for divorce, find yourself in financial distress, require help with an immigration issue or need proven legal representation for any other type of civil or criminal matter in Texas, let our local attorneys help&nbsp;you.</p>
 					
@@ -299,9 +301,10 @@ get_header(); ?>
 					
 					<div class="toggle_text">
 					
-						<span class="about_sub_headers">Proudly Serving Clients In The Harker Heights, Fort Hood And Killeen Area.</span><!-- about_headers -->
+						<span class="about_sub_headers">Proudly Serving Clients In The Harker Heights, Fort Hood And Killeen Area.</span>
 					
 						<p class="sub_paragraph">We are exceptionally proud to be a part of the communities we serve, and our commitment to our friends and neighbors extends beyond the effective legal services we provide. We engage in many different community outreach programs, and firm founder Ted Smith was presented with the Fort Hood Good Neighbor award in 2013 for his efforts to improve the quality of life for Fort Hood soldiers and their families.</p>
+-->
 			
 			</div><!-- toggle_text -->
 			
@@ -338,12 +341,11 @@ get_header(); ?>
 					
 						<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon1.png"/>
 					
-						<span class="aos_inner_header">personal injury</span>
+						<span class="aos_inner_header"><?php the_field('aereas_of_service_title_1');?></span>
 						
-						<span class="description">Injured due to someone else's recklessness? When this happens, you need the help of experienced attorneys 
-who 	can level the playing field against the insurance carriers and their massive legal departments.</span>
+						<span class="description"><?php the_field('areas_of_service_content_1');?></span>
 			
-						<span class="blue_headers">Let Us Help.</span>
+						<span class="blue_headers"><?php the_field('areas_of_service_call_to_action_1');?></span>
 					
 					</div><!-- aos_single_box -->
 					
@@ -366,11 +368,11 @@ who 	can level the playing field against the insurance carriers and their massiv
 					
 						<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon2.png"/>
 					
-						<span class="aos_inner_header">family law</span>
+						<span class="aos_inner_header"><?php the_field('aereas_of_service_title_2');?></span>
 						
-						<span class="description">Whether you have reached the end of your marriage or are beginning a new chapter of your life by adopting a child, the legal process can be daunting. </span>
+						<span class="description"><?php the_field('areas_of_service_content_2');?></span>
 			
-						<span class="blue_headers">We Can help.</span>
+						<span class="blue_headers"><?php the_field('areas_of_service_call_to_action_2');?></span>
 						
 						
 					
@@ -393,11 +395,11 @@ who 	can level the playing field against the insurance carriers and their massiv
 					
 						<img class="aos_icon" src="<?php bloginfo('template_directory');?>/images/small-imgs/pa-icon3.png"/>
 					
-						<span class="aos_inner_header">social security disability</span>
+						<span class="aos_inner_header"><?php the_field('aereas_of_service_title_3');?></span>
 						
-						<span class="description">Have you been denied Social Security Disability? Our attorneys understand that seeking after Social Security Disability benefits can seem overwhelming.</span>
+						<span class="description"><?php the_field('areas_of_service_content_3');?></span>
 			
-						<span class="blue_headers">Let Us Help.</span>
+						<span class="blue_headers"><?php the_field('areas_of_service_call_to_action_3');?></span>
 					
 					</div><!-- aos_single_box -->
 					
