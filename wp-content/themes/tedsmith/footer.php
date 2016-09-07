@@ -29,9 +29,9 @@
 				<div class="gradient_divider_vertical"></div><!-- gradient_divider -->
 				
 				<span class="office_titles">office</span>
-				<span class="sub_office_titles">660 West FM 2410<br/>Harker Heights, Tx&nbsp;76548</span>
+				<span class="sub_office_titles"><?php the_field('contact_address', 104);?></span>
 			
-				<div class="gradient_button"><a href="https://www.google.com/maps?ll=31.075339,-97.681015&z=17&t=m&hl=en-US&gl=US&mapclient=embed&q=660+W+FM+2410+Rd+Harker+Heights,+TX+76548" target="_blank">Get Directions</a></div><!-- gradient_button -->
+				<div class="gradient_button"><a href="<?php the_field('get_directions', 104);?>" target="_blank">Get Directions</a></div><!-- gradient_button -->
 			
 				<div class="gradient_divider"></div><!-- gradient_divider -->
 			
@@ -42,10 +42,10 @@
 				<div class="gradient_divider_vertical"></div><!-- gradient_divider -->
 				
 				<span class="office_titles">phone</span>
-				<a href="tel:2546905688" class="sub_office_titles">254.690.5688</a>
+				<a href="tel:<?php the_field('contact_phone', 104);?>" class="sub_office_titles"><?php the_field('contact_phone', 104);?></a>
 			
 				<span class="office_titles fax_margin">fax</span>
-				<a href="tel:2546905685" class="sub_office_titles">254.690.5685</a>
+				<a href="tel:<?php the_field('contact_fax', 104);?>" class="sub_office_titles"><?php the_field('contact_fax', 104);?></a>
 			
 				<div class="gradient_divider"></div><!-- gradient_divider -->
 			
@@ -74,7 +74,7 @@
 			<div class="social_icon_wrapper">
 				
 				<div class="single_social_wrapper">
-					<a href="https://twitter.com/TedSmithLaw" target="_blank">
+					<a href="<?php the_field('twitter_icon', 85);?>" target="_blank">
 
 						<div class="twitter_hover social_icon"></div><!-- twitter_hover -->
 						<span>Twitter</span>
@@ -83,7 +83,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="http://www.linkedin.com/in/tedsmithlawgroup" target="_blank">
+					<a href="<?php the_field('linkedin_icon', 85);?>" target="_blank">
 						
 						<div class="linkedin_hover social_icon"></div><!-- linkedin_hover -->
 						<span>LinkedIn</span>
@@ -92,7 +92,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="https://plus.google.com/+Tedsmithlawgroup/posts" target="_blank">
+					<a href="<?php the_field('google_icon', 85);?>" target="_blank">
 						
 						<div class="google_hover social_icon"></div><!-- google_hover -->
 						<span>Google+</span>
@@ -101,7 +101,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="https://www.facebook.com/pages/Ted-Smith-Law-Group-PLLC/180524278679399" target="_blank">
+					<a href="<?php the_field('facebook_icon', 85);?>" target="_blank">
 						
 						<div class="facebook_hover social_icon"></div><!-- facebook_hover -->
 						<span>Facebook</span>
@@ -110,7 +110,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="http://www.bbb.org/central-texas/business-reviews/attorneys-and-lawyers-personal-injury-and-property-damage/ted-smith-law-group-pllc-in-harker-heights-tx-90098778/" target="_blank">
+					<a href="<?php the_field('bbb_icon', 85);?>" target="_blank">
 						
 						<div class="bbb_hover social_icon"></div><!-- bbb_hover -->
 						<span>BBB</span>
@@ -119,7 +119,7 @@
 				</div>
 				
 				<div class="single_social_wrapper">
-					<a href="https://www.youtube.com/channel/UC8UOMg9yp4O9XBPFBvOijdQ" target="_blank">
+					<a href="<?php the_field('youtube_icon', 85);?>" target="_blank">
 						
 						<div class="youtube_hover social_icon"></div><!-- youtube_hover -->
 						<span>Youtube</span>
