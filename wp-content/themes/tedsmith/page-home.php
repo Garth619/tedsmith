@@ -25,6 +25,7 @@ get_header(); ?>
 			<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>
 		
 		<div class="new_button">
+			
 				
 				<div class="new_button_inner"><a href="#free-consultation">click for a free consultation</a></div><!-- new_button_inner -->
 				
