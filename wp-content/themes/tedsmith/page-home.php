@@ -21,8 +21,8 @@ get_header(); ?>
 							</span>
 						</div>
 						
-			<span class="serving">Serving the citizens of Texas since&nbsp;1976</span>
-			<span class="experienced_lawyers">Our experienced lawyers handle all aspects of your case, and work hard to keep the legal process as stress free as possible for&nbsp;you.</span>
+			<span class="serving"><?php the_field('banner_title');?></span>
+			<span class="experienced_lawyers"><?php the_field('banner_sub_title');?></span>
 		
 		<div class="new_button">
 			
@@ -438,9 +438,7 @@ get_header(); ?>
 		
 		<div class="testimonial_wrapper">
 			
-			
-			
-			
+
 			<?php if( have_rows('testimonials', 269) ): ?>
 
 					<?php while( have_rows('testimonials', 269) ): the_row(); ?>
@@ -462,18 +460,7 @@ get_header(); ?>
 
 				<?php endif; ?>
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+
 			
 		</div><!-- testimonial_wrapper -->
 		
