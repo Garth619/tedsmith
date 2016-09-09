@@ -758,6 +758,36 @@ nav.desktop_menu {
 	margin-top:22px;
 }
 
+
+
+
+body.page-template-page-about {
+
+		.about_inner_content {
+			margin-top:40px;
+		}
+			.about_photo_wrapper {
+				text-align: center;
+				max-width:556px;
+				margin:0px auto 0;
+				img {
+				display: block;
+				margin:0 auto;
+			}
+			.about_caption {
+				font-family: $proximalight;
+				text-transform: uppercase;
+				font-size:24px;
+				letter-spacing: 1.3px;
+				padding:50px 0px 30px;
+				display: inline-block;
+			}
+		}
+	}
+
+
+
+
 /* Areas of Service */
 
 
@@ -2402,6 +2432,44 @@ footer {
 		}
 	}
 }
+
+
+
+body.page-template-page-about {
+	.main {
+		.gradient_divider {
+			
+		}
+		.content {
+			overflow: hidden;
+			max-width:1350px;
+			.about_inner_wrapper {
+				margin: 0 auto;
+				display: block;
+				width:100%;
+				overflow: hidden;
+				.about_inner_content {
+					width:50%;
+					float:left;
+					margin-top:20px;
+					
+				}
+				.about_photo_wrapper {
+					width:50%;
+					float:left;
+					margin-top:20px;
+					padding-left:30px;
+					max-width:100%;
+					padding-left:40px;
+					img {width:100%;}
+					.about_caption {}
+				}
+			}
+		}
+	}
+}
+
+
 
 	
 	
