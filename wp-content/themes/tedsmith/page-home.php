@@ -288,26 +288,7 @@ get_header(); ?>
 				<?php the_field('about_main_content');?>
 				
 				
-<!--
-					<span class="about_sub_headers">Turn To Our Firm With Confidence</span>
-					
-					<p class="sub_paragraph">At the Ted Smith Law Group, our knowledgeable attorneys find efficient solutions to serve the various legal issues our clients encounter. Whether you have been hurt by someone else's negligence, face criminal charges, need to file for divorce, find yourself in financial distress, require help with an immigration issue or need proven legal representation for any other type of civil or criminal matter in Texas, let our local attorneys help&nbsp;you.</p>
-					
-					
-					
-					
-					
-					
-					<span class="read_more">READ MORE</span>
-					
-					<div class="toggle_text">
-					
-						<span class="about_sub_headers">Proudly Serving Clients In The Harker Heights, Fort Hood And Killeen Area.</span>
-					
-						<p class="sub_paragraph">We are exceptionally proud to be a part of the communities we serve, and our commitment to our friends and neighbors extends beyond the effective legal services we provide. We engage in many different community outreach programs, and firm founder Ted Smith was presented with the Fort Hood Good Neighbor award in 2013 for his efforts to improve the quality of life for Fort Hood soldiers and their families.</p>
--->
-			
-			</div><!-- toggle_text -->
+
 			
 			
 			</div><!-- about_main_content_wrapper -->
@@ -448,7 +429,7 @@ get_header(); ?>
 				
 							<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-							<p><?php the_sub_field('testimonial');?></p>
+							<?php the_sub_field('testimonial');?>
 			
 							<span class="client_subheader"><?php the_sub_field('testimonial_name');?></span>
 							<span class="client_lowerheader"><?php the_sub_field('testimonial_source');?></span>

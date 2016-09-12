@@ -26,7 +26,7 @@ get_header(); ?>
 				
 								<img class="testimonial_stars" src="<?php bloginfo('template_directory');?>/images/small-imgs/test-stars.png"/>
 			
-								<p><?php the_sub_field('testimonial');?></p>
+								<?php the_sub_field('testimonial');?>
 			
 								<span class="client_subheader"><?php the_sub_field('testimonial_name');?></span>
 								<span class="client_lowerheader"><?php the_sub_field('testimonial_source');?></span>
