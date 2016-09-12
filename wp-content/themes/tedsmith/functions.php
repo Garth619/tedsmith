@@ -572,10 +572,10 @@ add_filter( 'gform_confirmation_anchor', '__return_true' );
 add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
  
  function load_my_styles_scripts() {
-     // Load my stylesheet
-//      wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 1, 'screen' ); 
+      
+     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 1, 'screen' ); 
 
-     // Load my javascripts
+      
      wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/tedsmith-custom-min.js',
      array('jquery'), '', true );
  }
