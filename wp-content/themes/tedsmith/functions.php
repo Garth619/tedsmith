@@ -573,7 +573,7 @@ add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
  
  function load_my_styles_scripts() {
       
-     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 1, 'screen' ); 
+     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 2, 'screen' ); 
 
       
      wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/tedsmith-custom-min.js',

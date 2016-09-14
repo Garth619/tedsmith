@@ -1587,6 +1587,9 @@ footer {
 		h2.pa_subheader {
 			text-align: center;
 			margin-bottom:40px;
+			border-bottom:2px solid #000;
+			padding-bottom:25px;
+			font-size:30px;
 		}
 		ul {
 			list-style: none;
@@ -2461,12 +2464,12 @@ footer {
 .practice_wrapper {
 	.pa_col {
 		ul {
-			-webkit-column-count:4;
-			-moz-column-count:4;
-			column-count:4;
-			-webkit-column-gap:65px;
-			-moz-column-gap:65px;
-			column-gap:65px
+			-webkit-column-count:3;
+			-moz-column-count:3;
+			column-count:3;
+			-webkit-column-gap:15px;
+			-moz-column-gap:15px;
+			column-gap:15px
 		}
 	}
 }
