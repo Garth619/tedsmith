@@ -46,22 +46,32 @@ get_header(); ?>
 				
 				<div class="review_single_wrapper">
 					
-					<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-bbb.png"/>
-					<span class="review_text">4.6 google rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+					<a href="https://plus.google.com/+Tedsmithlawgroup" target="_blank">
+						<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-bbb.png"/>
+						<span class="review_text">4.6 google rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+					</a>
 					
 				</div><!-- review_single_wrapper -->
 				
 				<div class="review_single_wrapper">
 					
-					<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-fb.png"/>
-					<span class="review_text">3.9 facebook rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+					<a href="https://www.facebook.com/TedSmithLawGroup/" target="_blank">
+					
+						<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-fb.png"/>
+						<span class="review_text">3.9 facebook rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+					
+					</a>
 					
 				</div><!-- review_single_wrapper -->
 				
 				<div class="review_single_wrapper">
+					
+				<a href="http://www.bbb.org/central-texas/business-reviews/attorneys-and-lawyers-personal-injury-and-property-damage/ted-smith-law-group-pllc-in-harker-heights-tx-90098778#bbbonlineclick" target="_blank">
 					
 					<img class="stars_img" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-g.png"/>
 					<span class="review_text">4.1 bbb rating <img class="small_arrow" src="<?php bloginfo('template_directory');?>/images/small-imgs/stars-arrow.png"/></span>
+					
+				</a>
 					
 				</div><!-- review_single_wrapper -->
 				
