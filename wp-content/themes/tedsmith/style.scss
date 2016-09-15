@@ -86,6 +86,13 @@ a img {border:none}
 html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
 
 
+body {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+}
+
+
 /* Global */
 
 
@@ -1586,7 +1593,7 @@ footer {
 		margin-bottom:70px;
 		h2.pa_subheader {
 			text-align: center;
-			margin-bottom:40px;
+			margin-bottom:15px;
 			border-bottom:2px solid #000;
 			padding-bottom:25px;
 			font-size:30px;
@@ -2362,7 +2369,7 @@ footer {
 	
 	
 	body.page-template-page-practiceareas .content {
-		max-width:1000px;
+		max-width:1130px;
 	}
 	
 	
@@ -2383,12 +2390,22 @@ footer {
 .practice_wrapper {
 	.pa_col {
 		ul {
-			-webkit-column-count:2;
-			-moz-column-count:2;
-			column-count:2;
-			-webkit-column-gap:65px;
-			-moz-column-gap:65px;
-			column-gap:65px
+			overflow: hidden;
+			li {
+				width:48%;
+				float:left;
+				margin:0 1%;
+				a {
+			
+			}
+	}
+
+
+
+
+
+
+
 		}
 	}
 
@@ -2464,12 +2481,15 @@ footer {
 .practice_wrapper {
 	.pa_col {
 		ul {
-			-webkit-column-count:3;
-			-moz-column-count:3;
-			column-count:3;
-			-webkit-column-gap:15px;
-			-moz-column-gap:15px;
-			column-gap:15px
+			margin:0 auto;
+			li {
+				width:29%;
+				margin:0 2%;
+				
+				a {
+					
+				}
+			}
 		}
 	}
 }
