@@ -12,14 +12,20 @@ get_header(); ?>
 	
 		<div class="home_banner_content">
 		
-				<script src="//fast.wistia.com/embed/medias/vll8k9jdb5.jsonp" async></script>
-					<script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+						
+						
+						
+			<script src="//fast.wistia.com/embed/medias/27mruhyr1q.jsonp" async></script>
+				<script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
 					
-						<div class="play_button">
-							<span class="wistia_embed wistia_async_vll8k9jdb5 popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline">
-								<a href="#"></a>
-							</span>
-						</div>
+					<div class="play_button">
+						<span class="wistia_embed wistia_async_27mruhyr1q popover=true popoverContent=link" style="display:inline">
+							<a href="#"></a>
+							</span>			
+					</div>
+						
+						
+						
 						
 			<span class="serving"><?php the_field('banner_title');?></span>
 			<span class="experienced_lawyers"><?php the_field('banner_sub_title');?></span>
