@@ -565,10 +565,6 @@ function my_jquery_enqueue() {
 
 
 
-add_filter( 'gform_confirmation_anchor', '__return_true' );
-
-
-
 add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
  
  function load_my_styles_scripts() {
