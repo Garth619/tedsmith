@@ -28,6 +28,60 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head();?>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26266994-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="application/ld+json">
+{
+     "@context": "http://schema.org",
+     "@type": "Attorney",
+     "name": "Ted Smith Law Group, PLLC",
+     "alternateName": " Personal Injury Lawyer",
+         "description": "Harker Heights Personal Injury Attorney",
+     "url" : "www.tedsmithlawgroup.com",
+     "telephone": " (254) 690-5688",
+     "openingHours" : "Mo,Tu,We,Th,Fr 08:00-17:00",
+     "hasMap": "https://www.google.com/maps/place/Ted+Smith+Law+Group,+PLLC/@31.075285,-97.680624,15z/data=!4m5!3m4!1s0x0:0x5891e6b3ee205dc2!8m2!3d31.075285!4d-97.680624",
+     "address":
+          {
+          "@type": "PostalAddress",
+          "streetAddress": "660 West FM 2410 Rd",
+          "addressLocality": "Harker Heights",
+          "addressRegion": "TX",
+          "postalCode": "76548",
+          "addressCountry": "USA"
+          },
+     "sameAs": [
+     "https://plus.google.com/+Tedsmithlawgroup",
+     "http://pview.findlaw.com/lawfirm/ted-smith-law-group-pllc/tx/harker-heights/NDQ2MzA5Nl8x/PP",
+     "http://www.bbb.org/central-texas/business-reviews/attorneys-and-lawyers-personal-injury-and-property-damage/ted-smith-law-group-pllc-in-harker-heights-tx-90098778/",
+     "https://www.yelp.com/biz/ted-smith-law-group-harker-heights-3"
+     ],
+     "review": [
+    {
+      "@type": "Review",
+      "author": "Client Review",
+      "datePublished": "2016-09-15",
+      "description": "The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty.",
+      "name": "Customer Review",
+      "reviewRating": {
+      "@type": "Rating",
+      "bestRating": "5",
+      "ratingValue": "5",
+      "worstRating": "1"
+       }
+    }
+  ]
+}
+</script>
 
 </head>
 

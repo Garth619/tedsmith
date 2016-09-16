@@ -87,9 +87,9 @@ html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
 
 
 body {
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 }
 
 
@@ -1111,6 +1111,12 @@ body.page-template-page-about {
  
  /* Request Consultation */
  
+ 
+
+html body.home.page.page-id-85.page-template.page-template-page-home.page-template-page-home-php.fadein div#wrap section.request_wrapper div.form_wrapper div#gform_wrapper_1.gf_browser_gecko.gform_wrapper form#gform_1 div.gform_body ul#gform_fields_1.gform_fields.top_label.form_sublabel_below.description_below li#field_1_7.gfield.gform_validation_container.field_sublabel_below.field_description_below div.ginput_container input#input_1_7 {
+	 display: none !important;
+ }
+
  .request {
 	 background: url(images/consult-image.jpg) top left no-repeat;
 	 padding:93px 10px;
@@ -2275,6 +2281,10 @@ nav.mobile_menu {
 	 .gform_confirmation_message {
 		margin:0 15%;
 	}
+ }
+ 
+ .input_1_7 {
+	 display: none;
  }
  
  

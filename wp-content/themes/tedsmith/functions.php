@@ -559,7 +559,7 @@ function twentyten_get_gallery_images() {
 if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
 function my_jquery_enqueue() {
    wp_deregister_script('jquery');
-   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", false, null,true);
+   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", false, null);
    wp_enqueue_script('jquery');
 }
 
@@ -573,7 +573,7 @@ add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
  
  function load_my_styles_scripts() {
       
-     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 4, 'screen' ); 
+     wp_enqueue_style( 'styles', get_stylesheet_uri(), '', 5, 'screen' ); 
 
       
      wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/tedsmith-custom-min.js',
