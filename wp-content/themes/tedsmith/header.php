@@ -64,22 +64,7 @@
      "http://pview.findlaw.com/lawfirm/ted-smith-law-group-pllc/tx/harker-heights/NDQ2MzA5Nl8x/PP",
      "http://www.bbb.org/central-texas/business-reviews/attorneys-and-lawyers-personal-injury-and-property-damage/ted-smith-law-group-pllc-in-harker-heights-tx-90098778/",
      "https://www.yelp.com/biz/ted-smith-law-group-harker-heights-3"
-     ],
-     "review": [
-    {
-      "@type": "Review",
-      "author": "Client Review",
-      "datePublished": "2016-09-15",
-      "description": "The Ted Smith Law Group is one of the most community minded firms I have ever seen. The way they give back to the community is way over and above the call of duty.",
-      "name": "Customer Review",
-      "reviewRating": {
-      "@type": "Rating",
-      "bestRating": "5",
-      "ratingValue": "5",
-      "worstRating": "1"
-       }
-    }
-  ]
+     ]
 }
 </script>
 

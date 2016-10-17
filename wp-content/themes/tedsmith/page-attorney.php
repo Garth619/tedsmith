@@ -45,7 +45,7 @@ get_header(); ?>
 				<?php if(get_field('attorney_fax')):?>
 					<span class="bio_blue">Fax</span>   <span>&nbsp;<?php the_field('attorney_fax');?></span></span>
 				<?php endif;?>
-				<a href="mailto:<?php the_field('attorney_email');?>" class="bio_info"><span>Email</span>  &nbsp;<?php the_field('attorney_email');?></a>
+<!-- 				<a href="mailto:<?php the_field('attorney_email');?>" class="bio_info"><span>Email</span>  &nbsp;<?php the_field('attorney_email');?></a> -->
 				
 				<div class="sidebar_stats">
 				

@@ -14,7 +14,7 @@
 			<span class="sub_description">*All fields required</span>
 			<span class="white_line"></span><!-- white_line -->
 			
-			<?php gravity_form(1, false, true, false, '', false, 12);?>
+			<?php gravity_form(1, false, true, false, '', true, 12);?>
 			
 		</div><!-- form_wrapper -->
 		
@@ -31,7 +31,7 @@
 				<span class="office_titles">office</span>
 				<span class="sub_office_titles"><?php the_field('contact_address', 104);?></span>
 			
-				<div class="gradient_button"><a href="<?php the_field('get_directions', 104);?>" target="_blank">Get Directions</a></div><!-- gradient_button -->
+				<div class="gradient_button"><a href="https://goo.gl/maps/fvzhBcQ7pdq" target="_blank">Get Directions</a></div><!-- gradient_button -->
 			
 				<div class="gradient_divider"></div><!-- gradient_divider -->
 			
