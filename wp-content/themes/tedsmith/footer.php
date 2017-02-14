@@ -138,7 +138,7 @@
 		
 		<div class="footer_inner">
 		
-			<span class="copyright">Copyright &copy; ted smith law group 2016 | <a href="<?php bloginfo('url');?>/disclaimer">disclaimer</a> | <a href="<?php bloginfo('url');?>/practice-areas">sitemap</a></span>
+			<span class="copyright">Copyright &copy; ted smith law group <?php echo date("Y"); ?> | <a href="<?php bloginfo('url');?>/disclaimer">disclaimer</a> | <a href="<?php bloginfo('url');?>/practice-areas">sitemap</a></span>
 			<a href="http://ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/small-imgs/ilawyer-logo.png"/></a>
 		
 		</div><!-- footer_inner -->
